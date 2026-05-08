@@ -894,6 +894,94 @@
         #171818;
     }
 
+    body.locked {
+      min-width: 0;
+      overflow: hidden;
+    }
+
+    body.locked .app-shell {
+      display: none;
+    }
+
+    body.unlocked .passcode-gate {
+      display: none;
+    }
+
+    .passcode-gate {
+      display: grid;
+      min-height: 100dvh;
+      place-items: center;
+      padding: 24px;
+      background:
+        radial-gradient(circle at 52% 30%, rgba(var(--accent-rgb), 0.16), transparent 22rem),
+        linear-gradient(180deg, #1d1e1e, #111212);
+    }
+
+    .passcode-panel {
+      display: grid;
+      gap: 14px;
+      width: min(440px, 100%);
+      border: 1px solid rgba(var(--accent-rgb), 0.32);
+      border-radius: 10px;
+      background: #202121;
+      padding: 28px;
+      box-shadow: 0 24px 70px -46px rgba(0, 0, 0, 0.8);
+    }
+
+    .passcode-kicker {
+      color: var(--accent);
+      font-size: 11px;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+
+    .passcode-panel h2 {
+      margin: 0;
+      color: var(--text);
+      font-size: 30px;
+      line-height: 1;
+    }
+
+    .passcode-panel p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .passcode-panel input {
+      height: 46px;
+      border: 1px solid #3a3c3c;
+      border-radius: 7px;
+      background: #171818;
+      color: var(--text);
+      padding: 0 13px;
+      font: inherit;
+      outline: none;
+    }
+
+    .passcode-panel input:focus {
+      border-color: var(--accent);
+    }
+
+    .passcode-panel button {
+      height: 46px;
+      border: 1px solid rgba(var(--accent-rgb), 0.42);
+      border-radius: 7px;
+      background: rgba(var(--accent-rgb), 0.14);
+      color: var(--accent);
+      cursor: pointer;
+      font: inherit;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+
+    .passcode-error {
+      min-height: 18px;
+      color: var(--bad);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
     body.theme-orbit .app-shell {
       overflow: visible;
     }
@@ -1454,7 +1542,17 @@
     }
   </style>
 </head>
-<body class="theme-orbit">
+<body class="theme-orbit locked">
+  <section id="passcodeGate" class="passcode-gate" aria-label="Passcode gate">
+    <form id="passcodeForm" class="passcode-panel">
+      <span class="passcode-kicker">CORD access</span>
+      <h2>STEAM GAMES</h2>
+      <p>Enter the creator calendar passcode.</p>
+      <input id="passcodeInput" type="password" autocomplete="current-password" placeholder="Passcode" aria-label="Passcode">
+      <button type="submit">Enter</button>
+      <span id="passcodeError" class="passcode-error" role="status" aria-live="polite"></span>
+    </form>
+  </section>
   <div class="app-shell">
     <header class="topbar">
       <div class="identity">
@@ -1561,6 +1659,8 @@
 
   <script>
     const COHORT_STORAGE_KEY = 'cordCreatorSteamGamesCohort';
+    const PASSCODE_STORAGE_KEY = 'cordCreatorSteamGamesAccess';
+    const PASSCODE_HASH = '1ef24fac5465e2cd5e6599c4b0a3f0105326ea20c173b4282467b81b0a7b3b59';
     const GAMEPASS_DATA_URL = 'data/steam/gamepass-games.json';
     const COHORTS = {
       main: {
@@ -1612,6 +1712,9 @@
     const demoHeader = document.querySelector('#demoHeader');
     const refreshButton = document.querySelector('#refreshButton');
     const statusEl = document.querySelector('#status');
+    const passcodeForm = document.querySelector('#passcodeForm');
+    const passcodeInput = document.querySelector('#passcodeInput');
+    const passcodeError = document.querySelector('#passcodeError');
     let cohortTransitionTimer = null;
 
     gainWindowSelect.value = state.gainWindow;
@@ -1654,11 +1757,40 @@
 
     refreshButton.addEventListener('click', loadGames);
 
-    setCohortTheme();
-    renderCohortButtons();
-    renderSortStrip();
-    renderOrbitSortHeaders();
-    loadGames();
+    passcodeForm.addEventListener('submit', async (event) => {
+      event.preventDefault();
+      passcodeError.textContent = '';
+      const hash = await sha256(passcodeInput.value.trim());
+      if (hash !== PASSCODE_HASH) {
+        passcodeError.textContent = 'That passcode did not match.';
+        passcodeInput.select();
+        return;
+      }
+      localStorage.setItem(PASSCODE_STORAGE_KEY, 'ok');
+      unlockSite();
+    });
+
+    if (localStorage.getItem(PASSCODE_STORAGE_KEY) === 'ok') {
+      unlockSite();
+    } else {
+      passcodeInput.focus();
+    }
+
+    function unlockSite() {
+      document.body.classList.remove('locked');
+      document.body.classList.add('unlocked');
+      setCohortTheme();
+      renderCohortButtons();
+      renderSortStrip();
+      renderOrbitSortHeaders();
+      loadGames();
+    }
+
+    async function sha256(value) {
+      const bytes = new TextEncoder().encode(value);
+      const digest = await crypto.subtle.digest('SHA-256', bytes);
+      return Array.from(new Uint8Array(digest)).map((byte) => byte.toString(16).padStart(2, '0')).join('');
+    }
 
     function setCohort(cohort) {
       if (!COHORTS[cohort] || cohort === state.cohort) return;
