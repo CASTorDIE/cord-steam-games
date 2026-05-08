@@ -1,0 +1,2484 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CORD Creator Calender: STEAM GAMES</title>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #101315;
+      --bg-2: #14191c;
+      --panel: #181f22;
+      --panel-2: #20282c;
+      --line: #2e393e;
+      --line-soft: rgba(190, 210, 218, 0.14);
+      --text: #edf4f1;
+      --muted: #9aa9a8;
+      --soft: #667372;
+      --accent: #72d99b;
+      --accent-2: #d9b86a;
+      --bad: #e46f62;
+      --focus: #8cc8e8;
+      --shadow: rgba(0, 0, 0, 0.34);
+      font-family: "Aptos", "Segoe UI", ui-sans-serif, system-ui, sans-serif;
+    }
+
+    body.theme-orbit {
+      --bg: #0e1214;
+      --bg-2: #12191c;
+      --panel: rgba(20, 30, 32, 0.82);
+      --panel-2: rgba(28, 39, 42, 0.9);
+      --line: rgba(118, 154, 151, 0.28);
+      --line-soft: rgba(159, 220, 199, 0.14);
+      --text: #edf7f2;
+      --muted: #9cb4af;
+      --soft: #60706d;
+      --accent: #6fd69b;
+      --accent-2: #d5b767;
+      --focus: #95d8c1;
+    }
+
+    body.theme-ledger {
+      --bg: #151817;
+      --bg-2: #191d1b;
+      --panel: #f1eee5;
+      --panel-2: #e5dfd0;
+      --line: #bbb19d;
+      --line-soft: rgba(70, 62, 48, 0.18);
+      --text: #242923;
+      --muted: #687064;
+      --soft: #8b897d;
+      --accent: #2f7558;
+      --accent-2: #8a6532;
+      --bad: #a94e43;
+      --focus: #2e6f78;
+      color-scheme: light;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      min-width: 1180px;
+      margin: 0;
+      background:
+        radial-gradient(circle at 12% 10%, rgba(111, 214, 155, 0.12), transparent 30rem),
+        radial-gradient(circle at 88% 0%, rgba(213, 183, 103, 0.08), transparent 26rem),
+        linear-gradient(135deg, var(--bg), var(--bg-2));
+      color: var(--text);
+      transition: background 280ms ease, color 220ms ease;
+    }
+
+    body.theme-ledger {
+      background:
+        linear-gradient(rgba(32, 37, 33, 0.05) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(32, 37, 33, 0.05) 1px, transparent 1px),
+        #d9d1c0;
+      background-size: 24px 24px, 24px 24px, auto;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    a:hover { color: var(--accent); }
+
+    .app-shell {
+      position: relative;
+      min-height: 100dvh;
+      overflow: hidden;
+    }
+
+    .app-shell::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      z-index: -1;
+      pointer-events: none;
+      opacity: 0.58;
+      background:
+        linear-gradient(120deg, transparent 0 42%, rgba(111, 214, 155, 0.08) 43%, transparent 44% 100%),
+        repeating-linear-gradient(90deg, transparent 0 62px, rgba(210, 236, 228, 0.035) 63px 64px);
+      transform: translate3d(0, 0, 0);
+      animation: scanDrift 16s linear infinite;
+    }
+
+    body.theme-ledger .app-shell::before {
+      display: none;
+    }
+
+    .topbar {
+      display: grid;
+      grid-template-columns: minmax(300px, 1fr) auto;
+      align-items: end;
+      gap: 26px;
+      padding: 24px 28px 18px;
+      border-bottom: 1px solid var(--line);
+      background: rgba(14, 18, 20, 0.78);
+      backdrop-filter: blur(16px);
+      box-shadow: 0 18px 48px -38px var(--shadow);
+    }
+
+    body.theme-ledger .topbar {
+      background: rgba(235, 229, 215, 0.92);
+      backdrop-filter: none;
+    }
+
+    .identity {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .sigil {
+      position: relative;
+      width: 58px;
+      height: 58px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background:
+        linear-gradient(135deg, rgba(111, 214, 155, 0.16), transparent),
+        var(--panel);
+      box-shadow: inset 0 1px 0 rgba(237, 247, 242, 0.08);
+    }
+
+    .sigil::before,
+    .sigil::after {
+      content: "";
+      position: absolute;
+      inset: 12px;
+      border: 1px solid var(--accent);
+      opacity: 0.52;
+      transform: rotate(45deg);
+      animation: sigilPulse 4s ease-in-out infinite;
+    }
+
+    .sigil::after {
+      inset: 21px;
+      animation-delay: -1.3s;
+    }
+
+    body.theme-ledger .sigil::before,
+    body.theme-ledger .sigil::after {
+      animation: none;
+    }
+
+    .eyebrow {
+      margin: 0 0 5px;
+      color: var(--accent);
+      font-size: 12px;
+      font-weight: 850;
+      letter-spacing: 0;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 31px;
+      line-height: 1;
+      letter-spacing: 0;
+    }
+
+    .toolbar {
+      display: grid;
+      grid-template-columns: 220px 132px 332px 42px;
+      align-items: end;
+      gap: 10px;
+    }
+
+    label {
+      display: grid;
+      gap: 6px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    input,
+    select {
+      width: 100%;
+      height: 39px;
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      background: var(--panel);
+      color: var(--text);
+      padding: 0 12px;
+      outline: none;
+      font: inherit;
+      box-shadow: inset 0 1px 0 rgba(237, 247, 242, 0.05);
+    }
+
+    input:focus,
+    select:focus {
+      border-color: var(--focus);
+    }
+
+    button {
+      font: inherit;
+    }
+
+    .refresh-button {
+      width: 42px;
+      height: 39px;
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      background: var(--panel);
+      color: var(--text);
+      cursor: pointer;
+      font-size: 18px;
+      transition: transform 160ms ease, border-color 160ms ease, background 160ms ease;
+    }
+
+    .refresh-button:hover {
+      border-color: var(--focus);
+    }
+
+    .refresh-button:active {
+      transform: translateY(1px) scale(0.98);
+    }
+
+    .refresh-button:disabled {
+      cursor: wait;
+      opacity: 0.58;
+    }
+
+    main {
+      padding: 18px 18px 30px;
+    }
+
+    .mode-deck {
+      display: grid;
+      grid-template-columns: minmax(260px, 1fr) auto;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 16px;
+    }
+
+    .summary {
+      display: grid;
+      grid-template-columns: 130px 210px minmax(240px, 1fr) 270px;
+      gap: 1px;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--line);
+    }
+
+    .summary div {
+      min-width: 0;
+      background: var(--panel);
+      padding: 11px 13px;
+    }
+
+    .label {
+      display: block;
+      color: var(--muted);
+      font-size: 11px;
+      font-weight: 850;
+      text-transform: uppercase;
+    }
+
+    .summary strong {
+      display: block;
+      overflow: hidden;
+      margin-top: 4px;
+      font-size: 17px;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .mode-toggle {
+      display: inline-grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4px;
+      min-width: 310px;
+      padding: 4px;
+      border: 1px solid var(--line);
+      border-radius: 9px;
+      background: var(--panel);
+    }
+
+    .view-controls {
+      display: grid;
+      gap: 8px;
+      justify-items: end;
+    }
+
+    .cohort-toggle {
+      display: inline-grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4px;
+      min-width: 310px;
+      padding: 4px;
+      border: 1px solid var(--line);
+      border-radius: 9px;
+      background: var(--panel);
+    }
+
+    .cohort-button {
+      height: 34px;
+      border: 0;
+      border-radius: 6px;
+      background: transparent;
+      color: var(--muted);
+      cursor: pointer;
+      font-weight: 850;
+      transition: color 180ms ease, background 180ms ease, transform 180ms ease;
+    }
+
+    .cohort-button:hover {
+      color: var(--text);
+    }
+
+    .cohort-button.active {
+      background: var(--panel-2);
+      color: var(--accent);
+    }
+
+    .mode-button {
+      height: 36px;
+      border: 0;
+      border-radius: 6px;
+      background: transparent;
+      color: var(--muted);
+      cursor: pointer;
+      font-weight: 850;
+      transition: color 180ms ease, background 180ms ease, transform 180ms ease;
+    }
+
+    .mode-button:hover {
+      color: var(--text);
+    }
+
+    .mode-button.active {
+      background: var(--accent);
+      color: #102017;
+    }
+
+    body.theme-ledger .mode-button.active {
+      color: #eef3e8;
+    }
+
+    .status {
+      min-height: 20px;
+      margin: 0 0 12px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .status.error {
+      color: var(--bad);
+    }
+
+    .view {
+      display: none;
+    }
+
+    .view.active {
+      display: block;
+    }
+
+    .orbit-view {
+      position: relative;
+    }
+
+    .orbit-layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1.2fr) minmax(390px, 0.8fr);
+      gap: 18px;
+      align-items: start;
+    }
+
+    .signal-board {
+      position: relative;
+      min-height: 510px;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      background:
+        radial-gradient(circle at 26% 24%, rgba(111, 214, 155, 0.18), transparent 17rem),
+        linear-gradient(145deg, rgba(25, 36, 37, 0.94), rgba(12, 17, 19, 0.94));
+      box-shadow: inset 0 1px 0 rgba(237, 247, 242, 0.06), 0 24px 70px -52px var(--shadow);
+    }
+
+    .signal-board::before {
+      content: "";
+      position: absolute;
+      inset: 32px;
+      border: 1px solid rgba(111, 214, 155, 0.18);
+      border-radius: 50%;
+      transform: skewX(-12deg);
+      animation: orbitSweep 18s linear infinite;
+    }
+
+    .signal-board::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      background: repeating-linear-gradient(0deg, transparent 0 12px, rgba(237, 247, 242, 0.025) 13px 14px);
+      opacity: 0.7;
+    }
+
+    .signal-head {
+      position: relative;
+      z-index: 1;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 14px;
+      padding: 18px;
+      border-bottom: 1px solid var(--line-soft);
+    }
+
+    .signal-title {
+      margin: 0;
+      font-size: 17px;
+      font-weight: 900;
+    }
+
+    .signal-subtitle {
+      margin: 5px 0 0;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .sort-strip {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      gap: 7px;
+    }
+
+    .game-grid {
+      position: relative;
+      z-index: 1;
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+      padding: 18px;
+    }
+
+    .game-card {
+      --delay: 0ms;
+      position: relative;
+      min-height: 190px;
+      overflow: hidden;
+      border: 1px solid var(--line-soft);
+      border-radius: 9px;
+      background:
+        linear-gradient(135deg, rgba(237, 247, 242, 0.07), transparent 42%),
+        rgba(15, 21, 23, 0.82);
+      box-shadow: inset 0 1px 0 rgba(237, 247, 242, 0.06);
+      animation: riseIn 520ms cubic-bezier(0.16, 1, 0.3, 1) both;
+      animation-delay: var(--delay);
+      transition: transform 220ms cubic-bezier(0.16, 1, 0.3, 1), border-color 220ms ease;
+    }
+
+    .game-card:hover {
+      border-color: rgba(111, 214, 155, 0.55);
+      transform: translateY(-2px);
+    }
+
+    .game-card img,
+    .signal-art {
+      width: 100%;
+      height: 74px;
+      object-fit: cover;
+      display: block;
+      filter: saturate(0.88) contrast(1.05);
+    }
+
+    .signal-art {
+      position: relative;
+      overflow: hidden;
+      background:
+        radial-gradient(circle at 18% 42%, rgba(111, 214, 155, 0.34), transparent 90px),
+        linear-gradient(115deg, rgba(237, 247, 242, 0.08), transparent 52%),
+        rgba(12, 18, 19, 0.94);
+    }
+
+    .signal-art::before {
+      content: "";
+      position: absolute;
+      inset: 12px 18px;
+      border: 1px solid rgba(111, 214, 155, 0.26);
+      transform: skewX(-18deg);
+    }
+
+    .signal-art span {
+      position: absolute;
+      right: 14px;
+      bottom: 10px;
+      color: rgba(237, 247, 242, 0.62);
+      font-family: "Cascadia Mono", "Consolas", monospace;
+      font-size: 12px;
+      font-weight: 850;
+    }
+
+    .game-card-body {
+      padding: 12px;
+    }
+
+    .game-card-title {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 10px;
+    }
+
+    .game-card h3 {
+      overflow: hidden;
+      margin: 0;
+      font-size: 15px;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .score {
+      color: var(--accent);
+      font-family: "Cascadia Mono", "Consolas", monospace;
+      font-size: 13px;
+      font-weight: 850;
+    }
+
+    .metric-line {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 10px;
+      margin-top: 8px;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .metric-line strong {
+      color: var(--text);
+      font-family: "Cascadia Mono", "Consolas", monospace;
+      font-size: 12px;
+    }
+
+    .tag-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 10px;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      min-height: 24px;
+      border: 1px solid rgba(111, 214, 155, 0.38);
+      border-radius: 999px;
+      padding: 2px 8px;
+      color: var(--accent);
+      font-size: 11px;
+      font-weight: 850;
+    }
+
+    .pill.gold {
+      border-color: rgba(213, 183, 103, 0.46);
+      color: var(--accent-2);
+    }
+
+    .pill.signal {
+      border-color: rgba(140, 200, 232, 0.52);
+      color: var(--focus);
+    }
+
+    .side-panel {
+      display: grid;
+      gap: 12px;
+    }
+
+    .panel-block {
+      border: 1px solid var(--line);
+      border-radius: 9px;
+      background: var(--panel);
+      box-shadow: inset 0 1px 0 rgba(237, 247, 242, 0.05);
+    }
+
+    .panel-block h2 {
+      margin: 0;
+      padding: 14px 14px 10px;
+      border-bottom: 1px solid var(--line-soft);
+      font-size: 14px;
+      text-transform: uppercase;
+    }
+
+    .rank-list {
+      display: grid;
+    }
+
+    .rank-row {
+      display: grid;
+      grid-template-columns: 38px 1fr auto;
+      gap: 10px;
+      align-items: center;
+      padding: 10px 12px;
+      border-bottom: 1px solid var(--line-soft);
+      font-size: 13px;
+    }
+
+    .rank-row:last-child {
+      border-bottom: 0;
+    }
+
+    .rank-row span:first-child,
+    .mono {
+      font-family: "Cascadia Mono", "Consolas", monospace;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .rank-row b {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .table-shell {
+      overflow: auto;
+      border: 1px solid var(--line);
+      border-radius: 9px;
+      background: var(--panel);
+    }
+
+    body.theme-ledger .table-shell {
+      box-shadow: 0 20px 50px -42px rgba(30, 25, 18, 0.7);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      table-layout: fixed;
+    }
+
+    th,
+    td {
+      border-bottom: 1px solid var(--line-soft);
+      padding: 9px 10px;
+      text-align: right;
+      white-space: nowrap;
+    }
+
+    th {
+      position: sticky;
+      top: 0;
+      z-index: 1;
+      background: var(--panel-2);
+      color: var(--muted);
+      cursor: pointer;
+      font-size: 12px;
+      user-select: none;
+    }
+
+    th::after {
+      content: "+";
+      margin-left: 4px;
+      color: var(--soft);
+    }
+
+    th.no-sort {
+      cursor: default;
+    }
+
+    th.no-sort::after {
+      content: "";
+    }
+
+    th:first-child,
+    td:first-child {
+      width: 58px;
+      text-align: left;
+    }
+
+    th:nth-child(2),
+    td:nth-child(2) {
+      width: 340px;
+      text-align: left;
+    }
+
+    th:nth-child(4),
+    td:nth-child(4) {
+      width: 220px;
+      text-align: left;
+    }
+
+    th:last-child,
+    td:last-child {
+      width: 172px;
+    }
+
+    tbody tr {
+      background: var(--panel);
+      transition: background 140ms ease;
+    }
+
+    tbody tr:hover {
+      background: var(--panel-2);
+    }
+
+    .rank,
+    .muted {
+      color: var(--soft);
+    }
+
+    .rank {
+      font-family: "Cascadia Mono", "Consolas", monospace;
+      font-weight: 850;
+    }
+
+    .name-cell {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      min-width: 0;
+    }
+
+    .cover {
+      width: 106px;
+      height: 40px;
+      border-radius: 4px;
+      background: rgba(10, 14, 15, 0.35);
+      object-fit: cover;
+      flex: 0 0 auto;
+    }
+
+    .cover.placeholder {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      color: rgba(36, 41, 35, 0.56);
+      font-family: "Cascadia Mono", "Consolas", monospace;
+      font-size: 10px;
+      font-weight: 850;
+      background:
+        linear-gradient(135deg, rgba(47, 117, 88, 0.26), rgba(138, 101, 50, 0.12)),
+        rgba(120, 124, 112, 0.36);
+    }
+
+    .name-cell div {
+      min-width: 0;
+    }
+
+    .game-name {
+      display: block;
+      overflow: hidden;
+      font-weight: 900;
+      text-overflow: ellipsis;
+    }
+
+    .meta {
+      display: block;
+      overflow: hidden;
+      color: var(--muted);
+      font-size: 12px;
+      text-overflow: ellipsis;
+    }
+
+    .number,
+    .gain,
+    .loss {
+      font-family: "Cascadia Mono", "Consolas", monospace;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .gain {
+      color: var(--accent);
+      font-weight: 850;
+    }
+
+    .loss {
+      color: var(--bad);
+      font-weight: 850;
+    }
+
+    small {
+      color: var(--muted);
+      font-size: 11px;
+    }
+
+    .links {
+      display: flex;
+      justify-content: flex-end;
+      gap: 9px;
+    }
+
+    .links a {
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 850;
+    }
+
+    .links a:hover {
+      color: var(--accent);
+    }
+
+    .empty {
+      height: 190px;
+      color: var(--muted);
+      text-align: center;
+    }
+
+    .tags-cell {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      overflow: hidden;
+    }
+
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      max-width: 92px;
+      min-height: 23px;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 2px 8px;
+      color: var(--muted);
+      font-size: 11px;
+      font-weight: 850;
+      text-overflow: ellipsis;
+    }
+
+    .gamepass-pill {
+      display: inline-flex;
+      align-items: center;
+      min-height: 24px;
+      border: 1px solid rgba(96, 255, 150, 0.36);
+      border-radius: 999px;
+      padding: 2px 9px;
+      color: #74f29a;
+      background: rgba(42, 180, 83, 0.12);
+      font-size: 11px;
+      font-weight: 900;
+      white-space: nowrap;
+    }
+
+    body.theme-orbit {
+      --bg: #171818;
+      --bg-2: #1d1e1e;
+      --panel: #202121;
+      --panel-2: #282929;
+      --line: #343636;
+      --line-soft: rgba(232, 236, 231, 0.09);
+      --text: #e4e7e3;
+      --muted: #989f99;
+      --soft: #6d746f;
+      --accent: #66d188;
+      --accent-rgb: 102, 209, 136;
+      --accent-2: #b9a16a;
+      --focus: #85a990;
+      --shadow: rgba(0, 0, 0, 0.42);
+      --progress-start: #4aaa67;
+      --progress-end: #74d88e;
+      --cohort-wipe: rgba(102, 209, 136, 0.26);
+    }
+
+    body.theme-orbit.cohort-horror {
+      --accent: #df5f5f;
+      --accent-rgb: 223, 95, 95;
+      --accent-2: #d3a05f;
+      --focus: #c98282;
+      --progress-start: #9d3131;
+      --progress-end: #e06565;
+      --cohort-wipe: rgba(223, 95, 95, 0.3);
+    }
+
+    body.theme-orbit {
+      background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0.018), transparent 180px),
+        #171818;
+    }
+
+    body.theme-orbit .app-shell {
+      overflow: visible;
+    }
+
+    body.theme-orbit .app-shell::before,
+    body.theme-orbit .sigil {
+      display: none;
+    }
+
+    body.theme-orbit .topbar {
+      grid-template-columns: minmax(260px, 1fr) minmax(480px, auto);
+      align-items: center;
+      border-bottom: 0;
+      background: transparent;
+      backdrop-filter: none;
+      box-shadow: none;
+      padding: 22px 24px 10px;
+    }
+
+    body.theme-orbit .identity {
+      display: block;
+    }
+
+    body.theme-orbit .eyebrow {
+      color: var(--muted);
+      font-size: 11px;
+      margin-bottom: 6px;
+    }
+
+    body.theme-orbit h1 {
+      color: #d8ddd8;
+      font-size: 34px;
+      font-weight: 760;
+    }
+
+    body.theme-orbit .toolbar {
+      grid-template-columns: minmax(230px, 1fr) 138px 42px;
+      align-items: end;
+    }
+
+    body.theme-orbit label {
+      color: var(--muted);
+      font-size: 11px;
+      text-transform: uppercase;
+    }
+
+    body.theme-orbit input,
+    body.theme-orbit select,
+    body.theme-orbit .refresh-button {
+      border-color: #3a3c3c;
+      border-radius: 7px;
+      background: #1d1e1e;
+      color: var(--text);
+      box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.26);
+    }
+
+    body.theme-orbit main {
+      padding: 12px 24px 28px;
+    }
+
+    body.theme-orbit .mode-deck {
+      grid-template-columns: minmax(420px, auto) 230px minmax(0, 1fr);
+      gap: 18px;
+      align-items: stretch;
+      margin-bottom: 14px;
+    }
+
+    body.theme-orbit .summary {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      border: 0;
+      border-radius: 0;
+      background: transparent;
+      overflow: visible;
+    }
+
+    body.theme-orbit .summary div {
+      min-width: 210px;
+      height: 100%;
+      border: 1px solid #303232;
+      border-radius: 8px;
+      background: #202121;
+      padding: 12px 15px;
+      box-shadow: 0 8px 18px -18px var(--shadow);
+    }
+
+    body.theme-orbit .label {
+      color: var(--muted);
+      font-size: 10px;
+    }
+
+    body.theme-orbit .summary strong {
+      font-size: 16px;
+      letter-spacing: 0;
+    }
+
+    body.theme-orbit .view-controls {
+      gap: 9px;
+    }
+
+    body.theme-orbit .cohort-toggle,
+    body.theme-orbit .mode-toggle {
+      min-width: 300px;
+      border-color: #303232;
+      border-radius: 8px;
+      background: #202121;
+    }
+
+    body.theme-orbit .cohort-button,
+    body.theme-orbit .mode-button {
+      border-radius: 6px;
+      text-transform: uppercase;
+      font-size: 12px;
+      letter-spacing: 0;
+    }
+
+    body.theme-orbit .cohort-button.active,
+    body.theme-orbit .mode-button.active {
+      background: rgba(var(--accent-rgb), 0.11);
+      color: var(--accent);
+      box-shadow: inset 0 0 0 1px rgba(var(--accent-rgb), 0.22);
+    }
+
+    body.theme-orbit .status {
+      margin-bottom: 14px;
+      color: var(--text);
+      font-size: 24px;
+      line-height: 1.18;
+      font-weight: 850;
+    }
+
+    .orbit-matte-layout {
+      display: block;
+    }
+
+    .orbit-list-control {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 12px;
+      align-items: center;
+      border: 1px solid #303232;
+      border-radius: 8px;
+      background: #202121;
+      padding: 10px;
+      box-shadow: 0 12px 24px -22px var(--shadow);
+    }
+
+    .orbit-list-control h2 {
+      margin: 0;
+      color: var(--text);
+      font-size: 12px;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+
+    .orbit-list-control .cohort-toggle {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+      min-width: 0;
+      border: 0;
+      border-radius: 0;
+      background: transparent;
+      padding: 0;
+    }
+
+    .orbit-list-control .cohort-button {
+      height: auto;
+      min-height: 56px;
+      border: 1px solid #303232;
+      border-radius: 8px;
+      background: #1b1c1c;
+      color: var(--muted);
+      padding: 10px;
+      text-align: left;
+      text-transform: none;
+      transition: background 160ms ease, border-color 160ms ease, color 160ms ease;
+    }
+
+    .orbit-list-control .cohort-button strong {
+      color: var(--text);
+      font-size: 15px;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+
+    .orbit-list-control .cohort-button.active {
+      border-color: rgba(var(--accent-rgb), 0.42);
+      background: rgba(var(--accent-rgb), 0.1);
+      color: var(--accent);
+      box-shadow: none;
+    }
+
+    .orbit-list-control .cohort-button.active strong {
+      color: var(--accent);
+    }
+
+    body.theme-orbit .orbit-list-control .cohort-toggle {
+      min-width: 0;
+      border: 0;
+      border-radius: 0;
+      background: transparent;
+      padding: 0;
+    }
+
+    body.theme-orbit .orbit-list-control .cohort-button {
+      border-radius: 8px;
+      text-transform: none;
+    }
+
+    body.theme-orbit .orbit-list-control .cohort-button.active {
+      background: rgba(var(--accent-rgb), 0.1);
+      color: var(--accent);
+      box-shadow: none;
+    }
+
+    .orbit-action {
+      display: grid;
+      gap: 3px;
+      justify-items: center;
+      color: var(--muted);
+      font-size: 9px;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+
+    .orbit-action .material-symbols-outlined {
+      color: #777e78;
+      font-size: 22px;
+      transition: color 160ms ease, transform 160ms ease;
+    }
+
+    .orbit-action:hover {
+      color: var(--text);
+    }
+
+    .orbit-action:hover .material-symbols-outlined {
+      color: var(--accent);
+      transform: translateY(-1px);
+    }
+
+    .orbit-table-panel {
+      position: relative;
+      min-width: 1280px;
+      overflow: hidden;
+    }
+
+    .orbit-table-panel::after {
+      content: "";
+      position: absolute;
+      inset: 48px 0 0;
+      z-index: 3;
+      pointer-events: none;
+      background:
+        linear-gradient(90deg, transparent 0 12%, var(--cohort-wipe) 42%, rgba(23, 24, 24, 0.78) 58%, transparent 88%);
+      opacity: 0;
+      transform: translateX(-115%);
+    }
+
+    .orbit-table-head,
+    .orbit-row {
+      display: grid;
+      grid-template-columns: 48px minmax(340px, 2.6fr) minmax(112px, 0.8fr) minmax(150px, 1.15fr) minmax(92px, 0.72fr) minmax(112px, 0.82fr) minmax(112px, 0.82fr) minmax(104px, 0.74fr) minmax(174px, 1.15fr) minmax(150px, 1fr);
+      align-items: center;
+      gap: 10px;
+    }
+
+    .orbit-table-head {
+      padding: 0 18px 9px;
+      color: var(--muted);
+      font-size: 10px;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+
+    .orbit-sort-button {
+      width: 100%;
+      min-width: 0;
+      border: 0;
+      background: transparent;
+      color: inherit;
+      cursor: pointer;
+      padding: 0;
+      font: inherit;
+      text-align: inherit;
+      text-transform: inherit;
+    }
+
+    .orbit-sort-button::after {
+      content: "+";
+      margin-left: 4px;
+      color: var(--soft);
+    }
+
+    .orbit-sort-button:hover,
+    .orbit-sort-button.active {
+      color: var(--text);
+    }
+
+    .orbit-sort-button.active::after {
+      content: attr(data-sort-mark);
+      color: var(--accent);
+    }
+
+    .orbit-row-list {
+      display: grid;
+      gap: 8px;
+      transition: opacity 180ms ease, transform 220ms cubic-bezier(0.16, 1, 0.3, 1), filter 220ms ease;
+    }
+
+    .orbit-row {
+      min-height: 76px;
+      border: 1px solid #303232;
+      border-radius: 9px;
+      background: #202121;
+      padding: 8px 12px;
+      box-shadow: 0 8px 18px -20px var(--shadow);
+      animation: orbitRowReveal 360ms cubic-bezier(0.16, 1, 0.3, 1) both;
+      transition: background 160ms ease, border-color 160ms ease, transform 160ms ease;
+    }
+
+    .orbit-row:hover {
+      border-color: #3f4441;
+      background: #262727;
+      transform: translateY(-1px);
+    }
+
+    .orbit-rank {
+      color: var(--soft);
+      font-family: "Cascadia Mono", "Consolas", monospace;
+      font-size: 13px;
+      font-weight: 900;
+    }
+
+    .orbit-game {
+      display: grid;
+      grid-template-columns: 132px minmax(0, 1fr);
+      gap: 14px;
+      align-items: center;
+      min-width: 0;
+    }
+
+    .orbit-cover {
+      width: 132px;
+      height: 50px;
+      border-radius: 5px;
+      object-fit: cover;
+      background: #151616;
+    }
+
+    .orbit-cover.placeholder {
+      display: grid;
+      place-items: center;
+      color: var(--soft);
+      font-family: "Cascadia Mono", "Consolas", monospace;
+      font-size: 9px;
+      font-weight: 900;
+    }
+
+    .orbit-name {
+      display: block;
+      overflow: hidden;
+      color: var(--text);
+      font-size: 16px;
+      font-weight: 900;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .orbit-meta {
+      display: block;
+      overflow: hidden;
+      margin-top: 2px;
+      color: var(--muted);
+      font-size: 12px;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .orbit-cell {
+      overflow: hidden;
+      color: var(--muted);
+      font-size: 11px;
+      text-align: center;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .orbit-cell strong {
+      color: var(--text);
+      font-family: "Cascadia Mono", "Consolas", monospace;
+      font-size: 13px;
+    }
+
+    .orbit-tags-cell {
+      justify-content: center;
+    }
+
+    .orbit-progress {
+      justify-self: center;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      max-width: 100%;
+      border: 1px solid #303232;
+      border-radius: 999px;
+      background: #181919;
+      padding: 4px 9px 4px 6px;
+    }
+
+    .orbit-progress-bar {
+      width: 38px;
+      height: 6px;
+      overflow: hidden;
+      border-radius: 999px;
+      background: #2b302c;
+    }
+
+    .orbit-progress-bar span {
+      display: block;
+      width: var(--progress, 34%);
+      height: 100%;
+      border-radius: inherit;
+      background: linear-gradient(90deg, var(--progress-start), var(--progress-end));
+    }
+
+    .orbit-progress .number {
+      color: var(--text);
+      font-size: 11px;
+      font-weight: 900;
+    }
+
+    .orbit-progress .gain,
+    .orbit-progress .loss {
+      font-size: 11px;
+    }
+
+    .orbit-links {
+      display: flex;
+      justify-content: flex-end;
+      gap: 10px;
+      min-width: 0;
+    }
+
+    .orbit-empty {
+      border: 1px solid #303232;
+      border-radius: 9px;
+      background: #202121;
+      padding: 42px 16px;
+      color: var(--muted);
+      text-align: center;
+    }
+
+    body.theme-orbit.cohort-horror .gamepass-pill {
+      border-color: rgba(var(--accent-rgb), 0.38);
+      color: var(--accent);
+      background: rgba(var(--accent-rgb), 0.11);
+    }
+
+    body.theme-orbit.cohort-transition .orbit-row-list {
+      opacity: 0.28;
+      transform: translateY(8px);
+      filter: saturate(0.7);
+    }
+
+    body.theme-orbit.cohort-transition .orbit-table-panel::after {
+      animation: cohortWipe 560ms cubic-bezier(0.16, 1, 0.3, 1) both;
+    }
+
+    @media (max-width: 860px) {
+      body {
+        min-width: 0;
+      }
+
+      .topbar,
+      .mode-deck,
+      .orbit-layout {
+        grid-template-columns: 1fr;
+      }
+
+      .orbit-list-control,
+      .orbit-list-control .cohort-toggle {
+        grid-template-columns: 1fr;
+      }
+
+      .toolbar {
+        grid-template-columns: 1fr 42px;
+      }
+
+      .toolbar label:nth-child(2),
+      .toolbar label:nth-child(3) {
+        grid-column: 1 / -1;
+      }
+
+      .summary,
+      .game-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .mode-toggle {
+        min-width: 0;
+        width: 100%;
+      }
+
+      .table-shell {
+        border-radius: 0;
+        margin-inline: -18px;
+      }
+    }
+
+    @keyframes scanDrift {
+      from { transform: translate3d(-40px, 0, 0); }
+      to { transform: translate3d(40px, 0, 0); }
+    }
+
+    @keyframes sigilPulse {
+      0%, 100% { opacity: 0.22; transform: rotate(45deg) scale(0.92); }
+      50% { opacity: 0.7; transform: rotate(45deg) scale(1.08); }
+    }
+
+    @keyframes orbitSweep {
+      from { transform: rotate(0deg) skewX(-12deg); }
+      to { transform: rotate(360deg) skewX(-12deg); }
+    }
+
+    @keyframes riseIn {
+      from { opacity: 0; transform: translateY(14px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes orbitRowReveal {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes cohortWipe {
+      0% { opacity: 0; transform: translateX(-115%); }
+      18% { opacity: 1; }
+      100% { opacity: 0; transform: translateX(115%); }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *,
+      *::before,
+      *::after {
+        animation-duration: 0.001ms !important;
+        animation-iteration-count: 1 !important;
+        scroll-behavior: auto !important;
+        transition-duration: 0.001ms !important;
+      }
+
+      body.theme-orbit.cohort-transition .orbit-row-list {
+        opacity: 1;
+        transform: none;
+        filter: none;
+      }
+    }
+  </style>
+</head>
+<body class="theme-orbit">
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="identity">
+        <div class="sigil" aria-hidden="true"></div>
+        <div>
+          <h1>CORD Creator Calender: STEAM GAMES</h1>
+        </div>
+      </div>
+      <div class="toolbar">
+        <label>
+          Search
+          <input id="searchInput" type="search" placeholder="Name, release, appid">
+        </label>
+        <label>
+          Gain window
+          <select id="gainWindowSelect">
+            <option value="1d">1 day</option>
+            <option value="3d">3 days</option>
+            <option value="7d" selected>7 days</option>
+            <option value="14d">14 days</option>
+            <option value="30d">30 days</option>
+          </select>
+        </label>
+        <button id="refreshButton" class="refresh-button" title="Refresh data" aria-label="Refresh data">R</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="mode-deck" aria-label="View controls and summary">
+        <div class="orbit-list-control" aria-label="Steam cohort">
+          <h2>Lists</h2>
+          <div class="cohort-toggle">
+            <button class="cohort-button active" data-cohort="main" type="button">
+              <strong>Main</strong>
+            </button>
+            <button class="cohort-button" data-cohort="horror" type="button">
+              <strong>Horror</strong>
+            </button>
+          </div>
+        </div>
+        <div class="summary" aria-label="Tracker summary">
+          <div>
+            <span class="label">Newest Snapshot</span>
+            <strong id="snapshotTime">No data</strong>
+          </div>
+        </div>
+        <span id="gameCount" hidden>0</span>
+        <span id="topSignal" hidden>Waiting</span>
+        <span id="sourceLabel" hidden>Worker</span>
+      </section>
+
+      <p id="status" class="status">Top 250 upcoming Steam games by follower count.</p>
+
+      <section id="orbitView" class="view orbit-view active" aria-label="Matte dashboard view">
+        <div class="orbit-matte-layout">
+          <section class="orbit-table-panel">
+            <div class="signal-head">
+              <div>
+                <p class="signal-title">Steam games</p>
+                <p class="signal-subtitle">Use the column headers to sort the active list.</p>
+              </div>
+              <div id="sortStrip" class="sort-strip" hidden></div>
+            </div>
+            <div class="orbit-table-head">
+              <div><button class="orbit-sort-button" type="button" data-sort="rank">#</button></div>
+              <div><button class="orbit-sort-button" type="button" data-sort="name">Name</button></div>
+              <div><button class="orbit-sort-button" type="button" data-sort="releaseSort">Release</button></div>
+              <div>Tags</div>
+              <div><button class="orbit-sort-button" type="button" data-sort="gamePass">GamePass</button></div>
+              <div><button class="orbit-sort-button" type="button" data-sort="demoReleaseSort">Demo Date</button></div>
+              <div><button class="orbit-sort-button" type="button" data-sort="latestNewsDate">Latest News</button></div>
+              <div><button class="orbit-sort-button" type="button" data-sort="followers">Followers</button></div>
+              <div><button class="orbit-sort-button" type="button" data-sort="selectedGain" id="orbitGainHeader">+7d</button></div>
+              <div>Links</div>
+            </div>
+            <div id="gameGrid" class="orbit-row-list">
+              <div class="orbit-empty">Waiting for Steam worker data.</div>
+            </div>
+            <div id="rankList" hidden></div>
+            <div id="releaseList" hidden></div>
+          </section>
+        </div>
+      </section>
+
+      <table hidden>
+        <thead>
+          <tr>
+            <th data-sort="rank">#</th>
+            <th data-sort="name">Name</th>
+            <th data-sort="releaseSort">Release</th>
+            <th class="no-sort">Tags</th>
+            <th class="no-sort">GamePass</th>
+            <th data-sort="demoReleaseSort" id="demoHeader">Demo Date</th>
+            <th data-sort="latestNewsDate">Latest News</th>
+            <th data-sort="followers">Followers</th>
+            <th data-sort="selectedGain" id="gainHeader">+7d</th>
+            <th class="no-sort">Links</th>
+          </tr>
+        </thead>
+        <tbody id="gamesBody"></tbody>
+      </table>
+    </main>
+  </div>
+
+  <script>
+    const COHORT_STORAGE_KEY = 'cordCreatorSteamGamesCohort';
+    const GAMEPASS_DATA_URL = 'data/steam/gamepass-games.json';
+    const COHORTS = {
+      main: {
+        label: 'Main',
+        statusLabel: 'Steam games',
+        description: 'Top 250 upcoming Steam games by follower count.',
+        proxyPath: 'data/steam/worker-feed/latest.json',
+        workerPaths: ['data/steam/worker-feed/latest.json']
+      },
+      horror: {
+        label: 'Horror',
+        statusLabel: 'horror Steam games',
+        description: 'Top 150 upcoming horror games on Steam by follower count.',
+        proxyPath: 'data/steam/horror-upcoming/worker-feed/latest.json',
+        workerPaths: ['data/steam/horror-upcoming/worker-feed/latest.json']
+      }
+    };
+
+    const demoSortCycle = [
+      { key: 'demoReleaseSort', direction: 'asc', label: 'Demo Date' },
+      { key: 'demoUpcomingSort', direction: 'asc', label: 'Upcoming Demo Dates' },
+      { key: 'demoSignalSort', direction: 'desc', label: 'New Demo Activity' }
+    ];
+
+    const state = {
+      games: [],
+      sortKey: 'momentumScore',
+      sortDirection: 'desc',
+      query: '',
+      gainWindow: '7d',
+      cohort: COHORTS[localStorage.getItem(COHORT_STORAGE_KEY)] ? localStorage.getItem(COHORT_STORAGE_KEY) : 'main',
+      cohortPayloads: {},
+      cohortStates: {},
+      gamePass: {
+        appids: new Set(),
+        names: new Set()
+      }
+    };
+
+    const body = document.querySelector('#gamesBody');
+    const gameGrid = document.querySelector('#gameGrid');
+    const rankList = document.querySelector('#rankList');
+    const releaseList = document.querySelector('#releaseList');
+    const sortStrip = document.querySelector('#sortStrip');
+    const searchInput = document.querySelector('#searchInput');
+    const gainWindowSelect = document.querySelector('#gainWindowSelect');
+    const gainHeader = document.querySelector('#gainHeader');
+    const orbitGainHeader = document.querySelector('#orbitGainHeader');
+    const demoHeader = document.querySelector('#demoHeader');
+    const refreshButton = document.querySelector('#refreshButton');
+    const statusEl = document.querySelector('#status');
+    let cohortTransitionTimer = null;
+
+    gainWindowSelect.value = state.gainWindow;
+
+    document.querySelectorAll('th[data-sort]').forEach((header) => {
+      header.addEventListener('click', () => {
+        if (header.dataset.sort === 'demoReleaseSort') {
+          cycleDemoSort();
+          return;
+        }
+        setSort(header.dataset.sort);
+      });
+    });
+
+    document.querySelectorAll('.orbit-sort-button[data-sort]').forEach((button) => {
+      button.addEventListener('click', () => {
+        if (button.dataset.sort === 'demoReleaseSort') {
+          cycleDemoSort();
+          return;
+        }
+        setSort(button.dataset.sort);
+      });
+    });
+
+    document.querySelectorAll('.cohort-button').forEach((button) => {
+      button.addEventListener('click', () => setCohort(button.dataset.cohort));
+    });
+
+    searchInput.addEventListener('input', (event) => {
+      state.query = event.target.value.trim().toLowerCase();
+      render();
+    });
+
+    gainWindowSelect.addEventListener('change', (event) => {
+      state.gainWindow = event.target.value;
+      gainHeader.textContent = `+${state.gainWindow}`;
+      orbitGainHeader.textContent = `+${state.gainWindow}`;
+      setSort('selectedGain', 'desc');
+    });
+
+    refreshButton.addEventListener('click', loadGames);
+
+    setCohortTheme();
+    renderCohortButtons();
+    renderSortStrip();
+    renderOrbitSortHeaders();
+    loadGames();
+
+    function setCohort(cohort) {
+      if (!COHORTS[cohort] || cohort === state.cohort) return;
+      saveCohortState();
+      state.cohort = cohort;
+      localStorage.setItem(COHORT_STORAGE_KEY, state.cohort);
+      restoreCohortState();
+      beginCohortTransition();
+      setCohortTheme();
+      renderCohortButtons();
+      renderSortStrip();
+      renderOrbitSortHeaders();
+
+      const cached = state.cohortPayloads[state.cohort];
+      if (cached) {
+        applyPayload(cached);
+        return;
+      }
+      loadGames();
+    }
+
+    function saveCohortState() {
+      state.cohortStates[state.cohort] = {
+        sortKey: state.sortKey,
+        sortDirection: state.sortDirection,
+        query: state.query,
+        gainWindow: state.gainWindow
+      };
+    }
+
+    function restoreCohortState() {
+      const next = state.cohortStates[state.cohort] || {
+        sortKey: 'momentumScore',
+        sortDirection: 'desc',
+        query: '',
+        gainWindow: '7d'
+      };
+      state.sortKey = next.sortKey;
+      state.sortDirection = next.sortDirection;
+      state.query = next.query;
+      state.gainWindow = next.gainWindow;
+      searchInput.value = state.query;
+      gainWindowSelect.value = state.gainWindow;
+      gainHeader.textContent = `+${state.gainWindow}`;
+      orbitGainHeader.textContent = `+${state.gainWindow}`;
+    }
+
+    function renderCohortButtons() {
+      setCohortTheme();
+      document.querySelectorAll('.cohort-button').forEach((button) => {
+        button.classList.toggle('active', button.dataset.cohort === state.cohort);
+      });
+    }
+
+    function setCohortTheme() {
+      document.body.classList.toggle('cohort-horror', state.cohort === 'horror');
+      document.body.classList.toggle('cohort-main', state.cohort !== 'horror');
+    }
+
+    function beginCohortTransition() {
+      if (cohortTransitionTimer) window.clearTimeout(cohortTransitionTimer);
+      document.body.classList.remove('cohort-transition');
+      void document.body.offsetWidth;
+      document.body.classList.add('cohort-transition');
+      cohortTransitionTimer = window.setTimeout(() => {
+        document.body.classList.remove('cohort-transition');
+        cohortTransitionTimer = null;
+      }, 620);
+    }
+
+    function setSort(key, direction) {
+      if (state.sortKey === key && !direction) {
+        state.sortDirection = state.sortDirection === 'asc' ? 'desc' : 'asc';
+      } else {
+        state.sortKey = key;
+        state.sortDirection = direction || (['name', 'releaseSort', 'gamePass'].includes(key) ? 'asc' : 'desc');
+      }
+      renderSortStrip();
+      renderOrbitSortHeaders();
+      render();
+    }
+
+    function cycleDemoSort() {
+      const activeIndex = demoSortCycle.findIndex((option) => {
+        return state.sortKey === option.key && state.sortDirection === option.direction;
+      });
+      const next = demoSortCycle[(activeIndex + 1) % demoSortCycle.length];
+      state.sortKey = next.key;
+      state.sortDirection = next.direction;
+      renderSortStrip();
+      renderOrbitSortHeaders();
+      render();
+    }
+
+    function renderSortStrip() {
+      sortStrip.className = 'sort-strip';
+      sortStrip.innerHTML = '';
+      demoHeader.textContent = activeDemoSort()?.label || 'Demo Date';
+    }
+
+    function renderOrbitSortHeaders() {
+      document.querySelectorAll('.orbit-sort-button[data-sort]').forEach((button) => {
+        const isActive = button.dataset.sort === 'demoReleaseSort' ? Boolean(activeDemoSort()) : button.dataset.sort === state.sortKey;
+        button.classList.toggle('active', isActive);
+        button.setAttribute('aria-sort', isActive ? (state.sortDirection === 'asc' ? 'ascending' : 'descending') : 'none');
+        button.dataset.sortMark = state.sortDirection === 'asc' ? 'ASC' : 'DESC';
+      });
+    }
+
+    function activeDemoSort() {
+      return demoSortCycle.find((option) => option.key === state.sortKey && option.direction === state.sortDirection) || null;
+    }
+
+    async function loadGames() {
+      refreshButton.disabled = true;
+      statusEl.className = 'status';
+      statusEl.textContent = COHORTS[state.cohort].description;
+
+      try {
+        await loadGamePassList();
+        const payload = await fetchSteamPayload();
+        state.cohortPayloads[state.cohort] = payload;
+        applyPayload(payload);
+      } catch (error) {
+        statusEl.className = 'status error';
+        statusEl.textContent = error.message;
+        renderEmpty(`Could not load ${COHORTS[state.cohort].statusLabel}.`);
+      } finally {
+        refreshButton.disabled = false;
+      }
+    }
+
+    function applyPayload(payload) {
+      const normalizedPayload = normalizeWorkerFeedPayload(payload);
+      state.games = normalizedPayload.games;
+      document.querySelector('#gameCount').textContent = state.games.length.toLocaleString();
+      document.querySelector('#snapshotTime').textContent = normalizedPayload.capturedAt ? relativeDate(normalizedPayload.capturedAt) : 'No data';
+      document.querySelector('#topSignal').textContent = topSignal(state.games);
+      document.querySelector('#sourceLabel').textContent = normalizedPayload.cohort || normalizedPayload.source || COHORTS[state.cohort].label;
+      statusEl.className = 'status';
+      statusEl.textContent = COHORTS[state.cohort].description;
+      render();
+    }
+
+    function normalizeWorkerFeedPayload(payload) {
+      const signals = Array.isArray(payload?.signals) ? payload.signals : [];
+      const latestSignalByAppid = new Map();
+
+      signals.forEach((signal) => {
+        const appid = String(signal?.main_appid || '');
+        if (!appid) return;
+        const current = latestSignalByAppid.get(appid);
+        const nextTime = Date.parse(signal.detected_at || 0) || 0;
+        const currentTime = Date.parse(current?.detected_at || 0) || 0;
+        if (!current || nextTime >= currentTime) latestSignalByAppid.set(appid, signal);
+      });
+
+      const games = (Array.isArray(payload?.games) ? payload.games : []).map((game, index) => {
+        const release = game?.release || {};
+        const demo = game?.demo || {};
+        const signal = latestSignalByAppid.get(String(game?.appid || '')) || null;
+        const followers = numberOrNull(game?.rank_source?.followers) ?? numberOrNull(game?.followers);
+        const releaseDateRaw = release.text || game?.releaseDateRaw || game?.release_date?.date || '';
+        const demoReleaseTextValue = demo.release_text || '';
+        const demoAppid = demo.appid || '';
+        const demoAvailable = Boolean(demo.exists || demoAppid || demoReleaseTextValue || demo.normalized_release_date);
+        const taxonomy = game?.taxonomy || {};
+        const companies = game?.companies || {};
+        const commercial = game?.commercial || {};
+        const media = game?.media || {};
+        const news = game?.news || {};
+        const history = game?.history || {};
+
+        return {
+          ...game,
+          rank: index + 1,
+          followers,
+          momentumScore: game?.momentumScore ?? followers ?? index + 1,
+          gains: history.gains || game?.gains || {},
+          headerImage: media.header_image || media.capsule_image || game?.headerImage || '',
+          capsuleImage: media.capsule_image || media.header_image || game?.capsuleImage || '',
+          tags: Array.isArray(taxonomy.tags) ? taxonomy.tags : game?.tags || [],
+          genres: Array.isArray(taxonomy.genres) ? taxonomy.genres : game?.genres || [],
+          categories: Array.isArray(taxonomy.categories) ? taxonomy.categories : game?.categories || [],
+          developers: Array.isArray(companies.developers) ? companies.developers : game?.developers || [],
+          publishers: Array.isArray(companies.publishers) ? companies.publishers : game?.publishers || [],
+          price: commercial.price || game?.price || '',
+          isFree: commercial.is_free === true,
+          latestNewsDate: news.latest_news_date || game?.latestNewsDate || '',
+          latestNewsTitle: news.latest_news_title || game?.latestNewsTitle || '',
+          latestNewsUrl: news.latest_news_url || game?.latestNewsUrl || '',
+          releaseDateRaw,
+          releaseNormalizedDate: release.normalized_date || '',
+          releasePrecision: numberOrNull(release.precision) ?? 0,
+          demoAvailable,
+          demoAppid,
+          demoName: demo.name || '',
+          demoReleaseDateRaw: demoReleaseTextValue,
+          demoReleaseDate: demo.normalized_release_date || '',
+          demoReleasePrecision: numberOrNull(demo.release_precision) ?? 0,
+          demoSignal: signal,
+          links: {
+            ...(game?.links || {}),
+            store: game?.links?.store || steamStoreUrl(game?.appid),
+            steamdb: game?.links?.steamdb || steamDbUrl(game?.appid),
+            demo_store: game?.links?.demo_store || steamStoreUrl(demoAppid),
+            demo_steamdb: game?.links?.demo_steamdb || steamDbUrl(demoAppid)
+          }
+        };
+      });
+
+      return {
+        ...payload,
+        capturedAt: payload?.captured_at || payload?.capturedAt || '',
+        games
+      };
+    }
+
+    async function fetchSteamPayload() {
+      const cohort = COHORTS[state.cohort];
+      const urls = [cohort.proxyPath, ...cohort.workerPaths.filter((workerPath) => workerPath !== cohort.proxyPath)];
+      const errors = [];
+
+      for (const url of urls) {
+        try {
+          const response = await fetch(url, { cache: 'no-store' });
+          if (!response.ok) {
+            errors.push(`${url}: HTTP ${response.status}`);
+            continue;
+          }
+          return await response.json();
+        } catch (error) {
+          errors.push(`${url}: ${error.message}`);
+        }
+      }
+
+      throw new Error(`Steam worker unavailable. Tried ${errors.join(' | ')}`);
+    }
+
+    function render() {
+      const rows = activeSortRows(filteredGames()).sort(compareGames);
+      if (rows.length === 0) {
+        renderEmpty(activeSortEmptyText());
+        return;
+      }
+
+      renderTable(rows);
+      renderOrbit(rows);
+    }
+
+    function activeSortRows(rows) {
+      if (state.sortKey === 'demoUpcomingSort') {
+        const today = startOfTodayTime();
+        return rows.filter((game) => {
+          const time = demoReleaseTimeValue(game);
+          return time !== null && time >= today;
+        });
+      }
+      if (state.sortKey === 'demoSignalSort') {
+        return rows.filter((game) => Number.isFinite(demoSignalTimeValue(game)));
+      }
+      return rows;
+    }
+
+    function activeSortEmptyText() {
+      if (state.sortKey === 'demoUpcomingSort') return 'No upcoming demo release dates match this view.';
+      if (state.sortKey === 'demoSignalSort') return 'No new demo activity in this worker feed.';
+      return 'No games match this view.';
+    }
+
+    function renderEmpty(message) {
+      body.innerHTML = `<tr><td colspan="10" class="empty">${escapeHtml(message)}</td></tr>`;
+      gameGrid.innerHTML = `<div class="orbit-empty">${escapeHtml(message)}</div>`;
+      rankList.innerHTML = '';
+      releaseList.innerHTML = '';
+    }
+
+    function compareReleaseRows(a, b) {
+      return compareDateSortInfo(releaseSortInfo(a), releaseSortInfo(b), 'asc', a.name, b.name);
+    }
+
+    function renderOrbit(rows) {
+      gameGrid.innerHTML = rows.map((game, index) => `
+        <article class="orbit-row" style="--delay:${Math.min(index, 14) * 18}ms">
+          <div class="orbit-rank">${index + 1}.</div>
+          <div class="orbit-game">
+            ${game.headerImage ? `<img class="orbit-cover" src="${escapeHtml(game.headerImage)}" alt="" loading="lazy">` : `<span class="orbit-cover placeholder">APP ${escapeHtml(game.appid || '')}</span>`}
+            <div>
+              <a class="orbit-name" href="${escapeHtml(game.links?.store || '#')}" target="_blank" rel="noreferrer">${escapeHtml(game.name || `App ${game.appid}`)}</a>
+              <span class="orbit-meta">${escapeHtml(metadataLine(game))}</span>
+            </div>
+          </div>
+          <div class="orbit-cell">${escapeHtml(game.releaseDateRaw || 'TBA')}</div>
+          <div class="orbit-cell tags-cell orbit-tags-cell">${tagList(game)}</div>
+          <div class="orbit-cell">${isGamePassGame(game) ? '<span class="gamepass-pill">GamePass</span>' : '<span class="muted">-</span>'}</div>
+          <div class="orbit-cell">${demoLabel(game)}</div>
+          <div class="orbit-cell">${dateCell(game.latestNewsDate)}</div>
+          <div class="orbit-cell"><strong>${formatNumber(game.followers)}</strong></div>
+          <div class="orbit-cell">${orbitProgress(game)}</div>
+          <div class="orbit-links">
+            ${orbitActionLink(game.links?.store, 'storefront', 'Store')}
+            ${orbitActionLink(game.latestNewsUrl, 'newspaper', 'News')}
+            ${orbitActionLink(game.links?.steamdb, 'database', 'DB')}
+            ${game.demoAvailable ? orbitActionLink(game.links?.demo_store, 'play_circle', 'Demo') : ''}
+          </div>
+        </article>
+      `).join('');
+
+      rankList.innerHTML = rows.slice(0, 8).map((game, index) => `
+        <div class="rank-row">
+          <span>${String(index + 1).padStart(2, '0')}</span>
+          <b>${escapeHtml(game.name || `App ${game.appid}`)}</b>
+          <span class="mono">${escapeHtml(game.momentumScore ?? '0')}</span>
+        </div>
+      `).join('');
+
+      const releaseRows = [...filteredGames()]
+        .sort(compareReleaseRows)
+        .slice(0, 8);
+      releaseList.innerHTML = releaseRows.map((game, index) => `
+        <div class="rank-row">
+          <span>${String(index + 1).padStart(2, '0')}</span>
+          <b>${escapeHtml(game.name || `App ${game.appid}`)}</b>
+          <span class="mono">${escapeHtml(game.releaseDateRaw || 'TBA')}</span>
+        </div>
+      `).join('');
+    }
+
+    function orbitProgress(game) {
+      const gain = selectedGain(game);
+      const absGain = gainAbsolute(gain);
+      const followers = numberOrNull(game.followers) || 0;
+      const percent = gain && gain.percent != null ? Number(gain.percent) : followers > 0 && Number.isFinite(absGain) ? absGain / followers : 0;
+      const progress = Math.max(8, Math.min(100, Math.round(percent * 260)));
+      return `
+        <div class="orbit-progress">
+          <span class="orbit-progress-bar" aria-hidden="true"><span style="--progress:${progress}%"></span></span>
+          <span class="${gainClass(gain)}">${plainGainCell(gain)}</span>
+          <span class="number">${formatPercent(percent)}</span>
+        </div>
+      `;
+    }
+
+    function orbitActionLink(url, icon, label) {
+      if (!url) {
+        return `<span class="orbit-action muted"><span class="material-symbols-outlined" aria-hidden="true">${icon}</span><span>${escapeHtml(label)}</span></span>`;
+      }
+      return `
+        <a class="orbit-action" href="${escapeHtml(url)}" target="_blank" rel="noreferrer" title="${escapeHtml(label)}">
+          <span class="material-symbols-outlined" aria-hidden="true">${icon}</span>
+          <span>${escapeHtml(label)}</span>
+        </a>
+      `;
+    }
+
+    function renderTable(rows) {
+      body.innerHTML = rows.map((game, index) => `
+        <tr>
+          <td class="rank">${index + 1}.</td>
+          <td class="name-cell">
+            ${game.headerImage ? `<img class="cover" src="${escapeHtml(game.headerImage)}" alt="" loading="lazy">` : `<span class="cover placeholder">APP ${escapeHtml(game.appid || '')}</span>`}
+            <div>
+              <a class="game-name" href="${escapeHtml(game.links?.store || '#')}" target="_blank" rel="noreferrer">${escapeHtml(game.name || `App ${game.appid}`)}</a>
+              <span class="meta">${metadataLine(game)}</span>
+            </div>
+          </td>
+          <td>${escapeHtml(game.releaseDateRaw || 'TBA')}</td>
+          <td class="tags-cell">${tagList(game)}</td>
+          <td>${gamePassCell(game)}</td>
+          <td>${demoLabel(game)}</td>
+          <td>${dateCell(game.latestNewsDate)}</td>
+          <td class="number">${formatNumber(game.followers)}</td>
+          <td class="${gainClass(selectedGain(game))}">${gainCell(selectedGain(game))}</td>
+          <td class="links">
+            ${linkCell(game.links?.store, 'Store')}
+            ${linkCell(game.latestNewsUrl, 'News')}
+            ${linkCell(game.links?.steamdb, 'DB')}
+            ${linkCell(game.links?.demo_store, 'Demo')}
+            ${linkCell(game.links?.demo_steamdb, 'Demo DB')}
+          </td>
+        </tr>
+      `).join('');
+    }
+
+    function filteredGames() {
+      if (!state.query) return [...state.games];
+      return state.games.filter((game) => [
+        game.appid,
+        game.name,
+        game.releaseDateRaw,
+        game.price,
+        selectedDemoAppid(game),
+        demoReleaseText(game),
+        demoSignalLabel(game),
+        isGamePassGame(game) ? 'gamepass game pass xbox pc game pass' : '',
+        ...(game.tags || []),
+        ...(game.developers || []),
+        ...(game.publishers || []),
+        ...(game.genres || []),
+        ...(game.categories || [])
+      ].filter(Boolean).join(' ').toLowerCase().includes(state.query));
+    }
+
+    function cardScore(game) {
+      if (state.sortKey === 'demoSignalSort') return demoSignalLabel(game) || 'Activity';
+      if (state.sortKey !== 'demoReleaseSort' && state.sortKey !== 'demoUpcomingSort') return game.momentumScore ?? '0';
+      const time = demoReleaseTimeValue(game);
+      return Number.isFinite(time) ? new Date(time).toLocaleDateString() : 'Demo';
+    }
+
+    function compareGames(a, b) {
+      if (isDateSortKey(state.sortKey)) {
+        return compareDateGames(a, b);
+      }
+
+      const aValue = sortValue(a, state.sortKey);
+      const bValue = sortValue(b, state.sortKey);
+      const direction = state.sortDirection === 'asc' ? 1 : -1;
+
+      if (isDemoSortKey(state.sortKey)) {
+        const aHasDemo = a.demoAvailable === true;
+        const bHasDemo = b.demoAvailable === true;
+        if (aHasDemo !== bHasDemo) return aHasDemo ? -1 : 1;
+      }
+      if (aValue === bValue) return String(a.name || '').localeCompare(String(b.name || ''));
+      if (aValue === null) return 1;
+      if (bValue === null) return -1;
+      return aValue > bValue ? direction : -direction;
+    }
+
+    function compareDateGames(a, b) {
+      const direction = state.sortDirection === 'asc' ? 'asc' : 'desc';
+      if (state.sortKey === 'releaseSort') return compareDateSortInfo(releaseSortInfo(a), releaseSortInfo(b), direction, a.name, b.name);
+      return compareDateSortInfo(demoReleaseSortInfo(a), demoReleaseSortInfo(b), direction, a.name, b.name);
+    }
+
+    function compareDateSortInfo(aInfo, bInfo, direction, aName, bName) {
+      if (!aInfo?.time && !bInfo?.time) return String(aName || '').localeCompare(String(bName || ''));
+      if (!aInfo?.time) return 1;
+      if (!bInfo?.time) return -1;
+      if (aInfo.time !== bInfo.time) {
+        return direction === 'asc' ? aInfo.time - bInfo.time : bInfo.time - aInfo.time;
+      }
+      if (aInfo.precision !== bInfo.precision) return bInfo.precision - aInfo.precision;
+      return String(aName || '').localeCompare(String(bName || ''));
+    }
+
+    function isDemoSortKey(key) {
+      return key === 'demoReleaseSort' || key === 'demoUpcomingSort';
+    }
+
+    function isDateSortKey(key) {
+      return key === 'releaseSort' || key === 'demoReleaseSort' || key === 'demoUpcomingSort';
+    }
+
+    function sortValue(game, key) {
+      if (key === 'rank' || key === 'momentumScore') return numberOrNull(game.momentumScore);
+      if (key === 'selectedGain') return gainAbsolute(selectedGain(game));
+      if (key === 'releaseSort') return releaseSortValue(game);
+      if (key === 'demoReleaseSort') return demoReleaseSortValue(game);
+      if (key === 'demoUpcomingSort') return demoReleaseSortValue(game);
+      if (key === 'demoSignalSort') return demoSignalTimeValue(game);
+      if (key === 'demoFirstSeenAt') return game.demoAvailable && game.demoFirstSeenAt ? Date.parse(game.demoFirstSeenAt) : null;
+      if (key === 'latestNewsDate') return game.latestNewsDate ? Date.parse(game.latestNewsDate) : null;
+      if (key === 'name') return String(game.name || '').toLowerCase();
+      if (key === 'gamePass') return isGamePassGame(game) ? 0 : 1;
+      return numberOrNull(game[key]) ?? game[key] ?? null;
+    }
+
+    function selectedGain(game) {
+      return game.gains?.[state.gainWindow] ?? null;
+    }
+
+    function releaseSortValue(game) {
+      return releaseSortInfo(game).time;
+    }
+
+    function releaseSortInfo(game) {
+      return normalizedSortInfo(game.releaseNormalizedDate, game.releasePrecision);
+    }
+
+    function releaseTextSortValue(...values) {
+      return releaseTextSortInfo(...values).time;
+    }
+
+    function releaseTextSortInfo(...values) {
+      const parsers = [
+        { precision: 4, parse: parseExactReleaseDate },
+        { precision: 3, parse: parseMonthRelease },
+        { precision: 2, parse: parseQuarterRelease },
+        { precision: 1, parse: parseYearRelease }
+      ];
+
+      for (const { precision, parse } of parsers) {
+        for (const value of values) {
+          const date = parse(value);
+          if (date) return { time: date.getTime(), precision };
+        }
+      }
+
+      return { time: null, precision: 0 };
+    }
+
+    function parseExactReleaseDate(value) {
+      const text = String(value || '').trim();
+      if (!text || /^(tba|coming soon|to be announced)$/i.test(text)) return null;
+      if (/^q[1-4]\s+\d{4}$/i.test(text) || /^\d{4}$/.test(text) || isMonthYearText(text)) return null;
+
+      const iso = text.match(/^(\d{4})-(\d{2})-(\d{2})(?:T|$)/);
+      if (iso) return new Date(Date.UTC(Number(iso[1]), Number(iso[2]) - 1, Number(iso[3])));
+
+      const monthFirst = text.match(/^(jan|feb|mar|apr|may|jun|jul|aug|sep|sept|oct|nov|dec)[a-z]*\.?\s+(\d{1,2}),?\s+(\d{4})$/i);
+      if (monthFirst) {
+        const month = monthNameIndex(monthFirst[1]);
+        if (month !== null) return new Date(Date.UTC(Number(monthFirst[3]), month, Number(monthFirst[2])));
+      }
+
+      const dayFirst = text.match(/^(\d{1,2})\s+(jan|feb|mar|apr|may|jun|jul|aug|sep|sept|oct|nov|dec)[a-z]*\.?,?\s+(\d{4})$/i);
+      if (dayFirst) {
+        const month = monthNameIndex(dayFirst[2]);
+        if (month !== null) return new Date(Date.UTC(Number(dayFirst[3]), month, Number(dayFirst[1])));
+      }
+
+      if (/^\d{1,2}\/\d{1,2}\/\d{2,4}$/.test(text)) {
+        const date = new Date(Date.parse(text));
+        if (!Number.isNaN(date.getTime())) return new Date(Date.UTC(date.getFullYear(), date.getMonth(), date.getDate()));
+      }
+
+      return null;
+    }
+
+    function parseMonthRelease(value) {
+      const text = String(value || '').trim();
+      const match = text.match(/^(jan|feb|mar|apr|may|jun|jul|aug|sep|sept|oct|nov|dec)[a-z]*\.?\s+(\d{4})$/i);
+      if (!match) return null;
+      const month = monthNameIndex(match[1]);
+      const year = Number(match[2]);
+      if (month === null || !Number.isFinite(year)) return null;
+      return new Date(Date.UTC(year, month + 1, 0));
+    }
+
+    function parseQuarterRelease(value) {
+      const match = String(value || '').trim().match(/\bQ([1-4])\s*(\d{4})\b/i);
+      if (!match) return null;
+      const quarter = Number(match[1]);
+      const year = Number(match[2]);
+      return new Date(Date.UTC(year, quarter * 3, 0));
+    }
+
+    function parseYearRelease(value) {
+      const match = String(value || '').trim().match(/^(20\d{2})$/i);
+      if (!match) return null;
+      return new Date(Date.UTC(Number(match[1]), 12, 0));
+    }
+
+    function isMonthYearText(text) {
+      return /^(jan|feb|mar|apr|may|jun|jul|aug|sep|sept|oct|nov|dec)[a-z]*\.?\s+\d{4}$/i.test(text);
+    }
+
+    function monthNameIndex(value) {
+      const key = String(value || '').slice(0, 3).toLowerCase();
+      const months = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec'];
+      const index = months.indexOf(key === 'sep' ? 'sep' : key);
+      return index >= 0 ? index : null;
+    }
+
+    function metadataLine(game) {
+      const parts = [];
+      if (game.momentumScore != null) parts.push(`Score ${game.momentumScore}`);
+      if (game.isFree) parts.push('Free');
+      else if (game.price) parts.push(game.price);
+      if (isGamePassGame(game)) parts.push('GamePass');
+      if (game.demoAvailable) parts.push('Demo');
+      if (game.reviewSummary?.score) parts.push(game.reviewSummary.score);
+      if (game.developers?.[0]) parts.push(game.developers[0]);
+      return escapeHtml(parts.join(' | ') || `App ${game.appid}`);
+    }
+
+    function tagList(game) {
+      const tags = (Array.isArray(game.tags) && game.tags.length ? game.tags : game.genres || []).slice(0, 3);
+      if (!tags.length) return '<span class="muted">-</span>';
+      return tags.map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join('');
+    }
+
+    function gamePassCell(game) {
+      if (!isGamePassGame(game)) return '<span class="muted">-</span>';
+      return '<span class="gamepass-pill">GamePass</span>';
+    }
+
+    async function loadGamePassList() {
+      try {
+        const response = await fetch(GAMEPASS_DATA_URL, { cache: 'no-store' });
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        state.gamePass = normalizeGamePassList(await response.json());
+      } catch {
+        state.gamePass = { appids: new Set(), names: new Set() };
+      }
+    }
+
+    function normalizeGamePassList(payload) {
+      const entries = Array.isArray(payload) ? payload : payload?.games || [];
+      const appids = new Set();
+      const names = new Set();
+
+      (payload?.appids || []).forEach((appid) => {
+        const value = Number(appid);
+        if (Number.isFinite(value)) appids.add(value);
+      });
+      (payload?.names || []).forEach((name) => {
+        const value = normalizeGamePassName(name);
+        if (value) names.add(value);
+      });
+      entries.forEach((entry) => {
+        const value = Number(entry?.appid);
+        if (Number.isFinite(value)) appids.add(value);
+        const name = normalizeGamePassName(entry?.name || entry);
+        if (name) names.add(name);
+      });
+
+      return { appids, names };
+    }
+
+    function isGamePassGame(game) {
+      if (state.gamePass.appids.has(Number(game.appid))) return true;
+      return state.gamePass.names.has(normalizeGamePassName(game.name));
+    }
+
+    function normalizeGamePassName(value) {
+      return String(value || '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+    }
+
+    function demoPillText(game) {
+      const releaseText = selectedDemoRelease(game)?.label || demoReleaseText(game);
+      if (releaseText) return `Demo ${releaseText}`;
+      if (game.demoFirstSeenAt) return `Seen ${relativeDate(game.demoFirstSeenAt)}`;
+      return 'Demo detected';
+    }
+
+    function demoReleaseText(game) {
+      return selectedDemoRelease(game)?.label || '';
+    }
+
+    function selectedDemoRelease(game) {
+      const label = String(game.demoReleaseDateRaw || '').trim();
+      const sortInfo = normalizedSortInfo(game.demoReleaseDate, game.demoReleasePrecision);
+      if (!label && !sortInfo.time) return null;
+      return { label: label || game.demoReleaseDate, time: sortInfo.time, precision: sortInfo.precision };
+    }
+
+    function selectedDemoAppid(game) {
+      if (game.demoAppid) return game.demoAppid;
+      if (!Array.isArray(game.demos)) return '';
+      const demo = game.demos.find((entry) => entry?.appid || entry?.steam_appid || entry?.demoAppid);
+      return demo?.appid || demo?.steam_appid || demo?.demoAppid || '';
+    }
+
+    function demoReleaseCandidates(game) {
+      const candidates = [];
+      const pushCandidate = (raw, iso) => {
+        const label = String(raw || iso || '').trim();
+        if (!label) return;
+        const sortInfo = releaseTextSortInfo(iso, raw, label);
+        if (!Number.isFinite(sortInfo.time)) return;
+        candidates.push({ label, time: sortInfo.time, precision: sortInfo.precision });
+      };
+
+      pushCandidate(game.demoReleaseDateRaw, game.demoReleaseDate || game.demoDate);
+      if (Array.isArray(game.demos)) {
+        game.demos.forEach((demo) => {
+          pushCandidate(
+            demo?.releaseDateRaw || demo?.release_date?.date,
+            demo?.releaseDate
+          );
+        });
+      }
+      return candidates;
+    }
+
+    function demoReleaseSortValue(game) {
+      return demoReleaseSortInfo(game).time;
+    }
+
+    function demoReleaseTimeValue(game) {
+      return demoReleaseSortInfo(game).time;
+    }
+
+    function demoReleaseSortInfo(game) {
+      if (!game.demoAvailable) return { time: null, precision: 0 };
+      const selected = selectedDemoRelease(game);
+      return selected ? { time: selected.time, precision: selected.precision } : { time: null, precision: 0 };
+    }
+
+    function normalizedSortInfo(value, precision) {
+      const timestamp = Date.parse(value || '');
+      return {
+        time: Number.isFinite(timestamp) ? timestamp : null,
+        precision: numberOrNull(precision) ?? 0
+      };
+    }
+
+    function demoSignalTimeValue(game) {
+      const timestamp = Date.parse(game?.demoSignal?.detected_at || '');
+      return Number.isFinite(timestamp) ? timestamp : null;
+    }
+
+    function demoLabel(game) {
+      if (!game.demoAvailable) return '<span class="muted">-</span>';
+      const lines = [demoPillText(game)];
+      if (demoReleaseText(game) && game.demoFirstSeenAt) lines.push(`Seen ${relativeDate(game.demoFirstSeenAt)}`);
+      if (demoSignalLabel(game)) lines.push(demoSignalLabel(game));
+      return `<span class="pill">${escapeHtml(lines.join(' | '))}</span>`;
+    }
+
+    function demoSignalLabel(game) {
+      if (game.demoSignal?.label) return game.demoSignal.label;
+      const signals = Array.isArray(game.demoSignal?.signals) ? game.demoSignal.signals : [];
+      return signals.map((signal) => signal?.label).filter(Boolean).join(' + ');
+    }
+
+    function dateCell(date) {
+      return date ? `<span title="${escapeHtml(new Date(date).toLocaleString())}">${escapeHtml(relativeDate(date))}</span>` : '<span class="muted">-</span>';
+    }
+
+    function gainCell(gain) {
+      const absolute = gainAbsolute(gain);
+      if (absolute === null) return '<span class="muted">-</span>';
+      const percent = gain && gain.percent != null ? ` <small>${formatPercent(gain.percent)}</small>` : '';
+      return `${plainGainCell(gain)}${percent}`;
+    }
+
+    function plainGainCell(gain) {
+      const absolute = gainAbsolute(gain);
+      if (absolute === null) return '-';
+      const sign = absolute > 0 ? '+' : '';
+      return `${sign}${formatNumber(absolute)}`;
+    }
+
+    function gainClass(gain) {
+      const absolute = gainAbsolute(gain);
+      if (absolute === null || absolute === 0) return 'muted';
+      return absolute > 0 ? 'gain' : 'loss';
+    }
+
+    function gainAbsolute(gain) {
+      if (gain == null) return null;
+      if (typeof gain === 'number') return gain;
+      return numberOrNull(gain.absolute);
+    }
+
+    function topSignal(games) {
+      const signaled = [...games]
+        .filter((game) => Number.isFinite(demoSignalTimeValue(game)))
+        .sort((a, b) => demoSignalTimeValue(b) - demoSignalTimeValue(a))[0];
+      if (signaled) return `${signaled.name || `App ${signaled.appid}`} ${demoSignalLabel(signaled)}`;
+      const top = [...games].sort((a, b) => (Number(b.momentumScore) || 0) - (Number(a.momentumScore) || 0))[0];
+      if (!top) return 'Waiting';
+      return `${top.name || `App ${top.appid}`} (${top.momentumScore ?? 0})`;
+    }
+
+    function linkCell(url, label) {
+      return url ? `<a href="${escapeHtml(url)}" target="_blank" rel="noreferrer">${label}</a>` : '';
+    }
+
+    function numberOrNull(value) {
+      const number = Number(value);
+      return Number.isFinite(number) ? number : null;
+    }
+
+    function formatNumber(value) {
+      const number = Number(value);
+      return Number.isFinite(number) ? number.toLocaleString() : '-';
+    }
+
+    function formatPercent(value) {
+      const number = Number(value);
+      return Number.isFinite(number) ? `${number >= 0 ? '+' : ''}${(number * 100).toFixed(1)}%` : '';
+    }
+
+    function relativeDate(date) {
+      const timestamp = Date.parse(date);
+      if (!Number.isFinite(timestamp)) return String(date || '');
+      const diff = Date.now() - timestamp;
+      const abs = Math.abs(diff);
+      const units = [
+        ['day', 864e5],
+        ['hour', 36e5],
+        ['minute', 6e4]
+      ];
+
+      for (const [unit, size] of units) {
+        if (abs >= size) {
+          const value = Math.round(diff / size);
+          return new Intl.RelativeTimeFormat(undefined, { numeric: 'auto' }).format(-value, unit);
+        }
+      }
+      return 'just now';
+    }
+
+    function startOfTodayTime() {
+      const today = new Date();
+      today.setHours(0, 0, 0, 0);
+      return today.getTime();
+    }
+
+    function steamStoreUrl(appid) {
+      return appid ? `https://store.steampowered.com/app/${encodeURIComponent(appid)}/` : '';
+    }
+
+    function steamDbUrl(appid) {
+      return appid ? `https://steamdb.info/app/${encodeURIComponent(appid)}/` : '';
+    }
+
+    function escapeHtml(value) {
+      return String(value ?? '')
+        .replaceAll('&', '&amp;')
+        .replaceAll('<', '&lt;')
+        .replaceAll('>', '&gt;')
+        .replaceAll('"', '&quot;')
+        .replaceAll("'", '&#039;');
+    }
+  </script>
+</body>
+</html>

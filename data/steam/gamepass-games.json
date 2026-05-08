@@ -1,0 +1,50 @@
+{
+  "updatedAt": "2026-05-05",
+  "notes": "Manual GamePass markers for Steam Momentum. Add rows to games with appid when known, or name when matching by title.",
+  "games": [
+    {
+      "name": "Final Fantasy V",
+      "gamePassDate": "2026-05-05"
+    },
+    {
+      "name": "Mixtape",
+      "gamePassDate": "2026-05-07"
+    },
+    {
+      "name": "Call of the Elder Gods",
+      "gamePassDate": "2026-05-12"
+    },
+    {
+      "name": "Subnautica 2",
+      "gamePassDate": "2026-05-14"
+    },
+    {
+      "name": "Forza Horizon 6",
+      "gamePassDate": "2026-05-19"
+    },
+    {
+      "name": "Beastro",
+      "gamePassDate": "2026-05-21"
+    },
+    {
+      "name": "Luna Abyss",
+      "gamePassDate": "2026-05-21"
+    },
+    {
+      "name": "Echo Generation 2",
+      "gamePassDate": "2026-05-27"
+    },
+    {
+      "name": "Crashout Crew",
+      "gamePassDate": "2026-05-28"
+    },
+    {
+      "name": "RV There Yet?",
+      "gamePassDate": "2026-05"
+    },
+    {
+      "name": "MOTORSLICE",
+      "gamePassDate": "2026-05-05"
+    }
+  ]
+}
