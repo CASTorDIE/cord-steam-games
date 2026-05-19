@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "captured_at": "2026-05-19T02:15:15.693Z",
+  "captured_at": "2026-05-19T08:15:10.521Z",
   "cohort": "horror-upcoming",
   "source": "steam",
   "games": [
@@ -8,8 +8,8 @@
       "appid": 1313230,
       "name": "Beautiful Light",
       "rank_source": {
-        "followers": 79604,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 79607,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "December 2026",
@@ -71,32 +71,32 @@
       },
       "history": {
         "followers": {
-          "current": 79604,
-          "previous_1d": 79573,
-          "previous_3d": 79466,
-          "previous_7d": 79389,
+          "current": 79607,
+          "previous_1d": 79579,
+          "previous_3d": 79468,
+          "previous_7d": 79394,
           "previous_14d": 78274,
           "previous_30d": null
         },
         "gains": {
           "1d": {
-            "absolute": 31,
-            "percent": 0.00038957937994043207,
+            "absolute": 28,
+            "percent": 0.00035185161914575455,
             "reason": null
           },
           "3d": {
-            "absolute": 138,
-            "percent": 0.001736591749930788,
+            "absolute": 139,
+            "percent": 0.001749131725977752,
             "reason": null
           },
           "7d": {
-            "absolute": 215,
-            "percent": 0.0027081837534167204,
+            "absolute": 213,
+            "percent": 0.002682822379524901,
             "reason": null
           },
           "14d": {
-            "absolute": 1330,
-            "percent": 0.01699159363262386,
+            "absolute": 1333,
+            "percent": 0.01702992053555459,
             "reason": null
           },
           "30d": {
@@ -124,8 +124,8 @@
       "appid": 2605790,
       "name": "Deep Rock Galactic: Rogue Core",
       "rank_source": {
-        "followers": 77707,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 77808,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "May 20, 2026",
@@ -191,32 +191,32 @@
       },
       "history": {
         "followers": {
-          "current": 77707,
-          "previous_1d": 77275,
-          "previous_3d": 76441,
-          "previous_7d": 74569,
-          "previous_14d": 71438,
+          "current": 77808,
+          "previous_1d": 77356,
+          "previous_3d": 76537,
+          "previous_7d": 74604,
+          "previous_14d": 71463,
           "previous_30d": null
         },
         "gains": {
           "1d": {
-            "absolute": 432,
-            "percent": 0.00559042381106438,
+            "absolute": 452,
+            "percent": 0.0058431149490666525,
             "reason": null
           },
           "3d": {
-            "absolute": 1266,
-            "percent": 0.016561792755196817,
+            "absolute": 1271,
+            "percent": 0.016606347256882294,
             "reason": null
           },
           "7d": {
-            "absolute": 3138,
-            "percent": 0.04208183025117676,
+            "absolute": 3204,
+            "percent": 0.04294675888692295,
             "reason": null
           },
           "14d": {
-            "absolute": 6269,
-            "percent": 0.08775441641703295,
+            "absolute": 6345,
+            "percent": 0.08878720456739851,
             "reason": null
           },
           "30d": {
@@ -244,8 +244,8 @@
       "appid": 2179480,
       "name": "Ardem",
       "rank_source": {
-        "followers": 46434,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 46496,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": null,
@@ -294,32 +294,32 @@
       },
       "history": {
         "followers": {
-          "current": 46434,
-          "previous_1d": 46105,
-          "previous_3d": 45648,
-          "previous_7d": 44815,
-          "previous_14d": 42417,
+          "current": 46496,
+          "previous_1d": 46180,
+          "previous_3d": 45673,
+          "previous_7d": 44862,
+          "previous_14d": 42513,
           "previous_30d": null
         },
         "gains": {
           "1d": {
-            "absolute": 329,
-            "percent": 0.007135885478798395,
+            "absolute": 316,
+            "percent": 0.0068427890861844955,
             "reason": null
           },
           "3d": {
-            "absolute": 786,
-            "percent": 0.017218717139852787,
+            "absolute": 823,
+            "percent": 0.018019398769513716,
             "reason": null
           },
           "7d": {
-            "absolute": 1619,
-            "percent": 0.03612629699877273,
+            "absolute": 1634,
+            "percent": 0.03642280772145691,
             "reason": null
           },
           "14d": {
-            "absolute": 4017,
-            "percent": 0.09470259565740151,
+            "absolute": 3983,
+            "percent": 0.09368898925034695,
             "reason": null
           },
           "30d": {
@@ -347,8 +347,8 @@
       "appid": 2638890,
       "name": "Onimusha: Way of the Sword",
       "rank_source": {
-        "followers": 35497,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 35506,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": null,
@@ -397,32 +397,32 @@
       },
       "history": {
         "followers": {
-          "current": 35497,
-          "previous_1d": 35477,
+          "current": 35506,
+          "previous_1d": 35481,
           "previous_3d": 35429,
-          "previous_7d": 35353,
-          "previous_14d": 35211,
+          "previous_7d": 35356,
+          "previous_14d": 35218,
           "previous_30d": null
         },
         "gains": {
           "1d": {
-            "absolute": 20,
-            "percent": 0.0005637455252698932,
+            "absolute": 25,
+            "percent": 0.0007046024632902117,
             "reason": null
           },
           "3d": {
-            "absolute": 68,
-            "percent": 0.0019193316209884558,
+            "absolute": 77,
+            "percent": 0.0021733608061192808,
             "reason": null
           },
           "7d": {
-            "absolute": 144,
-            "percent": 0.004073204537097276,
+            "absolute": 150,
+            "percent": 0.004242561375721235,
             "reason": null
           },
           "14d": {
-            "absolute": 286,
-            "percent": 0.008122461730709154,
+            "absolute": 288,
+            "percent": 0.008177636435913453,
             "reason": null
           },
           "30d": {
@@ -450,8 +450,8 @@
       "appid": 2828710,
       "name": "Valor Mortis",
       "rank_source": {
-        "followers": 34773,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 34776,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": null,
@@ -500,32 +500,32 @@
       },
       "history": {
         "followers": {
-          "current": 34773,
-          "previous_1d": 34740,
+          "current": 34776,
+          "previous_1d": 34749,
           "previous_3d": 34687,
-          "previous_7d": 34508,
+          "previous_7d": 34526,
           "previous_14d": 34304,
           "previous_30d": null
         },
         "gains": {
           "1d": {
-            "absolute": 33,
-            "percent": 0.0009499136442141623,
+            "absolute": 27,
+            "percent": 0.000777000777000777,
             "reason": null
           },
           "3d": {
-            "absolute": 86,
-            "percent": 0.0024793150171534004,
+            "absolute": 89,
+            "percent": 0.0025658027503099143,
             "reason": null
           },
           "7d": {
-            "absolute": 265,
-            "percent": 0.00767937869479541,
+            "absolute": 250,
+            "percent": 0.007240919886462376,
             "reason": null
           },
           "14d": {
-            "absolute": 469,
-            "percent": 0.013671875,
+            "absolute": 472,
+            "percent": 0.013759328358208955,
             "reason": null
           },
           "30d": {
@@ -553,8 +553,8 @@
       "appid": 3255110,
       "name": "Grave Seasons",
       "rank_source": {
-        "followers": 30461,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 30469,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "Aug 14, 2026",
@@ -616,32 +616,32 @@
       },
       "history": {
         "followers": {
-          "current": 30461,
-          "previous_1d": 30431,
-          "previous_3d": 30316,
-          "previous_7d": 30148,
-          "previous_14d": 29823,
+          "current": 30469,
+          "previous_1d": 30435,
+          "previous_3d": 30326,
+          "previous_7d": 30155,
+          "previous_14d": 29836,
           "previous_30d": null
         },
         "gains": {
           "1d": {
-            "absolute": 30,
-            "percent": 0.0009858368111465281,
+            "absolute": 34,
+            "percent": 0.0011171348776080172,
             "reason": null
           },
           "3d": {
-            "absolute": 145,
-            "percent": 0.004782952896160444,
+            "absolute": 143,
+            "percent": 0.0047154257073138564,
             "reason": null
           },
           "7d": {
-            "absolute": 313,
-            "percent": 0.010382114899827518,
+            "absolute": 314,
+            "percent": 0.010412866854584646,
             "reason": null
           },
           "14d": {
-            "absolute": 638,
-            "percent": 0.021392884686315932,
+            "absolute": 633,
+            "percent": 0.021215980694463066,
             "reason": null
           },
           "30d": {
@@ -666,11 +666,114 @@
       }
     },
     {
+      "appid": 2887580,
+      "name": "Active Matter",
+      "rank_source": {
+        "followers": 30309,
+        "captured_at": "2026-05-19T08:15:10.521Z"
+      },
+      "release": {
+        "text": null,
+        "normalized_date": null,
+        "precision": 0,
+        "coming_soon": null
+      },
+      "demo": {
+        "exists": false,
+        "appid": null,
+        "name": null,
+        "release_text": null,
+        "normalized_release_date": null,
+        "release_precision": 0
+      },
+      "media": {
+        "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2887580/header.jpg",
+        "capsule_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2887580/header.jpg"
+      },
+      "taxonomy": {
+        "tags": [],
+        "genres": [],
+        "categories": []
+      },
+      "companies": {
+        "developers": [],
+        "publishers": []
+      },
+      "commercial": {
+        "price": null,
+        "is_free": null
+      },
+      "availability": {
+        "game_pass": {
+          "coming": false,
+          "label": null,
+          "date_text": null,
+          "normalized_date": null,
+          "precision": 0
+        }
+      },
+      "news": {
+        "latest_news_date": "2026-05-15T13:38:34.000Z",
+        "latest_news_title": "Thank You For Playing The Demo Of Active Matter",
+        "latest_news_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1832700592792029"
+      },
+      "history": {
+        "followers": {
+          "current": 30309,
+          "previous_1d": 30239,
+          "previous_3d": 30048,
+          "previous_7d": 29648,
+          "previous_14d": 29177,
+          "previous_30d": null
+        },
+        "gains": {
+          "1d": {
+            "absolute": 70,
+            "percent": 0.002314891365455207,
+            "reason": null
+          },
+          "3d": {
+            "absolute": 261,
+            "percent": 0.008686102236421725,
+            "reason": null
+          },
+          "7d": {
+            "absolute": 661,
+            "percent": 0.022294927145169993,
+            "reason": null
+          },
+          "14d": {
+            "absolute": 1132,
+            "percent": 0.038797683106556534,
+            "reason": null
+          },
+          "30d": {
+            "absolute": null,
+            "percent": null,
+            "reason": "not_enough_history"
+          }
+        }
+      },
+      "links": {
+        "store": "https://store.steampowered.com/app/2887580/",
+        "steamdb": "https://steamdb.info/app/2887580/",
+        "demo_store": null,
+        "demo_steamdb": null
+      },
+      "raw": {
+        "steam_appdetails_demos": [],
+        "collection_warnings": [
+          "store_appdetails_unavailable",
+          "players_unavailable"
+        ]
+      }
+    },
+    {
       "appid": 3517740,
       "name": "Frostrail",
       "rank_source": {
-        "followers": 29587,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 29591,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "Q4 2026",
@@ -736,32 +839,32 @@
       },
       "history": {
         "followers": {
-          "current": 29587,
+          "current": 29591,
           "previous_1d": 29566,
           "previous_3d": 29515,
           "previous_7d": 29406,
-          "previous_14d": 29123,
+          "previous_14d": 29132,
           "previous_30d": null
         },
         "gains": {
           "1d": {
-            "absolute": 21,
-            "percent": 0.0007102753162416289,
+            "absolute": 25,
+            "percent": 0.0008455658526686058,
             "reason": null
           },
           "3d": {
-            "absolute": 72,
-            "percent": 0.002439437574114857,
+            "absolute": 76,
+            "percent": 0.0025749618837879046,
             "reason": null
           },
           "7d": {
-            "absolute": 181,
-            "percent": 0.00615520642045841,
+            "absolute": 185,
+            "percent": 0.0062912330816840105,
             "reason": null
           },
           "14d": {
-            "absolute": 464,
-            "percent": 0.015932424544174706,
+            "absolute": 459,
+            "percent": 0.015755869833859674,
             "reason": null
           },
           "30d": {
@@ -789,8 +892,8 @@
       "appid": 2318330,
       "name": "Neverway",
       "rank_source": {
-        "followers": 28072,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 28088,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "October 2026",
@@ -859,32 +962,32 @@
       },
       "history": {
         "followers": {
-          "current": 28072,
-          "previous_1d": 28019,
-          "previous_3d": 27903,
-          "previous_7d": 27512,
-          "previous_14d": 26901,
+          "current": 28088,
+          "previous_1d": 28030,
+          "previous_3d": 27913,
+          "previous_7d": 27535,
+          "previous_14d": 26925,
           "previous_30d": null
         },
         "gains": {
           "1d": {
-            "absolute": 53,
-            "percent": 0.0018915735750740569,
+            "absolute": 58,
+            "percent": 0.0020692115590438816,
             "reason": null
           },
           "3d": {
-            "absolute": 169,
-            "percent": 0.006056696412572125,
+            "absolute": 175,
+            "percent": 0.00626948017052986,
             "reason": null
           },
           "7d": {
-            "absolute": 560,
-            "percent": 0.020354754289037512,
+            "absolute": 553,
+            "percent": 0.02008353005266025,
             "reason": null
           },
           "14d": {
-            "absolute": 1171,
-            "percent": 0.04352998029813018,
+            "absolute": 1163,
+            "percent": 0.04319405756731662,
             "reason": null
           },
           "30d": {
@@ -925,8 +1028,8 @@
       "appid": 2411280,
       "name": "The Bornless",
       "rank_source": {
-        "followers": 27890,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 27889,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -989,32 +1092,32 @@
       },
       "history": {
         "followers": {
-          "current": 27890,
+          "current": 27889,
           "previous_1d": 27891,
           "previous_3d": 27887,
           "previous_7d": 27882,
-          "previous_14d": 27878,
+          "previous_14d": 27877,
           "previous_30d": null
         },
         "gains": {
           "1d": {
-            "absolute": -1,
-            "percent": -0.00003585385966799326,
+            "absolute": -2,
+            "percent": -0.00007170771933598652,
             "reason": null
           },
           "3d": {
-            "absolute": 3,
-            "percent": 0.00010757700720765948,
+            "absolute": 2,
+            "percent": 0.00007171800480510633,
             "reason": null
           },
           "7d": {
-            "absolute": 8,
-            "percent": 0.0002869234631662004,
+            "absolute": 7,
+            "percent": 0.00025105803027042535,
             "reason": null
           },
           "14d": {
             "absolute": 12,
-            "percent": 0.00043044694741373125,
+            "percent": 0.000430462388348818,
             "reason": null
           },
           "30d": {
@@ -1043,7 +1146,7 @@
       "name": "Carnival Hunt",
       "rank_source": {
         "followers": 25826,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -1118,8 +1221,8 @@
         "followers": {
           "current": 25826,
           "previous_1d": 25827,
-          "previous_3d": 25820,
-          "previous_7d": 25818,
+          "previous_3d": 25823,
+          "previous_7d": 25819,
           "previous_14d": 25805,
           "previous_30d": null
         },
@@ -1130,13 +1233,13 @@
             "reason": null
           },
           "3d": {
-            "absolute": 6,
-            "percent": 0.00023237800154918669,
+            "absolute": 3,
+            "percent": 0.00011617550245904814,
             "reason": null
           },
           "7d": {
-            "absolute": 8,
-            "percent": 0.0003098613370516694,
+            "absolute": 7,
+            "percent": 0.00027111816879042564,
             "reason": null
           },
           "14d": {
@@ -1169,8 +1272,8 @@
       "appid": 2584270,
       "name": "Mortal Shell II",
       "rank_source": {
-        "followers": 22754,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 22759,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -1229,32 +1332,32 @@
       },
       "history": {
         "followers": {
-          "current": 22754,
-          "previous_1d": 22727,
-          "previous_3d": 22648,
+          "current": 22759,
+          "previous_1d": 22733,
+          "previous_3d": 22654,
           "previous_7d": 22508,
-          "previous_14d": 22235,
+          "previous_14d": 22246,
           "previous_30d": null
         },
         "gains": {
           "1d": {
-            "absolute": 27,
-            "percent": 0.001188014256171074,
+            "absolute": 26,
+            "percent": 0.0011437117846302732,
             "reason": null
           },
           "3d": {
-            "absolute": 106,
-            "percent": 0.0046803249735075944,
+            "absolute": 105,
+            "percent": 0.004634943056413879,
             "reason": null
           },
           "7d": {
-            "absolute": 246,
-            "percent": 0.010929447307623956,
+            "absolute": 251,
+            "percent": 0.011151590545583793,
             "reason": null
           },
           "14d": {
-            "absolute": 519,
-            "percent": 0.023341578592309422,
+            "absolute": 513,
+            "percent": 0.02306032545176661,
             "reason": null
           },
           "30d": {
@@ -1282,8 +1385,8 @@
       "appid": 2569760,
       "name": "The Mound: Omen of Cthulhu",
       "rank_source": {
-        "followers": 21806,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 21836,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "Jul 15, 2026",
@@ -1345,32 +1448,32 @@
       },
       "history": {
         "followers": {
-          "current": 21806,
-          "previous_1d": 21647,
-          "previous_3d": 21349,
-          "previous_7d": 20776,
-          "previous_14d": 19788,
+          "current": 21836,
+          "previous_1d": 21679,
+          "previous_3d": 21369,
+          "previous_7d": 20814,
+          "previous_14d": 19793,
           "previous_30d": null
         },
         "gains": {
           "1d": {
-            "absolute": 159,
-            "percent": 0.007345128655240911,
+            "absolute": 157,
+            "percent": 0.0072420314590156375,
             "reason": null
           },
           "3d": {
-            "absolute": 457,
-            "percent": 0.02140615485502834,
+            "absolute": 467,
+            "percent": 0.021854087697131357,
             "reason": null
           },
           "7d": {
-            "absolute": 1030,
-            "percent": 0.04957643434732383,
+            "absolute": 1022,
+            "percent": 0.049101566253483234,
             "reason": null
           },
           "14d": {
-            "absolute": 2018,
-            "percent": 0.10198099858500101,
+            "absolute": 2043,
+            "percent": 0.10321830950335978,
             "reason": null
           },
           "30d": {
@@ -1398,8 +1501,8 @@
       "appid": 3722330,
       "name": "Shift At Midnight",
       "rank_source": {
-        "followers": 20988,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 20995,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "May 27, 2026",
@@ -1464,32 +1567,32 @@
       },
       "history": {
         "followers": {
-          "current": 20988,
-          "previous_1d": 20960,
-          "previous_3d": 20862,
-          "previous_7d": 20736,
-          "previous_14d": 20458,
+          "current": 20995,
+          "previous_1d": 20963,
+          "previous_3d": 20873,
+          "previous_7d": 20747,
+          "previous_14d": 20467,
           "previous_30d": null
         },
         "gains": {
           "1d": {
-            "absolute": 28,
-            "percent": 0.0013358778625954199,
+            "absolute": 32,
+            "percent": 0.0015264990697896293,
             "reason": null
           },
           "3d": {
-            "absolute": 126,
-            "percent": 0.0060396893874029335,
+            "absolute": 122,
+            "percent": 0.00584487136492119,
             "reason": null
           },
           "7d": {
-            "absolute": 252,
-            "percent": 0.012152777777777778,
+            "absolute": 248,
+            "percent": 0.011953535450908565,
             "reason": null
           },
           "14d": {
-            "absolute": 530,
-            "percent": 0.025906735751295335,
+            "absolute": 528,
+            "percent": 0.025797625445839644,
             "reason": null
           },
           "30d": {
@@ -1531,7 +1634,7 @@
       "name": "Mars Tactics",
       "rank_source": {
         "followers": 20495,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -1598,8 +1701,8 @@
         "followers": {
           "current": 20495,
           "previous_1d": 20485,
-          "previous_3d": 20474,
-          "previous_7d": 20460,
+          "previous_3d": 20476,
+          "previous_7d": 20462,
           "previous_14d": 20416,
           "previous_30d": null
         },
@@ -1610,13 +1713,13 @@
             "reason": null
           },
           "3d": {
-            "absolute": 21,
-            "percent": 0.001025691120445443,
+            "absolute": 19,
+            "percent": 0.0009279156085172885,
             "reason": null
           },
           "7d": {
-            "absolute": 35,
-            "percent": 0.001710654936461388,
+            "absolute": 33,
+            "percent": 0.0016127455771674324,
             "reason": null
           },
           "14d": {
@@ -1646,129 +1749,11 @@
       }
     },
     {
-      "appid": 4231820,
-      "name": "Castlevania: Belmont's Curse",
-      "rank_source": {
-        "followers": 18140,
-        "captured_at": "2026-05-19T02:15:15.693Z"
-      },
-      "release": {
-        "text": "2026",
-        "normalized_date": "2026-12-31",
-        "precision": 1,
-        "coming_soon": true
-      },
-      "demo": {
-        "exists": false,
-        "appid": null,
-        "name": null,
-        "release_text": null,
-        "normalized_release_date": null,
-        "release_precision": 0
-      },
-      "media": {
-        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4231820/82d49ee5a2088d9696460890cf173dbfb072dba3/header.jpg?t=1775804136",
-        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4231820/82d49ee5a2088d9696460890cf173dbfb072dba3/header.jpg?t=1775804136"
-      },
-      "taxonomy": {
-        "tags": [],
-        "genres": [
-          "Action",
-          "RPG"
-        ],
-        "categories": [
-          "Single-player",
-          "Full controller support",
-          "Custom Volume Controls",
-          "Keyboard Only Option",
-          "Stereo Sound",
-          "Family Sharing"
-        ]
-      },
-      "companies": {
-        "developers": [
-          "KONAMI",
-          " Evil Empire"
-        ],
-        "publishers": [
-          "KONAMI"
-        ]
-      },
-      "commercial": {
-        "price": null,
-        "is_free": null
-      },
-      "availability": {
-        "game_pass": {
-          "coming": false,
-          "label": null,
-          "date_text": null,
-          "normalized_date": null,
-          "precision": 0
-        }
-      },
-      "news": {
-        "latest_news_date": "2026-04-24T07:22:13.000Z",
-        "latest_news_title": "Gameplay & Commentary ＆ The Triple-i Initiative Post-Show Developer Interview",
-        "latest_news_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1830797770235155"
-      },
-      "history": {
-        "followers": {
-          "current": 18140,
-          "previous_1d": 18115,
-          "previous_3d": 18049,
-          "previous_7d": 17935,
-          "previous_14d": 17691,
-          "previous_30d": null
-        },
-        "gains": {
-          "1d": {
-            "absolute": 25,
-            "percent": 0.001380071763731714,
-            "reason": null
-          },
-          "3d": {
-            "absolute": 91,
-            "percent": 0.005041830572330877,
-            "reason": null
-          },
-          "7d": {
-            "absolute": 205,
-            "percent": 0.011430164482854754,
-            "reason": null
-          },
-          "14d": {
-            "absolute": 449,
-            "percent": 0.02538013679271946,
-            "reason": null
-          },
-          "30d": {
-            "absolute": null,
-            "percent": null,
-            "reason": "not_enough_history"
-          }
-        }
-      },
-      "links": {
-        "store": "https://store.steampowered.com/app/4231820/",
-        "steamdb": "https://steamdb.info/app/4231820/",
-        "demo_store": null,
-        "demo_steamdb": null
-      },
-      "raw": {
-        "steam_appdetails_demos": [],
-        "collection_warnings": [
-          "store_appdetails_unavailable",
-          "players_unavailable"
-        ]
-      }
-    },
-    {
       "appid": 3401960,
       "name": "JOIN US",
       "rank_source": {
-        "followers": 17151,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 17154,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -1829,38 +1814,38 @@
         }
       },
       "news": {
-        "latest_news_date": "2026-02-26T18:18:27.000Z",
-        "latest_news_title": "JOIN US: Fall Release",
-        "latest_news_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1825727806708485"
+        "latest_news_date": "2026-05-19T07:25:15.000Z",
+        "latest_news_title": "May Updates!",
+        "latest_news_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1832700592800259"
       },
       "history": {
         "followers": {
-          "current": 17151,
+          "current": 17154,
           "previous_1d": 17139,
-          "previous_3d": 17104,
+          "previous_3d": 17106,
           "previous_7d": 17004,
-          "previous_14d": 16829,
+          "previous_14d": 16835,
           "previous_30d": null
         },
         "gains": {
           "1d": {
-            "absolute": 12,
-            "percent": 0.0007001575354454753,
+            "absolute": 15,
+            "percent": 0.000875196919306844,
             "reason": null
           },
           "3d": {
-            "absolute": 47,
-            "percent": 0.0027478952291861555,
+            "absolute": 48,
+            "percent": 0.0028060329708874078,
             "reason": null
           },
           "7d": {
-            "absolute": 147,
-            "percent": 0.008645024700070572,
+            "absolute": 150,
+            "percent": 0.008821453775582216,
             "reason": null
           },
           "14d": {
-            "absolute": 322,
-            "percent": 0.019133638362350703,
+            "absolute": 319,
+            "percent": 0.018948618948618948,
             "reason": null
           },
           "30d": {
@@ -1888,8 +1873,8 @@
       "appid": 3751230,
       "name": "Danganronpa 2x2",
       "rank_source": {
-        "followers": 16785,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 16787,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -1947,32 +1932,32 @@
       },
       "history": {
         "followers": {
-          "current": 16785,
-          "previous_1d": 16760,
+          "current": 16787,
+          "previous_1d": 16767,
           "previous_3d": 16694,
           "previous_7d": 16599,
-          "previous_14d": 16406,
+          "previous_14d": 16414,
           "previous_30d": null
         },
         "gains": {
           "1d": {
-            "absolute": 25,
-            "percent": 0.0014916467780429594,
+            "absolute": 20,
+            "percent": 0.0011928192282459594,
             "reason": null
           },
           "3d": {
-            "absolute": 91,
-            "percent": 0.005451060261171679,
+            "absolute": 93,
+            "percent": 0.005570863783395232,
             "reason": null
           },
           "7d": {
-            "absolute": 186,
-            "percent": 0.011205494306885957,
+            "absolute": 188,
+            "percent": 0.011325983492981504,
             "reason": null
           },
           "14d": {
-            "absolute": 379,
-            "percent": 0.023101304400828963,
+            "absolute": 373,
+            "percent": 0.0227245034726453,
             "reason": null
           },
           "30d": {
@@ -1997,11 +1982,114 @@
       }
     },
     {
+      "appid": 2924520,
+      "name": "ONTOS",
+      "rank_source": {
+        "followers": 16611,
+        "captured_at": "2026-05-19T08:15:10.521Z"
+      },
+      "release": {
+        "text": null,
+        "normalized_date": null,
+        "precision": 0,
+        "coming_soon": null
+      },
+      "demo": {
+        "exists": false,
+        "appid": null,
+        "name": null,
+        "release_text": null,
+        "normalized_release_date": null,
+        "release_precision": 0
+      },
+      "media": {
+        "header_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2924520/header.jpg",
+        "capsule_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2924520/header.jpg"
+      },
+      "taxonomy": {
+        "tags": [],
+        "genres": [],
+        "categories": []
+      },
+      "companies": {
+        "developers": [],
+        "publishers": []
+      },
+      "commercial": {
+        "price": null,
+        "is_free": null
+      },
+      "availability": {
+        "game_pass": {
+          "coming": false,
+          "label": null,
+          "date_text": null,
+          "normalized_date": null,
+          "precision": 0
+        }
+      },
+      "news": {
+        "latest_news_date": "2026-01-08T19:00:34.000Z",
+        "latest_news_title": "SOMA studio says its next game is not 'stressful or scary' in the traditional sense, but it'll still mess you up real good: 'The goal is to evoke this deep existential terror that stays long after you finish playing'",
+        "latest_news_url": "https://steamstore-a.akamaihd.net/news/externalpost/PC Gamer/1821288646579459"
+      },
+      "history": {
+        "followers": {
+          "current": 16611,
+          "previous_1d": 16591,
+          "previous_3d": 16550,
+          "previous_7d": 16438,
+          "previous_14d": 16253,
+          "previous_30d": null
+        },
+        "gains": {
+          "1d": {
+            "absolute": 20,
+            "percent": 0.0012054728467241276,
+            "reason": null
+          },
+          "3d": {
+            "absolute": 61,
+            "percent": 0.0036858006042296072,
+            "reason": null
+          },
+          "7d": {
+            "absolute": 173,
+            "percent": 0.010524394695218396,
+            "reason": null
+          },
+          "14d": {
+            "absolute": 358,
+            "percent": 0.02202670276256691,
+            "reason": null
+          },
+          "30d": {
+            "absolute": null,
+            "percent": null,
+            "reason": "not_enough_history"
+          }
+        }
+      },
+      "links": {
+        "store": "https://store.steampowered.com/app/2924520/",
+        "steamdb": "https://steamdb.info/app/2924520/",
+        "demo_store": null,
+        "demo_steamdb": null
+      },
+      "raw": {
+        "steam_appdetails_demos": [],
+        "collection_warnings": [
+          "store_appdetails_unavailable",
+          "players_unavailable"
+        ]
+      }
+    },
+    {
       "appid": 1551980,
       "name": "Clive Barker's Hellraiser: Revival",
       "rank_source": {
-        "followers": 15242,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 15243,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -2062,32 +2150,32 @@
       },
       "history": {
         "followers": {
-          "current": 15242,
-          "previous_1d": 15226,
-          "previous_3d": 15181,
-          "previous_7d": 15097,
-          "previous_14d": 14971,
+          "current": 15243,
+          "previous_1d": 15228,
+          "previous_3d": 15182,
+          "previous_7d": 15100,
+          "previous_14d": 14977,
           "previous_30d": null
         },
         "gains": {
           "1d": {
-            "absolute": 16,
-            "percent": 0.0010508340995665309,
+            "absolute": 15,
+            "percent": 0.0009850275807722615,
             "reason": null
           },
           "3d": {
             "absolute": 61,
-            "percent": 0.004018180620512483,
+            "percent": 0.004017915953102358,
             "reason": null
           },
           "7d": {
-            "absolute": 145,
-            "percent": 0.009604557196794065,
+            "absolute": 143,
+            "percent": 0.009470198675496689,
             "reason": null
           },
           "14d": {
-            "absolute": 271,
-            "percent": 0.018101663215550064,
+            "absolute": 266,
+            "percent": 0.01776056620150898,
             "reason": null
           },
           "30d": {
@@ -2115,8 +2203,8 @@
       "appid": 2383130,
       "name": "Project: Mist",
       "rank_source": {
-        "followers": 14467,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 14537,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "May 19, 2026",
@@ -2189,32 +2277,32 @@
       },
       "history": {
         "followers": {
-          "current": 14467,
-          "previous_1d": 14179,
-          "previous_3d": 13936,
-          "previous_7d": 13727,
-          "previous_14d": 13413,
+          "current": 14537,
+          "previous_1d": 14235,
+          "previous_3d": 13962,
+          "previous_7d": 13737,
+          "previous_14d": 13415,
           "previous_30d": null
         },
         "gains": {
           "1d": {
-            "absolute": 288,
-            "percent": 0.020311728612737147,
+            "absolute": 302,
+            "percent": 0.021215314365999296,
             "reason": null
           },
           "3d": {
-            "absolute": 531,
-            "percent": 0.038102755453501724,
+            "absolute": 575,
+            "percent": 0.04118321157427303,
             "reason": null
           },
           "7d": {
-            "absolute": 740,
-            "percent": 0.05390835579514825,
+            "absolute": 800,
+            "percent": 0.058236878503312224,
             "reason": null
           },
           "14d": {
-            "absolute": 1054,
-            "percent": 0.07858048162230671,
+            "absolute": 1122,
+            "percent": 0.08363771897130079,
             "reason": null
           },
           "30d": {
@@ -2255,8 +2343,8 @@
       "appid": 1875580,
       "name": "Mina the Hollower",
       "rank_source": {
-        "followers": 14148,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 14164,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "May 28, 2026",
@@ -2323,32 +2411,32 @@
       },
       "history": {
         "followers": {
-          "current": 14148,
-          "previous_1d": 14081,
-          "previous_3d": 13909,
-          "previous_7d": 13669,
-          "previous_14d": 13297,
+          "current": 14164,
+          "previous_1d": 14097,
+          "previous_3d": 13930,
+          "previous_7d": 13675,
+          "previous_14d": 13298,
           "previous_30d": null
         },
         "gains": {
           "1d": {
             "absolute": 67,
-            "percent": 0.004758184788012215,
+            "percent": 0.004752784280343336,
             "reason": null
           },
           "3d": {
-            "absolute": 239,
-            "percent": 0.017183118843914012,
+            "absolute": 234,
+            "percent": 0.016798277099784636,
             "reason": null
           },
           "7d": {
-            "absolute": 479,
-            "percent": 0.03504279757114639,
+            "absolute": 489,
+            "percent": 0.03575868372943327,
             "reason": null
           },
           "14d": {
-            "absolute": 851,
-            "percent": 0.06399939836053245,
+            "absolute": 866,
+            "percent": 0.0651225748232817,
             "reason": null
           },
           "30d": {
@@ -2376,8 +2464,8 @@
       "appid": 3219630,
       "name": "Halloween: The Game",
       "rank_source": {
-        "followers": 13861,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 13870,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "Sep 8, 2026",
@@ -2442,32 +2530,32 @@
       },
       "history": {
         "followers": {
-          "current": 13861,
-          "previous_1d": 13843,
-          "previous_3d": 13775,
-          "previous_7d": 13692,
-          "previous_14d": 13463,
+          "current": 13870,
+          "previous_1d": 13847,
+          "previous_3d": 13779,
+          "previous_7d": 13700,
+          "previous_14d": 13471,
           "previous_30d": null
         },
         "gains": {
           "1d": {
-            "absolute": 18,
-            "percent": 0.0013002961785740085,
+            "absolute": 23,
+            "percent": 0.0016610096049685852,
             "reason": null
           },
           "3d": {
-            "absolute": 86,
-            "percent": 0.0062431941923774955,
+            "absolute": 91,
+            "percent": 0.00660425284853763,
             "reason": null
           },
           "7d": {
-            "absolute": 169,
-            "percent": 0.012342973999415717,
+            "absolute": 170,
+            "percent": 0.012408759124087591,
             "reason": null
           },
           "14d": {
-            "absolute": 398,
-            "percent": 0.029562504642353115,
+            "absolute": 399,
+            "percent": 0.029619181946403384,
             "reason": null
           },
           "30d": {
@@ -2495,8 +2583,8 @@
       "appid": 3629430,
       "name": "DREADMOOR",
       "rank_source": {
-        "followers": 12255,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 12336,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "Q4 2026",
@@ -2561,32 +2649,32 @@
       },
       "history": {
         "followers": {
-          "current": 12255,
-          "previous_1d": 12051,
-          "previous_3d": 11947,
-          "previous_7d": 11673,
-          "previous_14d": 10972,
+          "current": 12336,
+          "previous_1d": 12055,
+          "previous_3d": 11956,
+          "previous_7d": 11685,
+          "previous_14d": 11030,
           "previous_30d": null
         },
         "gains": {
           "1d": {
-            "absolute": 204,
-            "percent": 0.01692805576300722,
+            "absolute": 281,
+            "percent": 0.023309829946080465,
             "reason": null
           },
           "3d": {
-            "absolute": 308,
-            "percent": 0.025780530677157444,
+            "absolute": 380,
+            "percent": 0.031783205085312814,
             "reason": null
           },
           "7d": {
-            "absolute": 582,
-            "percent": 0.04985864816242611,
+            "absolute": 651,
+            "percent": 0.05571245186136072,
             "reason": null
           },
           "14d": {
-            "absolute": 1283,
-            "percent": 0.11693401385344514,
+            "absolute": 1306,
+            "percent": 0.11840435176790572,
             "reason": null
           },
           "30d": {
@@ -2614,8 +2702,8 @@
       "appid": 1933000,
       "name": "Luna Abyss",
       "rank_source": {
-        "followers": 11319,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 11326,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "May 21, 2026",
@@ -2688,32 +2776,32 @@
       },
       "history": {
         "followers": {
-          "current": 11319,
-          "previous_1d": 11246,
-          "previous_3d": 11135,
-          "previous_7d": 10806,
-          "previous_14d": 10670,
+          "current": 11326,
+          "previous_1d": 11260,
+          "previous_3d": 11150,
+          "previous_7d": 10808,
+          "previous_14d": 10675,
           "previous_30d": null
         },
         "gains": {
           "1d": {
-            "absolute": 73,
-            "percent": 0.006491196869998221,
+            "absolute": 66,
+            "percent": 0.00586145648312611,
             "reason": null
           },
           "3d": {
-            "absolute": 184,
-            "percent": 0.016524472384373597,
+            "absolute": 176,
+            "percent": 0.0157847533632287,
             "reason": null
           },
           "7d": {
-            "absolute": 513,
-            "percent": 0.04747362576346474,
+            "absolute": 518,
+            "percent": 0.04792746113989637,
             "reason": null
           },
           "14d": {
-            "absolute": 649,
-            "percent": 0.060824742268041236,
+            "absolute": 651,
+            "percent": 0.06098360655737705,
             "reason": null
           },
           "30d": {
@@ -2754,8 +2842,8 @@
       "appid": 1636440,
       "name": "SILENT HILL: Townfall",
       "rank_source": {
-        "followers": 11024,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 11025,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -2816,32 +2904,32 @@
       },
       "history": {
         "followers": {
-          "current": 11024,
+          "current": 11025,
           "previous_1d": 10996,
-          "previous_3d": 10948,
-          "previous_7d": 10838,
-          "previous_14d": 10628,
+          "previous_3d": 10954,
+          "previous_7d": 10844,
+          "previous_14d": 10640,
           "previous_30d": null
         },
         "gains": {
           "1d": {
-            "absolute": 28,
-            "percent": 0.0025463805020007274,
+            "absolute": 29,
+            "percent": 0.0026373226627864677,
             "reason": null
           },
           "3d": {
-            "absolute": 76,
-            "percent": 0.006941907197661673,
+            "absolute": 71,
+            "percent": 0.0064816505386160305,
             "reason": null
           },
           "7d": {
-            "absolute": 186,
-            "percent": 0.017161837977486622,
+            "absolute": 181,
+            "percent": 0.016691257838436002,
             "reason": null
           },
           "14d": {
-            "absolute": 396,
-            "percent": 0.03726006774557772,
+            "absolute": 385,
+            "percent": 0.03618421052631579,
             "reason": null
           },
           "30d": {
@@ -2869,8 +2957,8 @@
       "appid": 2121510,
       "name": "Tenebris Somnia",
       "rank_source": {
-        "followers": 10703,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 10704,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -2931,32 +3019,32 @@
       },
       "history": {
         "followers": {
-          "current": 10703,
+          "current": 10704,
           "previous_1d": 10702,
           "previous_3d": 10701,
           "previous_7d": 10704,
-          "previous_14d": 10684,
+          "previous_14d": 10685,
           "previous_30d": null
         },
         "gains": {
           "1d": {
-            "absolute": 1,
-            "percent": 0.00009344047841524949,
+            "absolute": 2,
+            "percent": 0.00018688095683049897,
             "reason": null
           },
           "3d": {
-            "absolute": 2,
-            "percent": 0.00018689842070834502,
+            "absolute": 3,
+            "percent": 0.0002803476310625175,
             "reason": null
           },
           "7d": {
-            "absolute": -1,
-            "percent": -0.00009342301943198804,
+            "absolute": 0,
+            "percent": 0,
             "reason": null
           },
           "14d": {
             "absolute": 19,
-            "percent": 0.00177836016473231,
+            "percent": 0.0017781937295273749,
             "reason": null
           },
           "30d": {
@@ -2998,7 +3086,7 @@
       "name": "They Are Here: Alien Abduction Horror",
       "rank_source": {
         "followers": 10091,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -3063,8 +3151,8 @@
           "current": 10091,
           "previous_1d": 10086,
           "previous_3d": 10083,
-          "previous_7d": 10079,
-          "previous_14d": 10071,
+          "previous_7d": 10080,
+          "previous_14d": 10070,
           "previous_30d": null
         },
         "gains": {
@@ -3079,13 +3167,13 @@
             "reason": null
           },
           "7d": {
-            "absolute": 12,
-            "percent": 0.0011905943049905744,
+            "absolute": 11,
+            "percent": 0.0010912698412698413,
             "reason": null
           },
           "14d": {
-            "absolute": 20,
-            "percent": 0.001985900109224506,
+            "absolute": 21,
+            "percent": 0.0020854021847070505,
             "reason": null
           },
           "30d": {
@@ -3126,8 +3214,8 @@
       "appid": 3394840,
       "name": "Clawed",
       "rank_source": {
-        "followers": 9446,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 9451,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "Q2 2026",
@@ -3190,32 +3278,32 @@
       },
       "history": {
         "followers": {
-          "current": 9446,
-          "previous_1d": 9438,
+          "current": 9451,
+          "previous_1d": 9440,
           "previous_3d": 9422,
-          "previous_7d": 9390,
-          "previous_14d": 9315,
+          "previous_7d": 9391,
+          "previous_14d": 9317,
           "previous_30d": null
         },
         "gains": {
           "1d": {
-            "absolute": 8,
-            "percent": 0.000847637211273575,
+            "absolute": 11,
+            "percent": 0.0011652542372881357,
             "reason": null
           },
           "3d": {
-            "absolute": 24,
-            "percent": 0.0025472298874973467,
+            "absolute": 29,
+            "percent": 0.0030779027807259604,
             "reason": null
           },
           "7d": {
-            "absolute": 56,
-            "percent": 0.005963791267305644,
+            "absolute": 60,
+            "percent": 0.0063890959429240765,
             "reason": null
           },
           "14d": {
-            "absolute": 131,
-            "percent": 0.01406333870101986,
+            "absolute": 134,
+            "percent": 0.01438231190297306,
             "reason": null
           },
           "30d": {
@@ -3256,8 +3344,8 @@
       "appid": 3115160,
       "name": "Warhammer 40,000: Boltgun 2",
       "rank_source": {
-        "followers": 9278,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 9281,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -3318,32 +3406,32 @@
       },
       "history": {
         "followers": {
-          "current": 9278,
-          "previous_1d": 9268,
+          "current": 9281,
+          "previous_1d": 9269,
           "previous_3d": 9246,
-          "previous_7d": 9196,
-          "previous_14d": 9152,
+          "previous_7d": 9198,
+          "previous_14d": 9154,
           "previous_30d": null
         },
         "gains": {
           "1d": {
-            "absolute": 10,
-            "percent": 0.0010789814415192059,
+            "absolute": 12,
+            "percent": 0.0012946380407810982,
             "reason": null
           },
           "3d": {
-            "absolute": 32,
-            "percent": 0.0034609560891196195,
+            "absolute": 35,
+            "percent": 0.0037854207224745835,
             "reason": null
           },
           "7d": {
-            "absolute": 82,
-            "percent": 0.00891692040017399,
+            "absolute": 83,
+            "percent": 0.009023700804522722,
             "reason": null
           },
           "14d": {
-            "absolute": 126,
-            "percent": 0.013767482517482518,
+            "absolute": 127,
+            "percent": 0.013873716408127594,
             "reason": null
           },
           "30d": {
@@ -3371,8 +3459,8 @@
       "appid": 3299920,
       "name": "Liminal Point",
       "rank_source": {
-        "followers": 8647,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 8648,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -3442,32 +3530,32 @@
       },
       "history": {
         "followers": {
-          "current": 8647,
+          "current": 8648,
           "previous_1d": 8636,
-          "previous_3d": 8620,
-          "previous_7d": 8588,
-          "previous_14d": 8528,
+          "previous_3d": 8622,
+          "previous_7d": 8589,
+          "previous_14d": 8532,
           "previous_30d": null
         },
         "gains": {
           "1d": {
-            "absolute": 11,
-            "percent": 0.0012737378415933302,
+            "absolute": 12,
+            "percent": 0.0013895321908290875,
             "reason": null
           },
           "3d": {
-            "absolute": 27,
-            "percent": 0.0031322505800464038,
+            "absolute": 26,
+            "percent": 0.003015541637671074,
             "reason": null
           },
           "7d": {
             "absolute": 59,
-            "percent": 0.006870051234280391,
+            "percent": 0.0068692513680288746,
             "reason": null
           },
           "14d": {
-            "absolute": 119,
-            "percent": 0.013954033771106942,
+            "absolute": 116,
+            "percent": 0.013595874355368026,
             "reason": null
           },
           "30d": {
@@ -3495,8 +3583,8 @@
       "appid": 3702100,
       "name": "The Secret of Weepstone",
       "rank_source": {
-        "followers": 8375,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 8378,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -3555,32 +3643,32 @@
       },
       "history": {
         "followers": {
-          "current": 8375,
-          "previous_1d": 8371,
-          "previous_3d": 8365,
-          "previous_7d": 8342,
-          "previous_14d": 8255,
+          "current": 8378,
+          "previous_1d": 8372,
+          "previous_3d": 8366,
+          "previous_7d": 8343,
+          "previous_14d": 8260,
           "previous_30d": null
         },
         "gains": {
           "1d": {
-            "absolute": 4,
-            "percent": 0.00047784016246565523,
+            "absolute": 6,
+            "percent": 0.000716674629718108,
             "reason": null
           },
           "3d": {
-            "absolute": 10,
-            "percent": 0.001195457262402869,
+            "absolute": 12,
+            "percent": 0.0014343772412144394,
             "reason": null
           },
           "7d": {
-            "absolute": 33,
-            "percent": 0.0039558858786861665,
+            "absolute": 35,
+            "percent": 0.004195133644971833,
             "reason": null
           },
           "14d": {
-            "absolute": 120,
-            "percent": 0.014536644457904301,
+            "absolute": 118,
+            "percent": 0.014285714285714285,
             "reason": null
           },
           "30d": {
@@ -3612,7 +3700,6 @@
           }
         ],
         "collection_warnings": [
-          "store_appdetails_unavailable",
           "players_unavailable"
         ]
       }
@@ -3622,7 +3709,7 @@
       "name": "Bendy: The Cage",
       "rank_source": {
         "followers": 8338,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -3687,16 +3774,16 @@
       "history": {
         "followers": {
           "current": 8338,
-          "previous_1d": 8332,
+          "previous_1d": 8333,
           "previous_3d": 8330,
-          "previous_7d": 8321,
-          "previous_14d": 8277,
+          "previous_7d": 8322,
+          "previous_14d": 8279,
           "previous_30d": null
         },
         "gains": {
           "1d": {
-            "absolute": 6,
-            "percent": 0.0007201152184349496,
+            "absolute": 5,
+            "percent": 0.0006000240009600384,
             "reason": null
           },
           "3d": {
@@ -3705,13 +3792,13 @@
             "reason": null
           },
           "7d": {
-            "absolute": 17,
-            "percent": 0.002043023675039058,
+            "absolute": 16,
+            "percent": 0.0019226147560682527,
             "reason": null
           },
           "14d": {
-            "absolute": 61,
-            "percent": 0.007369819983085659,
+            "absolute": 59,
+            "percent": 0.0071264645488585575,
             "reason": null
           },
           "30d": {
@@ -3730,7 +3817,6 @@
       "raw": {
         "steam_appdetails_demos": [],
         "collection_warnings": [
-          "store_appdetails_unavailable",
           "players_unavailable"
         ]
       }
@@ -3739,8 +3825,8 @@
       "appid": 1777480,
       "name": "Pathbreakers: Roaming Blades",
       "rank_source": {
-        "followers": 8137,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 8140,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -3805,32 +3891,32 @@
       },
       "history": {
         "followers": {
-          "current": 8137,
+          "current": 8140,
           "previous_1d": 8125,
-          "previous_3d": 8092,
+          "previous_3d": 8096,
           "previous_7d": 8040,
           "previous_14d": 7912,
           "previous_30d": null
         },
         "gains": {
           "1d": {
-            "absolute": 12,
-            "percent": 0.0014769230769230768,
+            "absolute": 15,
+            "percent": 0.0018461538461538461,
             "reason": null
           },
           "3d": {
-            "absolute": 45,
-            "percent": 0.005561047948591201,
+            "absolute": 44,
+            "percent": 0.005434782608695652,
             "reason": null
           },
           "7d": {
-            "absolute": 97,
-            "percent": 0.012064676616915423,
+            "absolute": 100,
+            "percent": 0.012437810945273632,
             "reason": null
           },
           "14d": {
-            "absolute": 225,
-            "percent": 0.028437815975733062,
+            "absolute": 228,
+            "percent": 0.028816986855409503,
             "reason": null
           },
           "30d": {
@@ -3849,7 +3935,6 @@
       "raw": {
         "steam_appdetails_demos": [],
         "collection_warnings": [
-          "store_appdetails_unavailable",
           "players_unavailable"
         ]
       }
@@ -3858,8 +3943,8 @@
       "appid": 4576490,
       "name": "Casualties: Unknown",
       "rank_source": {
-        "followers": 7940,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 7972,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -3919,32 +4004,32 @@
       },
       "history": {
         "followers": {
-          "current": 7940,
+          "current": 7972,
           "previous_1d": 7785,
-          "previous_3d": 7436,
-          "previous_7d": 6764,
-          "previous_14d": 5711,
+          "previous_3d": 7482,
+          "previous_7d": 6797,
+          "previous_14d": 5754,
           "previous_30d": null
         },
         "gains": {
           "1d": {
-            "absolute": 155,
-            "percent": 0.01991008349389852,
+            "absolute": 187,
+            "percent": 0.024020552344251767,
             "reason": null
           },
           "3d": {
-            "absolute": 504,
-            "percent": 0.06777837547068316,
+            "absolute": 490,
+            "percent": 0.06549051055867415,
             "reason": null
           },
           "7d": {
-            "absolute": 1176,
-            "percent": 0.17386162034299232,
+            "absolute": 1175,
+            "percent": 0.17287038399293805,
             "reason": null
           },
           "14d": {
-            "absolute": 2229,
-            "percent": 0.39029942216774643,
+            "absolute": 2218,
+            "percent": 0.3854709767118526,
             "reason": null
           },
           "30d": {
@@ -3976,7 +4061,6 @@
           }
         ],
         "collection_warnings": [
-          "store_appdetails_unavailable",
           "players_unavailable"
         ]
       }
@@ -3986,7 +4070,7 @@
       "name": "Five Laps at Freddy's",
       "rank_source": {
         "followers": 7816,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -4052,7 +4136,7 @@
       "history": {
         "followers": {
           "current": 7816,
-          "previous_1d": 7814,
+          "previous_1d": 7816,
           "previous_3d": 7808,
           "previous_7d": 7803,
           "previous_14d": 7791,
@@ -4060,8 +4144,8 @@
         },
         "gains": {
           "1d": {
-            "absolute": 2,
-            "percent": 0.0002559508574353724,
+            "absolute": 0,
+            "percent": 0,
             "reason": null
           },
           "3d": {
@@ -4108,7 +4192,6 @@
           }
         ],
         "collection_warnings": [
-          "store_appdetails_unavailable",
           "players_unavailable"
         ]
       }
@@ -4117,8 +4200,8 @@
       "appid": 3459340,
       "name": "Lacey's Flash Games",
       "rank_source": {
-        "followers": 7680,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 7681,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -4184,32 +4267,32 @@
       },
       "history": {
         "followers": {
-          "current": 7680,
+          "current": 7681,
           "previous_1d": 7666,
-          "previous_3d": 7646,
+          "previous_3d": 7647,
           "previous_7d": 7620,
-          "previous_14d": 7553,
+          "previous_14d": 7555,
           "previous_30d": null
         },
         "gains": {
           "1d": {
-            "absolute": 14,
-            "percent": 0.001826245760500913,
+            "absolute": 15,
+            "percent": 0.0019566918862509784,
             "reason": null
           },
           "3d": {
             "absolute": 34,
-            "percent": 0.004446769552707298,
+            "percent": 0.004446188047600367,
             "reason": null
           },
           "7d": {
-            "absolute": 60,
-            "percent": 0.007874015748031496,
+            "absolute": 61,
+            "percent": 0.008005249343832021,
             "reason": null
           },
           "14d": {
-            "absolute": 127,
-            "percent": 0.016814510790414405,
+            "absolute": 126,
+            "percent": 0.016677696889477168,
             "reason": null
           },
           "30d": {
@@ -4241,7 +4324,6 @@
           }
         ],
         "collection_warnings": [
-          "store_appdetails_unavailable",
           "players_unavailable"
         ]
       }
@@ -4251,7 +4333,7 @@
       "name": "Silver Pines",
       "rank_source": {
         "followers": 7591,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -4316,31 +4398,31 @@
       "history": {
         "followers": {
           "current": 7591,
-          "previous_1d": 7580,
-          "previous_3d": 7559,
-          "previous_7d": 7482,
-          "previous_14d": 7364,
+          "previous_1d": 7581,
+          "previous_3d": 7560,
+          "previous_7d": 7492,
+          "previous_14d": 7366,
           "previous_30d": null
         },
         "gains": {
           "1d": {
-            "absolute": 11,
-            "percent": 0.0014511873350923482,
+            "absolute": 10,
+            "percent": 0.001319087191663369,
             "reason": null
           },
           "3d": {
-            "absolute": 32,
-            "percent": 0.00423336420161397,
+            "absolute": 31,
+            "percent": 0.0041005291005291,
             "reason": null
           },
           "7d": {
-            "absolute": 109,
-            "percent": 0.014568297246725474,
+            "absolute": 99,
+            "percent": 0.013214095034703685,
             "reason": null
           },
           "14d": {
-            "absolute": 227,
-            "percent": 0.030825638240086908,
+            "absolute": 225,
+            "percent": 0.030545750746673907,
             "reason": null
           },
           "30d": {
@@ -4359,7 +4441,6 @@
       "raw": {
         "steam_appdetails_demos": [],
         "collection_warnings": [
-          "store_appdetails_unavailable",
           "players_unavailable"
         ]
       }
@@ -4368,8 +4449,8 @@
       "appid": 4012810,
       "name": "STEINS;GATE RE:BOOT",
       "rank_source": {
-        "followers": 7514,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 7523,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -4429,32 +4510,32 @@
       },
       "history": {
         "followers": {
-          "current": 7514,
+          "current": 7523,
           "previous_1d": 7500,
-          "previous_3d": 7437,
+          "previous_3d": 7443,
           "previous_7d": 7314,
           "previous_14d": 6705,
           "previous_30d": null
         },
         "gains": {
           "1d": {
-            "absolute": 14,
-            "percent": 0.0018666666666666666,
+            "absolute": 23,
+            "percent": 0.0030666666666666668,
             "reason": null
           },
           "3d": {
-            "absolute": 77,
-            "percent": 0.010353637219308862,
+            "absolute": 80,
+            "percent": 0.010748354158269515,
             "reason": null
           },
           "7d": {
-            "absolute": 200,
-            "percent": 0.027344818156959255,
+            "absolute": 209,
+            "percent": 0.028575334974022423,
             "reason": null
           },
           "14d": {
-            "absolute": 809,
-            "percent": 0.12065622669649516,
+            "absolute": 818,
+            "percent": 0.12199850857568978,
             "reason": null
           },
           "30d": {
@@ -4482,7 +4563,7 @@
       "name": "Fractured Mind",
       "rank_source": {
         "followers": 7491,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -4547,7 +4628,7 @@
         "followers": {
           "current": 7491,
           "previous_1d": 7491,
-          "previous_3d": 7488,
+          "previous_3d": 7489,
           "previous_7d": 7487,
           "previous_14d": 7482,
           "previous_30d": null
@@ -4559,8 +4640,8 @@
             "reason": null
           },
           "3d": {
-            "absolute": 3,
-            "percent": 0.00040064102564102563,
+            "absolute": 2,
+            "percent": 0.00026705835224996664,
             "reason": null
           },
           "7d": {
@@ -4610,8 +4691,8 @@
       "appid": 2680280,
       "name": "PAPERHEAD",
       "rank_source": {
-        "followers": 6737,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 6738,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "Q2 2026",
@@ -4673,32 +4754,32 @@
       },
       "history": {
         "followers": {
-          "current": 6737,
-          "previous_1d": 6733,
-          "previous_3d": 6726,
-          "previous_7d": 6712,
-          "previous_14d": 6700,
+          "current": 6738,
+          "previous_1d": 6734,
+          "previous_3d": 6725,
+          "previous_7d": 6714,
+          "previous_14d": 6702,
           "previous_30d": null
         },
         "gains": {
           "1d": {
             "absolute": 4,
-            "percent": 0.0005940888162780336,
+            "percent": 0.000594000594000594,
             "reason": null
           },
           "3d": {
-            "absolute": 11,
-            "percent": 0.0016354445435622957,
+            "absolute": 13,
+            "percent": 0.001933085501858736,
             "reason": null
           },
           "7d": {
-            "absolute": 25,
-            "percent": 0.003724672228843862,
+            "absolute": 24,
+            "percent": 0.0035746201966041107,
             "reason": null
           },
           "14d": {
-            "absolute": 37,
-            "percent": 0.0055223880597014925,
+            "absolute": 36,
+            "percent": 0.005371530886302597,
             "reason": null
           },
           "30d": {
@@ -4738,8 +4819,8 @@
       "appid": 3462190,
       "name": "PHASE ZERO",
       "rank_source": {
-        "followers": 6722,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 6725,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -4801,32 +4882,32 @@
       },
       "history": {
         "followers": {
-          "current": 6722,
+          "current": 6725,
           "previous_1d": 6717,
-          "previous_3d": 6694,
-          "previous_7d": 6644,
-          "previous_14d": 6529,
+          "previous_3d": 6696,
+          "previous_7d": 6648,
+          "previous_14d": 6536,
           "previous_30d": null
         },
         "gains": {
           "1d": {
-            "absolute": 5,
-            "percent": 0.0007443799315170463,
+            "absolute": 8,
+            "percent": 0.001191007890427274,
             "reason": null
           },
           "3d": {
-            "absolute": 28,
-            "percent": 0.004182850313713774,
+            "absolute": 29,
+            "percent": 0.004330943847072879,
             "reason": null
           },
           "7d": {
-            "absolute": 78,
-            "percent": 0.011739915713425647,
+            "absolute": 77,
+            "percent": 0.01158243080625752,
             "reason": null
           },
           "14d": {
-            "absolute": 193,
-            "percent": 0.02956042272936131,
+            "absolute": 189,
+            "percent": 0.028916768665850672,
             "reason": null
           },
           "30d": {
@@ -4863,11 +4944,11 @@
       }
     },
     {
-      "appid": 4176460,
-      "name": "Dungeons of DUSK",
+      "appid": 2960250,
+      "name": "Tempus Triad",
       "rank_source": {
-        "followers": 6303,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 6350,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -4877,35 +4958,35 @@
       },
       "demo": {
         "exists": true,
-        "appid": 4379580,
-        "name": "Dungeons of DUSK Demo",
-        "release_text": "Feb 23, 2026",
-        "normalized_release_date": "2026-02-23",
+        "appid": 3186190,
+        "name": "Tempus Triad DEMO",
+        "release_text": "Sep 3, 2024",
+        "normalized_release_date": "2024-09-03",
         "release_precision": 4
       },
       "media": {
-        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4176460/c25e95a903027c7d2a4cfbe21aa569c31b083ce8/header.jpg?t=1771882898",
-        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4176460/c25e95a903027c7d2a4cfbe21aa569c31b083ce8/header.jpg?t=1771882898"
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2960250/header.jpg?t=1772646164",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2960250/header.jpg?t=1772646164"
       },
       "taxonomy": {
         "tags": [],
         "genres": [
-          "RPG"
+          "Action",
+          "Indie"
         ],
         "categories": [
           "Single-player",
-          "Full controller support",
+          "Steam Achievements",
           "Steam Cloud",
-          "Includes level editor",
           "Family Sharing"
         ]
       },
       "companies": {
         "developers": [
-          "68k Studios"
+          "Mendesz"
         ],
         "publishers": [
-          "New Blood Interactive"
+          "Pretty Soon"
         ]
       },
       "commercial": {
@@ -4922,38 +5003,38 @@
         }
       },
       "news": {
-        "latest_news_date": "2026-03-07T00:35:55.000Z",
-        "latest_news_title": "Dungeons of DUSK Demo Update #2",
-        "latest_news_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1826362059925880"
+        "latest_news_date": "2025-11-06T19:20:49.000Z",
+        "latest_news_title": "WE’VE REACHED OVER 120,000 WISHLISTS!",
+        "latest_news_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1815580768270476"
       },
       "history": {
         "followers": {
-          "current": 6303,
-          "previous_1d": 6304,
-          "previous_3d": 6300,
-          "previous_7d": 6304,
-          "previous_14d": 6296,
+          "current": 6350,
+          "previous_1d": 6340,
+          "previous_3d": 6328,
+          "previous_7d": 6305,
+          "previous_14d": 6262,
           "previous_30d": null
         },
         "gains": {
           "1d": {
-            "absolute": -1,
-            "percent": -0.00015862944162436547,
+            "absolute": 10,
+            "percent": 0.0015772870662460567,
             "reason": null
           },
           "3d": {
-            "absolute": 3,
-            "percent": 0.0004761904761904762,
+            "absolute": 22,
+            "percent": 0.00347661188369153,
             "reason": null
           },
           "7d": {
-            "absolute": -1,
-            "percent": -0.00015862944162436547,
+            "absolute": 45,
+            "percent": 0.007137192704203013,
             "reason": null
           },
           "14d": {
-            "absolute": 7,
-            "percent": 0.0011118170266836086,
+            "absolute": 88,
+            "percent": 0.01405301820504631,
             "reason": null
           },
           "30d": {
@@ -4964,24 +5045,24 @@
         }
       },
       "links": {
-        "store": "https://store.steampowered.com/app/4176460/",
-        "steamdb": "https://steamdb.info/app/4176460/",
-        "demo_store": "https://store.steampowered.com/app/4379580/",
-        "demo_steamdb": "https://steamdb.info/app/4379580/"
+        "store": "https://store.steampowered.com/app/2960250/",
+        "steamdb": "https://steamdb.info/app/2960250/",
+        "demo_store": "https://store.steampowered.com/app/3186190/",
+        "demo_steamdb": "https://steamdb.info/app/3186190/"
       },
       "raw": {
         "steam_appdetails_demos": [
           {
-            "appid": 4379580,
-            "name": "Dungeons of DUSK Demo",
-            "releaseDateRaw": "Feb 23, 2026",
-            "releaseDate": "2026-02-23T00:00:00.000Z",
-            "releaseSort": "2026-02-23",
+            "appid": 3186190,
+            "name": "Tempus Triad DEMO",
+            "releaseDateRaw": "Sep 3, 2024",
+            "releaseDate": "2024-09-03T00:00:00.000Z",
+            "releaseSort": "2024-09-03",
             "releaseDatePrecision": 4,
             "comingSoon": false,
-            "parentAppid": 4176460,
-            "parentName": "Dungeons of DUSK",
-            "storeUrl": "https://store.steampowered.com/app/4379580/"
+            "parentAppid": 2960250,
+            "parentName": "Tempus Triad",
+            "storeUrl": "https://store.steampowered.com/app/3186190/"
           }
         ],
         "collection_warnings": [
@@ -4994,7 +5075,7 @@
       "name": "Redemption of the Damned",
       "rank_source": {
         "followers": 5985,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "Q2 2026",
@@ -5056,9 +5137,9 @@
         "followers": {
           "current": 5985,
           "previous_1d": 5985,
-          "previous_3d": 5985,
-          "previous_7d": 5986,
-          "previous_14d": 5990,
+          "previous_3d": 5986,
+          "previous_7d": 5985,
+          "previous_14d": 5989,
           "previous_30d": null
         },
         "gains": {
@@ -5068,18 +5149,18 @@
             "reason": null
           },
           "3d": {
-            "absolute": 0,
-            "percent": 0,
-            "reason": null
-          },
-          "7d": {
             "absolute": -1,
             "percent": -0.0001670564650851988,
             "reason": null
           },
+          "7d": {
+            "absolute": 0,
+            "percent": 0,
+            "reason": null
+          },
           "14d": {
-            "absolute": -5,
-            "percent": -0.0008347245409015025,
+            "absolute": -4,
+            "percent": -0.0006678911337451996,
             "reason": null
           },
           "30d": {
@@ -5106,8 +5187,8 @@
       "appid": 3725190,
       "name": "There Are No Ghosts at the Grand",
       "rank_source": {
-        "followers": 5905,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 5908,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -5170,32 +5251,32 @@
       },
       "history": {
         "followers": {
-          "current": 5905,
-          "previous_1d": 5885,
+          "current": 5908,
+          "previous_1d": 5887,
           "previous_3d": 5823,
-          "previous_7d": 5727,
-          "previous_14d": 5650,
+          "previous_7d": 5740,
+          "previous_14d": 5652,
           "previous_30d": null
         },
         "gains": {
           "1d": {
-            "absolute": 20,
-            "percent": 0.0033984706881903144,
+            "absolute": 21,
+            "percent": 0.0035671819262782403,
             "reason": null
           },
           "3d": {
-            "absolute": 82,
-            "percent": 0.014082088270650868,
+            "absolute": 85,
+            "percent": 0.014597286622016143,
             "reason": null
           },
           "7d": {
-            "absolute": 178,
-            "percent": 0.03108084511960887,
+            "absolute": 168,
+            "percent": 0.02926829268292683,
             "reason": null
           },
           "14d": {
-            "absolute": 255,
-            "percent": 0.04513274336283186,
+            "absolute": 256,
+            "percent": 0.04529370134465676,
             "reason": null
           },
           "30d": {
@@ -5236,7 +5317,7 @@
       "name": "Vapor World: Over The Mind",
       "rank_source": {
         "followers": 5563,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "Q2 2026",
@@ -5312,8 +5393,8 @@
           "current": 5563,
           "previous_1d": 5561,
           "previous_3d": 5552,
-          "previous_7d": 5546,
-          "previous_14d": 5524,
+          "previous_7d": 5547,
+          "previous_14d": 5525,
           "previous_30d": null
         },
         "gains": {
@@ -5328,13 +5409,13 @@
             "reason": null
           },
           "7d": {
-            "absolute": 17,
-            "percent": 0.0030652722683014787,
+            "absolute": 16,
+            "percent": 0.002884442040742744,
             "reason": null
           },
           "14d": {
-            "absolute": 39,
-            "percent": 0.007060101375814627,
+            "absolute": 38,
+            "percent": 0.006877828054298643,
             "reason": null
           },
           "30d": {
@@ -5361,8 +5442,8 @@
       "appid": 3895110,
       "name": "The Road of Dust and Sorrow",
       "rank_source": {
-        "followers": 5308,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 5314,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -5424,8 +5505,8 @@
       },
       "history": {
         "followers": {
-          "current": 5308,
-          "previous_1d": 5275,
+          "current": 5314,
+          "previous_1d": 5283,
           "previous_3d": 5169,
           "previous_7d": 4942,
           "previous_14d": 4049,
@@ -5433,23 +5514,23 @@
         },
         "gains": {
           "1d": {
-            "absolute": 33,
-            "percent": 0.006255924170616114,
+            "absolute": 31,
+            "percent": 0.005867878099564641,
             "reason": null
           },
           "3d": {
-            "absolute": 139,
-            "percent": 0.026891081447088412,
+            "absolute": 145,
+            "percent": 0.028051847552718126,
             "reason": null
           },
           "7d": {
-            "absolute": 366,
-            "percent": 0.07405908539053015,
+            "absolute": 372,
+            "percent": 0.07527316875758802,
             "reason": null
           },
           "14d": {
-            "absolute": 1259,
-            "percent": 0.3109409730797728,
+            "absolute": 1265,
+            "percent": 0.3124228204494937,
             "reason": null
           },
           "30d": {
@@ -5489,8 +5570,8 @@
       "appid": 3631230,
       "name": "CastleMiner Z : Resurrection",
       "rank_source": {
-        "followers": 5284,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 5288,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -5557,8 +5638,8 @@
       },
       "history": {
         "followers": {
-          "current": 5284,
-          "previous_1d": 5281,
+          "current": 5288,
+          "previous_1d": 5282,
           "previous_3d": 5272,
           "previous_7d": 5250,
           "previous_14d": 5213,
@@ -5566,23 +5647,23 @@
         },
         "gains": {
           "1d": {
-            "absolute": 3,
-            "percent": 0.0005680742283658398,
+            "absolute": 6,
+            "percent": 0.001135933358576297,
             "reason": null
           },
           "3d": {
-            "absolute": 12,
-            "percent": 0.002276176024279211,
+            "absolute": 16,
+            "percent": 0.0030349013657056147,
             "reason": null
           },
           "7d": {
-            "absolute": 34,
-            "percent": 0.0064761904761904765,
+            "absolute": 38,
+            "percent": 0.007238095238095238,
             "reason": null
           },
           "14d": {
-            "absolute": 71,
-            "percent": 0.013619796662190677,
+            "absolute": 75,
+            "percent": 0.01438710915020142,
             "reason": null
           },
           "30d": {
@@ -5610,7 +5691,7 @@
       "name": "Kitsune: The Journey of Adashino",
       "rank_source": {
         "followers": 5267,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "Q4 2026",
@@ -5674,7 +5755,7 @@
         "followers": {
           "current": 5267,
           "previous_1d": 5267,
-          "previous_3d": 5263,
+          "previous_3d": 5264,
           "previous_7d": 5262,
           "previous_14d": 5251,
           "previous_30d": null
@@ -5686,8 +5767,8 @@
             "reason": null
           },
           "3d": {
-            "absolute": 4,
-            "percent": 0.0007600228006840206,
+            "absolute": 3,
+            "percent": 0.0005699088145896656,
             "reason": null
           },
           "7d": {
@@ -5725,7 +5806,7 @@
       "name": "Neverlooted Dungeon",
       "rank_source": {
         "followers": 4897,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -5856,7 +5937,7 @@
       "name": "Benny's Backrooms",
       "rank_source": {
         "followers": 4698,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -5978,8 +6059,8 @@
       "appid": 4108000,
       "name": "Machine Party",
       "rank_source": {
-        "followers": 4545,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 4551,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "Q3 2026",
@@ -6041,7 +6122,7 @@
       },
       "history": {
         "followers": {
-          "current": 4545,
+          "current": 4551,
           "previous_1d": 4524,
           "previous_3d": 4490,
           "previous_7d": 4434,
@@ -6050,23 +6131,23 @@
         },
         "gains": {
           "1d": {
-            "absolute": 21,
-            "percent": 0.004641909814323607,
+            "absolute": 27,
+            "percent": 0.005968169761273209,
             "reason": null
           },
           "3d": {
-            "absolute": 55,
-            "percent": 0.012249443207126948,
+            "absolute": 61,
+            "percent": 0.013585746102449888,
             "reason": null
           },
           "7d": {
-            "absolute": 111,
-            "percent": 0.02503382949932341,
+            "absolute": 117,
+            "percent": 0.02638700947225981,
             "reason": null
           },
           "14d": {
-            "absolute": 252,
-            "percent": 0.05870020964360587,
+            "absolute": 258,
+            "percent": 0.06009783368273934,
             "reason": null
           },
           "30d": {
@@ -6093,8 +6174,8 @@
       "appid": 3607440,
       "name": "A.A.U. Black Site",
       "rank_source": {
-        "followers": 4498,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 4506,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "May 2026",
@@ -6157,7 +6238,7 @@
       },
       "history": {
         "followers": {
-          "current": 4498,
+          "current": 4506,
           "previous_1d": 4470,
           "previous_3d": 4409,
           "previous_7d": 4210,
@@ -6166,23 +6247,23 @@
         },
         "gains": {
           "1d": {
-            "absolute": 28,
-            "percent": 0.006263982102908278,
+            "absolute": 36,
+            "percent": 0.008053691275167786,
             "reason": null
           },
           "3d": {
-            "absolute": 89,
-            "percent": 0.020185983216148787,
+            "absolute": 97,
+            "percent": 0.022000453617600363,
             "reason": null
           },
           "7d": {
-            "absolute": 288,
-            "percent": 0.0684085510688836,
+            "absolute": 296,
+            "percent": 0.07030878859857483,
             "reason": null
           },
           "14d": {
-            "absolute": 460,
-            "percent": 0.11391778107974244,
+            "absolute": 468,
+            "percent": 0.11589895988112928,
             "reason": null
           },
           "30d": {
@@ -6223,7 +6304,7 @@
       "name": "Cleaner Company",
       "rank_source": {
         "followers": 4182,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -6338,11 +6419,133 @@
       }
     },
     {
+      "appid": 3035270,
+      "name": "Backrooms",
+      "rank_source": {
+        "followers": 4182,
+        "captured_at": "2026-05-19T08:15:10.521Z"
+      },
+      "release": {
+        "text": "2026",
+        "normalized_date": "2026-12-31",
+        "precision": 1,
+        "coming_soon": true
+      },
+      "demo": {
+        "exists": false,
+        "appid": null,
+        "name": null,
+        "release_text": null,
+        "normalized_release_date": null,
+        "release_precision": 0
+      },
+      "media": {
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3035270/header.jpg?t=1765310686",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3035270/header.jpg?t=1765310686"
+      },
+      "taxonomy": {
+        "tags": [],
+        "genres": [
+          "Action",
+          "Adventure",
+          "Casual",
+          "Indie",
+          "Free To Play"
+        ],
+        "categories": [
+          "Single-player",
+          "Multi-player",
+          "Co-op",
+          "Online Co-op",
+          "LAN Co-op",
+          "Steam Achievements",
+          "Stats",
+          "Steam Leaderboards",
+          "HDR available"
+        ]
+      },
+      "companies": {
+        "developers": [
+          "Cynical Revolution"
+        ],
+        "publishers": [
+          "Cynical Revolution"
+        ]
+      },
+      "commercial": {
+        "price": "Free",
+        "is_free": true
+      },
+      "availability": {
+        "game_pass": {
+          "coming": false,
+          "label": null,
+          "date_text": null,
+          "normalized_date": null,
+          "precision": 0
+        }
+      },
+      "news": {
+        "latest_news_date": null,
+        "latest_news_title": null,
+        "latest_news_url": null
+      },
+      "history": {
+        "followers": {
+          "current": 4182,
+          "previous_1d": 4161,
+          "previous_3d": 4108,
+          "previous_7d": 4058,
+          "previous_14d": 3925,
+          "previous_30d": null
+        },
+        "gains": {
+          "1d": {
+            "absolute": 21,
+            "percent": 0.005046863734679163,
+            "reason": null
+          },
+          "3d": {
+            "absolute": 74,
+            "percent": 0.01801363193768257,
+            "reason": null
+          },
+          "7d": {
+            "absolute": 124,
+            "percent": 0.030556924593395762,
+            "reason": null
+          },
+          "14d": {
+            "absolute": 257,
+            "percent": 0.06547770700636943,
+            "reason": null
+          },
+          "30d": {
+            "absolute": null,
+            "percent": null,
+            "reason": "not_enough_history"
+          }
+        }
+      },
+      "links": {
+        "store": "https://store.steampowered.com/app/3035270/",
+        "steamdb": "https://steamdb.info/app/3035270/",
+        "demo_store": null,
+        "demo_steamdb": null
+      },
+      "raw": {
+        "steam_appdetails_demos": [],
+        "collection_warnings": [
+          "players_unavailable"
+        ]
+      }
+    },
+    {
       "appid": 2266890,
       "name": "BECROWNED",
       "rank_source": {
-        "followers": 3923,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 3924,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "Q4 2026",
@@ -6404,7 +6607,7 @@
       },
       "history": {
         "followers": {
-          "current": 3923,
+          "current": 3924,
           "previous_1d": 3916,
           "previous_3d": 3915,
           "previous_7d": 3904,
@@ -6413,23 +6616,23 @@
         },
         "gains": {
           "1d": {
-            "absolute": 7,
-            "percent": 0.001787538304392237,
+            "absolute": 8,
+            "percent": 0.0020429009193054137,
             "reason": null
           },
           "3d": {
-            "absolute": 8,
-            "percent": 0.0020434227330779057,
+            "absolute": 9,
+            "percent": 0.0022988505747126436,
             "reason": null
           },
           "7d": {
-            "absolute": 19,
-            "percent": 0.004866803278688525,
+            "absolute": 20,
+            "percent": 0.005122950819672131,
             "reason": null
           },
           "14d": {
-            "absolute": 50,
-            "percent": 0.012909888974954816,
+            "absolute": 51,
+            "percent": 0.013168086754453912,
             "reason": null
           },
           "30d": {
@@ -6470,7 +6673,7 @@
       "name": "SchoolBoy OutDoors",
       "rank_source": {
         "followers": 3920,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -6581,7 +6784,7 @@
       "name": "Backrooms",
       "rank_source": {
         "followers": 3882,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -6705,7 +6908,7 @@
       "name": "The Backworld",
       "rank_source": {
         "followers": 3697,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2027",
@@ -6839,8 +7042,8 @@
       "appid": 1808160,
       "name": "Demon Spore",
       "rank_source": {
-        "followers": 3520,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 3519,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -6908,7 +7111,7 @@
       },
       "history": {
         "followers": {
-          "current": 3520,
+          "current": 3519,
           "previous_1d": 3520,
           "previous_3d": 3518,
           "previous_7d": 3516,
@@ -6917,23 +7120,23 @@
         },
         "gains": {
           "1d": {
-            "absolute": 0,
-            "percent": 0,
+            "absolute": -1,
+            "percent": -0.0002840909090909091,
             "reason": null
           },
           "3d": {
-            "absolute": 2,
-            "percent": 0.0005685048322910744,
+            "absolute": 1,
+            "percent": 0.0002842524161455372,
             "reason": null
           },
           "7d": {
-            "absolute": 4,
-            "percent": 0.0011376564277588168,
+            "absolute": 3,
+            "percent": 0.0008532423208191126,
             "reason": null
           },
           "14d": {
-            "absolute": 2,
-            "percent": 0.0005685048322910744,
+            "absolute": 1,
+            "percent": 0.0002842524161455372,
             "reason": null
           },
           "30d": {
@@ -6973,8 +7176,8 @@
       "appid": 3378100,
       "name": "Killer Chat! - Expanded Edition",
       "rank_source": {
-        "followers": 3473,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 3475,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -7037,7 +7240,7 @@
       },
       "history": {
         "followers": {
-          "current": 3473,
+          "current": 3475,
           "previous_1d": 3469,
           "previous_3d": 3457,
           "previous_7d": 3424,
@@ -7046,23 +7249,23 @@
         },
         "gains": {
           "1d": {
-            "absolute": 4,
-            "percent": 0.0011530700490054772,
+            "absolute": 6,
+            "percent": 0.0017296050735082155,
             "reason": null
           },
           "3d": {
-            "absolute": 16,
-            "percent": 0.0046282904252241824,
+            "absolute": 18,
+            "percent": 0.005206826728377205,
             "reason": null
           },
           "7d": {
-            "absolute": 49,
-            "percent": 0.014310747663551402,
+            "absolute": 51,
+            "percent": 0.014894859813084112,
             "reason": null
           },
           "14d": {
-            "absolute": 92,
-            "percent": 0.027210884353741496,
+            "absolute": 94,
+            "percent": 0.027802425317953267,
             "reason": null
           },
           "30d": {
@@ -7102,8 +7305,8 @@
       "appid": 2605900,
       "name": "DIGESTED",
       "rank_source": {
-        "followers": 3280,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 3281,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -7163,7 +7366,7 @@
       },
       "history": {
         "followers": {
-          "current": 3280,
+          "current": 3281,
           "previous_1d": 3281,
           "previous_3d": 3280,
           "previous_7d": 3276,
@@ -7172,23 +7375,23 @@
         },
         "gains": {
           "1d": {
-            "absolute": -1,
-            "percent": -0.00030478512648582747,
-            "reason": null
-          },
-          "3d": {
             "absolute": 0,
             "percent": 0,
             "reason": null
           },
+          "3d": {
+            "absolute": 1,
+            "percent": 0.0003048780487804878,
+            "reason": null
+          },
           "7d": {
-            "absolute": 4,
-            "percent": 0.001221001221001221,
+            "absolute": 5,
+            "percent": 0.0015262515262515263,
             "reason": null
           },
           "14d": {
-            "absolute": 12,
-            "percent": 0.0036719706242350062,
+            "absolute": 13,
+            "percent": 0.00397796817625459,
             "reason": null
           },
           "30d": {
@@ -7229,7 +7432,7 @@
       "name": "Dead Watch",
       "rank_source": {
         "followers": 3268,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -7366,8 +7569,8 @@
       "appid": 3004280,
       "name": "World of Magic: Rise of Magic",
       "rank_source": {
-        "followers": 3145,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 3147,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "Oct 1, 2026",
@@ -7440,7 +7643,7 @@
       },
       "history": {
         "followers": {
-          "current": 3145,
+          "current": 3147,
           "previous_1d": 3115,
           "previous_3d": 3082,
           "previous_7d": 2959,
@@ -7449,23 +7652,23 @@
         },
         "gains": {
           "1d": {
-            "absolute": 30,
-            "percent": 0.009630818619582664,
+            "absolute": 32,
+            "percent": 0.010272873194221509,
             "reason": null
           },
           "3d": {
-            "absolute": 63,
-            "percent": 0.020441271901362752,
+            "absolute": 65,
+            "percent": 0.02109020116807268,
             "reason": null
           },
           "7d": {
-            "absolute": 186,
-            "percent": 0.06285907401149037,
+            "absolute": 188,
+            "percent": 0.06353497803311929,
             "reason": null
           },
           "14d": {
-            "absolute": 229,
-            "percent": 0.07853223593964334,
+            "absolute": 231,
+            "percent": 0.07921810699588477,
             "reason": null
           },
           "30d": {
@@ -7492,8 +7695,8 @@
       "appid": 3314300,
       "name": "Gnawer No. 44 Observation Report",
       "rank_source": {
-        "followers": 3133,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 3132,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -7555,7 +7758,7 @@
       },
       "history": {
         "followers": {
-          "current": 3133,
+          "current": 3132,
           "previous_1d": 3132,
           "previous_3d": 3132,
           "previous_7d": 3129,
@@ -7564,23 +7767,23 @@
         },
         "gains": {
           "1d": {
-            "absolute": 1,
-            "percent": 0.00031928480204342275,
+            "absolute": 0,
+            "percent": 0,
             "reason": null
           },
           "3d": {
-            "absolute": 1,
-            "percent": 0.00031928480204342275,
+            "absolute": 0,
+            "percent": 0,
             "reason": null
           },
           "7d": {
-            "absolute": 4,
-            "percent": 0.001278363694471077,
+            "absolute": 3,
+            "percent": 0.0009587727708533077,
             "reason": null
           },
           "14d": {
-            "absolute": 5,
-            "percent": 0.00159846547314578,
+            "absolute": 4,
+            "percent": 0.0012787723785166241,
             "reason": null
           },
           "30d": {
@@ -7621,7 +7824,7 @@
       "name": "Tower Of Tears",
       "rank_source": {
         "followers": 3098,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -7734,7 +7937,7 @@
       "name": "Milo",
       "rank_source": {
         "followers": 3091,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "Q2 2026",
@@ -7873,7 +8076,7 @@
       "name": "Escape: Immersion",
       "rank_source": {
         "followers": 3030,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "July 2026",
@@ -8004,8 +8207,8 @@
       "appid": 3469420,
       "name": "Biofactory",
       "rank_source": {
-        "followers": 3016,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 3015,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -8064,7 +8267,7 @@
       },
       "history": {
         "followers": {
-          "current": 3016,
+          "current": 3015,
           "previous_1d": 3009,
           "previous_3d": 3004,
           "previous_7d": 2994,
@@ -8073,23 +8276,23 @@
         },
         "gains": {
           "1d": {
-            "absolute": 7,
-            "percent": 0.002326354270521768,
+            "absolute": 6,
+            "percent": 0.0019940179461615153,
             "reason": null
           },
           "3d": {
-            "absolute": 12,
-            "percent": 0.0039946737683089215,
+            "absolute": 11,
+            "percent": 0.0036617842876165113,
             "reason": null
           },
           "7d": {
-            "absolute": 22,
-            "percent": 0.007348029392117568,
+            "absolute": 21,
+            "percent": 0.0070140280561122245,
             "reason": null
           },
           "14d": {
-            "absolute": 55,
-            "percent": 0.018574805808848363,
+            "absolute": 54,
+            "percent": 0.0182370820668693,
             "reason": null
           },
           "30d": {
@@ -8116,8 +8319,8 @@
       "appid": 3590290,
       "name": "DIVE or DIE - Children of Rain",
       "rank_source": {
-        "followers": 2926,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 2928,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -8180,7 +8383,7 @@
       },
       "history": {
         "followers": {
-          "current": 2926,
+          "current": 2928,
           "previous_1d": 2909,
           "previous_3d": 2893,
           "previous_7d": 2843,
@@ -8189,23 +8392,23 @@
         },
         "gains": {
           "1d": {
-            "absolute": 17,
-            "percent": 0.005843932622894466,
+            "absolute": 19,
+            "percent": 0.006531454107940873,
             "reason": null
           },
           "3d": {
-            "absolute": 33,
-            "percent": 0.011406844106463879,
+            "absolute": 35,
+            "percent": 0.012098167991704113,
             "reason": null
           },
           "7d": {
-            "absolute": 83,
-            "percent": 0.02919451283855083,
+            "absolute": 85,
+            "percent": 0.02989799507562434,
             "reason": null
           },
           "14d": {
-            "absolute": 153,
-            "percent": 0.05517490082942662,
+            "absolute": 155,
+            "percent": 0.05589614136314461,
             "reason": null
           },
           "30d": {
@@ -8246,7 +8449,7 @@
       "name": "Entropy",
       "rank_source": {
         "followers": 2878,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -8360,8 +8563,8 @@
       "appid": 2636460,
       "name": "Dungeons Deep",
       "rank_source": {
-        "followers": 2847,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 2848,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -8427,7 +8630,7 @@
       },
       "history": {
         "followers": {
-          "current": 2847,
+          "current": 2848,
           "previous_1d": 2846,
           "previous_3d": 2841,
           "previous_7d": 2839,
@@ -8436,23 +8639,23 @@
         },
         "gains": {
           "1d": {
-            "absolute": 1,
-            "percent": 0.00035137034434293746,
+            "absolute": 2,
+            "percent": 0.0007027406886858749,
             "reason": null
           },
           "3d": {
-            "absolute": 6,
-            "percent": 0.0021119324181626186,
+            "absolute": 7,
+            "percent": 0.0024639211545230554,
             "reason": null
           },
           "7d": {
-            "absolute": 8,
-            "percent": 0.0028178936245156746,
+            "absolute": 9,
+            "percent": 0.0031701303275801338,
             "reason": null
           },
           "14d": {
-            "absolute": 15,
-            "percent": 0.005296610169491525,
+            "absolute": 16,
+            "percent": 0.005649717514124294,
             "reason": null
           },
           "30d": {
@@ -8492,8 +8695,8 @@
       "appid": 3699590,
       "name": "Well Dweller",
       "rank_source": {
-        "followers": 2760,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 2761,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -8564,7 +8767,7 @@
       },
       "history": {
         "followers": {
-          "current": 2760,
+          "current": 2761,
           "previous_1d": 2753,
           "previous_3d": 2746,
           "previous_7d": 2727,
@@ -8573,23 +8776,23 @@
         },
         "gains": {
           "1d": {
-            "absolute": 7,
-            "percent": 0.0025426807119505995,
+            "absolute": 8,
+            "percent": 0.002905920813657828,
             "reason": null
           },
           "3d": {
-            "absolute": 14,
-            "percent": 0.005098324836125273,
+            "absolute": 15,
+            "percent": 0.005462490895848507,
             "reason": null
           },
           "7d": {
-            "absolute": 33,
-            "percent": 0.0121012101210121,
+            "absolute": 34,
+            "percent": 0.012467913458012467,
             "reason": null
           },
           "14d": {
-            "absolute": 98,
-            "percent": 0.03681442524417731,
+            "absolute": 99,
+            "percent": 0.0371900826446281,
             "reason": null
           },
           "30d": {
@@ -8630,7 +8833,7 @@
       "name": "KVLT",
       "rank_source": {
         "followers": 2733,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -8756,8 +8959,8 @@
       "appid": 3798860,
       "name": "Shutter Story",
       "rank_source": {
-        "followers": 2728,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 2730,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "Q3 2026",
@@ -8818,7 +9021,7 @@
       },
       "history": {
         "followers": {
-          "current": 2728,
+          "current": 2730,
           "previous_1d": 2720,
           "previous_3d": 2709,
           "previous_7d": 2688,
@@ -8827,23 +9030,23 @@
         },
         "gains": {
           "1d": {
-            "absolute": 8,
-            "percent": 0.0029411764705882353,
+            "absolute": 10,
+            "percent": 0.003676470588235294,
             "reason": null
           },
           "3d": {
-            "absolute": 19,
-            "percent": 0.0070136581764488745,
+            "absolute": 21,
+            "percent": 0.007751937984496124,
             "reason": null
           },
           "7d": {
-            "absolute": 40,
-            "percent": 0.01488095238095238,
+            "absolute": 42,
+            "percent": 0.015625,
             "reason": null
           },
           "14d": {
-            "absolute": 98,
-            "percent": 0.037262357414448666,
+            "absolute": 100,
+            "percent": 0.03802281368821293,
             "reason": null
           },
           "30d": {
@@ -8884,7 +9087,7 @@
       "name": "LIVING HELL",
       "rank_source": {
         "followers": 2664,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -9002,7 +9205,7 @@
       "name": "Ex Sanguis",
       "rank_source": {
         "followers": 2616,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "Q3 2026",
@@ -9121,7 +9324,7 @@
       "name": "Echoes Below",
       "rank_source": {
         "followers": 2611,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -9235,11 +9438,270 @@
       }
     },
     {
+      "appid": 3018390,
+      "name": "PSYCHO DEAD",
+      "rank_source": {
+        "followers": 2603,
+        "captured_at": "2026-05-19T08:15:10.521Z"
+      },
+      "release": {
+        "text": "2026",
+        "normalized_date": "2026-12-31",
+        "precision": 1,
+        "coming_soon": true
+      },
+      "demo": {
+        "exists": true,
+        "appid": 3791840,
+        "name": "PSYCHO DEAD Demo",
+        "release_text": "Sep 30, 2025",
+        "normalized_release_date": "2025-09-30",
+        "release_precision": 4
+      },
+      "media": {
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3018390/1c721c04b314db7725ac777b6bf635204c3d0e5c/header.jpg?t=1773084346",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3018390/1c721c04b314db7725ac777b6bf635204c3d0e5c/header.jpg?t=1773084346"
+      },
+      "taxonomy": {
+        "tags": [],
+        "genres": [
+          "Action",
+          "Adventure",
+          "Indie"
+        ],
+        "categories": [
+          "Single-player",
+          "Steam Achievements",
+          "Full controller support",
+          "Steam Cloud",
+          "Family Sharing"
+        ]
+      },
+      "companies": {
+        "developers": [
+          "MOON CATALYST CO., LTD."
+        ],
+        "publishers": [
+          "MOON CATALYST CO., LTD."
+        ]
+      },
+      "commercial": {
+        "price": null,
+        "is_free": null
+      },
+      "availability": {
+        "game_pass": {
+          "coming": false,
+          "label": null,
+          "date_text": null,
+          "normalized_date": null,
+          "precision": 0
+        }
+      },
+      "news": {
+        "latest_news_date": "2026-03-27T14:30:13.000Z",
+        "latest_news_title": "30,000 Wishlists & Main Outfit Concept",
+        "latest_news_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1828441623104694"
+      },
+      "history": {
+        "followers": {
+          "current": 2603,
+          "previous_1d": 2600,
+          "previous_3d": 2598,
+          "previous_7d": 2593,
+          "previous_14d": 2573,
+          "previous_30d": null
+        },
+        "gains": {
+          "1d": {
+            "absolute": 3,
+            "percent": 0.001153846153846154,
+            "reason": null
+          },
+          "3d": {
+            "absolute": 5,
+            "percent": 0.001924557351809084,
+            "reason": null
+          },
+          "7d": {
+            "absolute": 10,
+            "percent": 0.0038565368299267257,
+            "reason": null
+          },
+          "14d": {
+            "absolute": 30,
+            "percent": 0.011659541391371939,
+            "reason": null
+          },
+          "30d": {
+            "absolute": null,
+            "percent": null,
+            "reason": "not_enough_history"
+          }
+        }
+      },
+      "links": {
+        "store": "https://store.steampowered.com/app/3018390/",
+        "steamdb": "https://steamdb.info/app/3018390/",
+        "demo_store": "https://store.steampowered.com/app/3791840/",
+        "demo_steamdb": "https://steamdb.info/app/3791840/"
+      },
+      "raw": {
+        "steam_appdetails_demos": [
+          {
+            "appid": 3791840,
+            "name": "PSYCHO DEAD Demo",
+            "releaseDateRaw": "Sep 30, 2025",
+            "releaseDate": "2025-09-30T00:00:00.000Z",
+            "releaseSort": "2025-09-30",
+            "releaseDatePrecision": 4,
+            "comingSoon": false,
+            "parentAppid": 3018390,
+            "parentName": "PSYCHO DEAD",
+            "storeUrl": "https://store.steampowered.com/app/3791840/"
+          }
+        ],
+        "collection_warnings": [
+          "players_unavailable"
+        ]
+      }
+    },
+    {
+      "appid": 2873750,
+      "name": "Pool of Madness",
+      "rank_source": {
+        "followers": 2507,
+        "captured_at": "2026-05-19T08:15:10.521Z"
+      },
+      "release": {
+        "text": "2026",
+        "normalized_date": "2026-12-31",
+        "precision": 1,
+        "coming_soon": true
+      },
+      "demo": {
+        "exists": false,
+        "appid": null,
+        "name": null,
+        "release_text": null,
+        "normalized_release_date": null,
+        "release_precision": 0
+      },
+      "media": {
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2873750/efb367077b1bfcf978a5feb46c57fdd82e4dead9/header.jpg?t=1777880543",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2873750/efb367077b1bfcf978a5feb46c57fdd82e4dead9/header.jpg?t=1777880543"
+      },
+      "taxonomy": {
+        "tags": [],
+        "genres": [
+          "Adventure",
+          "Casual",
+          "Indie",
+          "Sports",
+          "Early Access"
+        ],
+        "categories": [
+          "Single-player",
+          "Multi-player",
+          "PvP",
+          "Online PvP",
+          "Shared/Split Screen PvP",
+          "Co-op",
+          "Online Co-op",
+          "Shared/Split Screen Co-op",
+          "Shared/Split Screen",
+          "Steam Achievements",
+          "Full controller support",
+          "Tracked Controller Support",
+          "VR Supported",
+          "Steam Cloud",
+          "Steam Leaderboards",
+          "Remote Play Together",
+          "Family Sharing"
+        ]
+      },
+      "companies": {
+        "developers": [
+          "Bit Golem"
+        ],
+        "publishers": [
+          "Bit Golem"
+        ]
+      },
+      "commercial": {
+        "price": null,
+        "is_free": null
+      },
+      "availability": {
+        "game_pass": {
+          "coming": false,
+          "label": null,
+          "date_text": null,
+          "normalized_date": null,
+          "precision": 0
+        }
+      },
+      "news": {
+        "latest_news_date": "2026-04-27T17:13:26.000Z",
+        "latest_news_title": "Post-demo dev update, new visuals and a peek behind the scenes",
+        "latest_news_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1830797770243221"
+      },
+      "history": {
+        "followers": {
+          "current": 2507,
+          "previous_1d": 2506,
+          "previous_3d": 2504,
+          "previous_7d": 2502,
+          "previous_14d": 2488,
+          "previous_30d": null
+        },
+        "gains": {
+          "1d": {
+            "absolute": 1,
+            "percent": 0.0003990422984836393,
+            "reason": null
+          },
+          "3d": {
+            "absolute": 3,
+            "percent": 0.0011980830670926517,
+            "reason": null
+          },
+          "7d": {
+            "absolute": 5,
+            "percent": 0.0019984012789768186,
+            "reason": null
+          },
+          "14d": {
+            "absolute": 19,
+            "percent": 0.007636655948553055,
+            "reason": null
+          },
+          "30d": {
+            "absolute": null,
+            "percent": null,
+            "reason": "not_enough_history"
+          }
+        }
+      },
+      "links": {
+        "store": "https://store.steampowered.com/app/2873750/",
+        "steamdb": "https://steamdb.info/app/2873750/",
+        "demo_store": null,
+        "demo_steamdb": null
+      },
+      "raw": {
+        "steam_appdetails_demos": [],
+        "collection_warnings": [
+          "players_unavailable"
+        ]
+      }
+    },
+    {
       "appid": 3845210,
       "name": "Papa Needs a Headshot",
       "rank_source": {
         "followers": 2387,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "Q4 2026",
@@ -9359,8 +9821,8 @@
       "appid": 3641000,
       "name": "The Incident at Galley House",
       "rank_source": {
-        "followers": 2372,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 2377,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -9427,7 +9889,7 @@
       },
       "history": {
         "followers": {
-          "current": 2372,
+          "current": 2377,
           "previous_1d": 2368,
           "previous_3d": 2359,
           "previous_7d": 2338,
@@ -9436,23 +9898,23 @@
         },
         "gains": {
           "1d": {
-            "absolute": 4,
-            "percent": 0.0016891891891891893,
+            "absolute": 9,
+            "percent": 0.003800675675675676,
             "reason": null
           },
           "3d": {
-            "absolute": 13,
-            "percent": 0.005510809665112336,
+            "absolute": 18,
+            "percent": 0.007630351844001695,
             "reason": null
           },
           "7d": {
-            "absolute": 34,
-            "percent": 0.01454234388366125,
+            "absolute": 39,
+            "percent": 0.016680923866552608,
             "reason": null
           },
           "14d": {
-            "absolute": 84,
-            "percent": 0.03671328671328671,
+            "absolute": 89,
+            "percent": 0.0388986013986014,
             "reason": null
           },
           "30d": {
@@ -9480,7 +9942,7 @@
       "name": "Withering Realms",
       "rank_source": {
         "followers": 2366,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "September 2026",
@@ -9598,7 +10060,7 @@
       "name": "Nox Mortalis",
       "rank_source": {
         "followers": 2347,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -9724,8 +10186,8 @@
       "appid": 3592940,
       "name": "Flesh & Wire",
       "rank_source": {
-        "followers": 2234,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 2236,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2027",
@@ -9794,7 +10256,7 @@
       },
       "history": {
         "followers": {
-          "current": 2234,
+          "current": 2236,
           "previous_1d": 2229,
           "previous_3d": 2218,
           "previous_7d": 2186,
@@ -9803,23 +10265,23 @@
         },
         "gains": {
           "1d": {
-            "absolute": 5,
-            "percent": 0.0022431583669807087,
+            "absolute": 7,
+            "percent": 0.0031404217137729925,
             "reason": null
           },
           "3d": {
-            "absolute": 16,
-            "percent": 0.007213706041478809,
+            "absolute": 18,
+            "percent": 0.008115419296663661,
             "reason": null
           },
           "7d": {
-            "absolute": 48,
-            "percent": 0.021957913998170174,
+            "absolute": 50,
+            "percent": 0.022872827081427266,
             "reason": null
           },
           "14d": {
-            "absolute": 88,
-            "percent": 0.04100652376514446,
+            "absolute": 90,
+            "percent": 0.04193849021435228,
             "reason": null
           },
           "30d": {
@@ -9843,140 +10305,11 @@
       }
     },
     {
-      "appid": 4113160,
-      "name": "Begraved",
-      "rank_source": {
-        "followers": 2116,
-        "captured_at": "2026-05-19T02:15:15.693Z"
-      },
-      "release": {
-        "text": "2026",
-        "normalized_date": "2026-12-31",
-        "precision": 1,
-        "coming_soon": true
-      },
-      "demo": {
-        "exists": true,
-        "appid": 4311720,
-        "name": "Begraved Demo",
-        "release_text": "Feb 9, 2026",
-        "normalized_release_date": "2026-02-09",
-        "release_precision": 4
-      },
-      "media": {
-        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4113160/4d4df7bdf22a4798bdcce9302de432ea2b29e494/header.jpg?t=1775831903",
-        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4113160/4d4df7bdf22a4798bdcce9302de432ea2b29e494/header.jpg?t=1775831903"
-      },
-      "taxonomy": {
-        "tags": [],
-        "genres": [
-          "Action",
-          "Adventure",
-          "Indie"
-        ],
-        "categories": [
-          "Single-player",
-          "Multi-player",
-          "Co-op",
-          "Online Co-op",
-          "Family Sharing"
-        ]
-      },
-      "companies": {
-        "developers": [
-          "Grip Jaw"
-        ],
-        "publishers": [
-          "Grip Jaw"
-        ]
-      },
-      "commercial": {
-        "price": null,
-        "is_free": null
-      },
-      "availability": {
-        "game_pass": {
-          "coming": false,
-          "label": null,
-          "date_text": null,
-          "normalized_date": null,
-          "precision": 0
-        }
-      },
-      "news": {
-        "latest_news_date": "2026-05-11T10:54:59.000Z",
-        "latest_news_title": "Meet The Grip Jaw Devs",
-        "latest_news_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1832065502820884"
-      },
-      "history": {
-        "followers": {
-          "current": 2116,
-          "previous_1d": 2111,
-          "previous_3d": 2110,
-          "previous_7d": 2110,
-          "previous_14d": 2105,
-          "previous_30d": null
-        },
-        "gains": {
-          "1d": {
-            "absolute": 5,
-            "percent": 0.0023685457129322598,
-            "reason": null
-          },
-          "3d": {
-            "absolute": 6,
-            "percent": 0.002843601895734597,
-            "reason": null
-          },
-          "7d": {
-            "absolute": 6,
-            "percent": 0.002843601895734597,
-            "reason": null
-          },
-          "14d": {
-            "absolute": 11,
-            "percent": 0.005225653206650831,
-            "reason": null
-          },
-          "30d": {
-            "absolute": null,
-            "percent": null,
-            "reason": "not_enough_history"
-          }
-        }
-      },
-      "links": {
-        "store": "https://store.steampowered.com/app/4113160/",
-        "steamdb": "https://steamdb.info/app/4113160/",
-        "demo_store": "https://store.steampowered.com/app/4311720/",
-        "demo_steamdb": "https://steamdb.info/app/4311720/"
-      },
-      "raw": {
-        "steam_appdetails_demos": [
-          {
-            "appid": 4311720,
-            "name": "Begraved Demo",
-            "releaseDateRaw": "Feb 9, 2026",
-            "releaseDate": "2026-02-09T00:00:00.000Z",
-            "releaseSort": "2026-02-09",
-            "releaseDatePrecision": 4,
-            "comingSoon": false,
-            "parentAppid": 4113160,
-            "parentName": "Begraved",
-            "storeUrl": "https://store.steampowered.com/app/4311720/"
-          }
-        ],
-        "collection_warnings": [
-          "players_unavailable"
-        ]
-      }
-    },
-    {
       "appid": 4074010,
       "name": "Dig, Dig, Die",
       "rank_source": {
         "followers": 2037,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "July 2026",
@@ -10097,7 +10430,7 @@
       "name": "Agni: Village of Calamity",
       "rank_source": {
         "followers": 1956,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2027",
@@ -10210,8 +10543,8 @@
       "appid": 2169930,
       "name": "R-Type Tactics I • II Cosmos",
       "rank_source": {
-        "followers": 1929,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 1931,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "Jun 18, 2026",
@@ -10272,7 +10605,7 @@
       },
       "history": {
         "followers": {
-          "current": 1929,
+          "current": 1931,
           "previous_1d": 1927,
           "previous_3d": 1925,
           "previous_7d": 1916,
@@ -10281,23 +10614,23 @@
         },
         "gains": {
           "1d": {
-            "absolute": 2,
-            "percent": 0.0010378827192527244,
+            "absolute": 4,
+            "percent": 0.0020757654385054488,
             "reason": null
           },
           "3d": {
-            "absolute": 4,
-            "percent": 0.002077922077922078,
+            "absolute": 6,
+            "percent": 0.003116883116883117,
             "reason": null
           },
           "7d": {
-            "absolute": 13,
-            "percent": 0.006784968684759917,
+            "absolute": 15,
+            "percent": 0.007828810020876827,
             "reason": null
           },
           "14d": {
-            "absolute": 27,
-            "percent": 0.014195583596214511,
+            "absolute": 29,
+            "percent": 0.015247108307045216,
             "reason": null
           },
           "30d": {
@@ -10325,7 +10658,7 @@
       "name": "Comatose",
       "rank_source": {
         "followers": 1921,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "Jun 4, 2026",
@@ -10439,8 +10772,8 @@
       "appid": 3857430,
       "name": "Interdimensional Vending Machine",
       "rank_source": {
-        "followers": 1846,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 1848,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "Jun 9, 2026",
@@ -10499,7 +10832,7 @@
       },
       "history": {
         "followers": {
-          "current": 1846,
+          "current": 1848,
           "previous_1d": 1837,
           "previous_3d": 1825,
           "previous_7d": 1806,
@@ -10508,23 +10841,23 @@
         },
         "gains": {
           "1d": {
-            "absolute": 9,
-            "percent": 0.004899292324442025,
+            "absolute": 11,
+            "percent": 0.005988023952095809,
             "reason": null
           },
           "3d": {
-            "absolute": 21,
-            "percent": 0.011506849315068493,
+            "absolute": 23,
+            "percent": 0.012602739726027398,
             "reason": null
           },
           "7d": {
-            "absolute": 40,
-            "percent": 0.0221483942414175,
+            "absolute": 42,
+            "percent": 0.023255813953488372,
             "reason": null
           },
           "14d": {
-            "absolute": 83,
-            "percent": 0.047078842881452074,
+            "absolute": 85,
+            "percent": 0.04821327283040272,
             "reason": null
           },
           "30d": {
@@ -10565,7 +10898,7 @@
       "name": "Shadow Project",
       "rank_source": {
         "followers": 1805,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -10692,7 +11025,7 @@
       "name": "goblinAmerica",
       "rank_source": {
         "followers": 1750,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "Jun 17, 2026",
@@ -10820,7 +11153,7 @@
       "name": "Tormentum II",
       "rank_source": {
         "followers": 1659,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "Jul 23, 2026",
@@ -10939,7 +11272,7 @@
       "name": "Dr. Emmerson's Nocturnes",
       "rank_source": {
         "followers": 1657,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -11070,7 +11403,7 @@
       "name": "YAKOH SHINOBI OPS",
       "rank_source": {
         "followers": 1648,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2027",
@@ -11187,7 +11520,7 @@
       "name": "Piñata Puppy World",
       "rank_source": {
         "followers": 1632,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "Q4 2026",
@@ -11301,7 +11634,7 @@
       "name": "Eternity's Echo: Patient Zero",
       "rank_source": {
         "followers": 1623,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "Q2 2026",
@@ -11415,8 +11748,8 @@
       "appid": 2075460,
       "name": "They Speak From The Abyss",
       "rank_source": {
-        "followers": 1589,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 1590,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2027",
@@ -11477,7 +11810,7 @@
       },
       "history": {
         "followers": {
-          "current": 1589,
+          "current": 1590,
           "previous_1d": 1589,
           "previous_3d": 1589,
           "previous_7d": 1588,
@@ -11486,23 +11819,23 @@
         },
         "gains": {
           "1d": {
-            "absolute": 0,
-            "percent": 0,
+            "absolute": 1,
+            "percent": 0.0006293266205160479,
             "reason": null
           },
           "3d": {
-            "absolute": 0,
-            "percent": 0,
+            "absolute": 1,
+            "percent": 0.0006293266205160479,
             "reason": null
           },
           "7d": {
-            "absolute": 1,
-            "percent": 0.0006297229219143577,
+            "absolute": 2,
+            "percent": 0.0012594458438287153,
             "reason": null
           },
           "14d": {
-            "absolute": 3,
-            "percent": 0.0018915510718789407,
+            "absolute": 4,
+            "percent": 0.0025220680958385876,
             "reason": null
           },
           "30d": {
@@ -11529,8 +11862,8 @@
       "appid": 4317790,
       "name": "Last Pirates: Die Together",
       "rank_source": {
-        "followers": 1573,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 1574,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "Q3 2026",
@@ -11592,7 +11925,7 @@
       },
       "history": {
         "followers": {
-          "current": 1573,
+          "current": 1574,
           "previous_1d": 1564,
           "previous_3d": 1547,
           "previous_7d": 1507,
@@ -11601,23 +11934,23 @@
         },
         "gains": {
           "1d": {
-            "absolute": 9,
-            "percent": 0.005754475703324808,
+            "absolute": 10,
+            "percent": 0.00639386189258312,
             "reason": null
           },
           "3d": {
-            "absolute": 26,
-            "percent": 0.01680672268907563,
+            "absolute": 27,
+            "percent": 0.017453135100193924,
             "reason": null
           },
           "7d": {
-            "absolute": 66,
-            "percent": 0.043795620437956206,
+            "absolute": 67,
+            "percent": 0.04445919044459191,
             "reason": null
           },
           "14d": {
-            "absolute": 170,
-            "percent": 0.12116892373485388,
+            "absolute": 171,
+            "percent": 0.12188168210976479,
             "reason": null
           },
           "30d": {
@@ -11658,7 +11991,7 @@
       "name": "Slain 2: The Beast Within",
       "rank_source": {
         "followers": 1540,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -11771,8 +12104,8 @@
       "appid": 3810510,
       "name": "DERELIKT",
       "rank_source": {
-        "followers": 1529,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 1531,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -11833,7 +12166,7 @@
       },
       "history": {
         "followers": {
-          "current": 1529,
+          "current": 1531,
           "previous_1d": 1525,
           "previous_3d": 1510,
           "previous_7d": 1496,
@@ -11842,23 +12175,23 @@
         },
         "gains": {
           "1d": {
-            "absolute": 4,
-            "percent": 0.002622950819672131,
+            "absolute": 6,
+            "percent": 0.003934426229508197,
             "reason": null
           },
           "3d": {
-            "absolute": 19,
-            "percent": 0.012582781456953643,
+            "absolute": 21,
+            "percent": 0.01390728476821192,
             "reason": null
           },
           "7d": {
-            "absolute": 33,
-            "percent": 0.022058823529411766,
+            "absolute": 35,
+            "percent": 0.02339572192513369,
             "reason": null
           },
           "14d": {
-            "absolute": 186,
-            "percent": 0.13849590469099032,
+            "absolute": 188,
+            "percent": 0.13998510796723754,
             "reason": null
           },
           "30d": {
@@ -11886,7 +12219,7 @@
       "name": "Cosmic Fear",
       "rank_source": {
         "followers": 1527,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "Sep 9, 2026",
@@ -12018,7 +12351,7 @@
       "name": "Clown Meat",
       "rank_source": {
         "followers": 1526,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -12150,7 +12483,7 @@
       "name": "Below, Rusted Gods",
       "rank_source": {
         "followers": 1484,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "Q2 2026",
@@ -12284,7 +12617,7 @@
       "name": "Project SEVER",
       "rank_source": {
         "followers": 1461,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -12416,7 +12749,7 @@
       "name": "Fearwoods",
       "rank_source": {
         "followers": 1453,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "Q2 2026",
@@ -12545,8 +12878,8 @@
       "appid": 2976110,
       "name": "Separated",
       "rank_source": {
-        "followers": 1421,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 1422,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "Q3 2026",
@@ -12610,7 +12943,7 @@
       },
       "history": {
         "followers": {
-          "current": 1421,
+          "current": 1422,
           "previous_1d": 1420,
           "previous_3d": 1414,
           "previous_7d": 1404,
@@ -12619,23 +12952,23 @@
         },
         "gains": {
           "1d": {
-            "absolute": 1,
-            "percent": 0.0007042253521126761,
+            "absolute": 2,
+            "percent": 0.0014084507042253522,
             "reason": null
           },
           "3d": {
-            "absolute": 7,
-            "percent": 0.0049504950495049506,
+            "absolute": 8,
+            "percent": 0.005657708628005658,
             "reason": null
           },
           "7d": {
-            "absolute": 17,
-            "percent": 0.012108262108262107,
+            "absolute": 18,
+            "percent": 0.01282051282051282,
             "reason": null
           },
           "14d": {
-            "absolute": 35,
-            "percent": 0.025252525252525252,
+            "absolute": 36,
+            "percent": 0.025974025974025976,
             "reason": null
           },
           "30d": {
@@ -12675,8 +13008,8 @@
       "appid": 4537820,
       "name": "Overcome Your Fears - Lighthouse",
       "rank_source": {
-        "followers": 1370,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 1372,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -12736,7 +13069,7 @@
       },
       "history": {
         "followers": {
-          "current": 1370,
+          "current": 1372,
           "previous_1d": 1364,
           "previous_3d": 1335,
           "previous_7d": 1244,
@@ -12745,18 +13078,18 @@
         },
         "gains": {
           "1d": {
-            "absolute": 6,
-            "percent": 0.004398826979472141,
+            "absolute": 8,
+            "percent": 0.005865102639296188,
             "reason": null
           },
           "3d": {
-            "absolute": 35,
-            "percent": 0.026217228464419477,
+            "absolute": 37,
+            "percent": 0.027715355805243445,
             "reason": null
           },
           "7d": {
-            "absolute": 126,
-            "percent": 0.10128617363344052,
+            "absolute": 128,
+            "percent": 0.10289389067524116,
             "reason": null
           },
           "14d": {
@@ -12788,8 +13121,8 @@
       "appid": 4090360,
       "name": "Forest Escape: Last Train",
       "rank_source": {
-        "followers": 1351,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 1353,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -12855,7 +13188,7 @@
       },
       "history": {
         "followers": {
-          "current": 1351,
+          "current": 1353,
           "previous_1d": 1343,
           "previous_3d": 1329,
           "previous_7d": 1309,
@@ -12864,23 +13197,23 @@
         },
         "gains": {
           "1d": {
-            "absolute": 8,
-            "percent": 0.005956813104988831,
+            "absolute": 10,
+            "percent": 0.007446016381236039,
             "reason": null
           },
           "3d": {
-            "absolute": 22,
-            "percent": 0.01655379984951091,
+            "absolute": 24,
+            "percent": 0.01805869074492099,
             "reason": null
           },
           "7d": {
-            "absolute": 42,
-            "percent": 0.03208556149732621,
+            "absolute": 44,
+            "percent": 0.03361344537815126,
             "reason": null
           },
           "14d": {
-            "absolute": 67,
-            "percent": 0.05218068535825545,
+            "absolute": 69,
+            "percent": 0.053738317757009345,
             "reason": null
           },
           "30d": {
@@ -12907,8 +13240,8 @@
       "appid": 2846530,
       "name": "BrokenLore: FOLLOW",
       "rank_source": {
-        "followers": 1330,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 1331,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "May 31, 2026",
@@ -12970,7 +13303,7 @@
       },
       "history": {
         "followers": {
-          "current": 1330,
+          "current": 1331,
           "previous_1d": 1328,
           "previous_3d": 1323,
           "previous_7d": 1317,
@@ -12979,23 +13312,23 @@
         },
         "gains": {
           "1d": {
-            "absolute": 2,
-            "percent": 0.0015060240963855422,
+            "absolute": 3,
+            "percent": 0.002259036144578313,
             "reason": null
           },
           "3d": {
-            "absolute": 7,
-            "percent": 0.005291005291005291,
+            "absolute": 8,
+            "percent": 0.006046863189720333,
             "reason": null
           },
           "7d": {
-            "absolute": 13,
-            "percent": 0.009870918754745633,
+            "absolute": 14,
+            "percent": 0.010630220197418374,
             "reason": null
           },
           "14d": {
-            "absolute": 20,
-            "percent": 0.015267175572519083,
+            "absolute": 21,
+            "percent": 0.01603053435114504,
             "reason": null
           },
           "30d": {
@@ -13036,7 +13369,7 @@
       "name": "Eldritch Horror: Digital Edition",
       "rank_source": {
         "followers": 1311,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2027",
@@ -13162,7 +13495,7 @@
       "name": "Drăculești",
       "rank_source": {
         "followers": 1309,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -13286,7 +13619,7 @@
       "name": "Under The Rooftop",
       "rank_source": {
         "followers": 1297,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "October 2027",
@@ -13411,7 +13744,7 @@
       "name": "Octopus City Blues",
       "rank_source": {
         "followers": 1271,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -13537,8 +13870,8 @@
       "appid": 3769800,
       "name": "Elevator",
       "rank_source": {
-        "followers": 1270,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 1271,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -13611,7 +13944,7 @@
       },
       "history": {
         "followers": {
-          "current": 1270,
+          "current": 1271,
           "previous_1d": 1266,
           "previous_3d": 1259,
           "previous_7d": 1248,
@@ -13620,23 +13953,23 @@
         },
         "gains": {
           "1d": {
-            "absolute": 4,
-            "percent": 0.00315955766192733,
+            "absolute": 5,
+            "percent": 0.0039494470774091624,
             "reason": null
           },
           "3d": {
-            "absolute": 11,
-            "percent": 0.008737092930897538,
+            "absolute": 12,
+            "percent": 0.009531374106433678,
             "reason": null
           },
           "7d": {
-            "absolute": 22,
-            "percent": 0.017628205128205128,
+            "absolute": 23,
+            "percent": 0.01842948717948718,
             "reason": null
           },
           "14d": {
-            "absolute": 39,
-            "percent": 0.03168155970755483,
+            "absolute": 40,
+            "percent": 0.03249390739236393,
             "reason": null
           },
           "30d": {
@@ -13677,7 +14010,7 @@
       "name": "EXONAUTIS",
       "rank_source": {
         "followers": 1262,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "Q4 2026",
@@ -13789,260 +14122,11 @@
       }
     },
     {
-      "appid": 4181410,
-      "name": "The Alley",
-      "rank_source": {
-        "followers": 1228,
-        "captured_at": "2026-05-19T02:15:15.693Z"
-      },
-      "release": {
-        "text": "2026",
-        "normalized_date": "2026-12-31",
-        "precision": 1,
-        "coming_soon": true
-      },
-      "demo": {
-        "exists": true,
-        "appid": 4215750,
-        "name": "The Alley Demo",
-        "release_text": "May 13, 2026",
-        "normalized_release_date": "2026-05-13",
-        "release_precision": 4
-      },
-      "media": {
-        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4181410/2fc2e44dbb11a2b0230f049ed73e5debd50976f7/header.jpg?t=1778750456",
-        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4181410/2fc2e44dbb11a2b0230f049ed73e5debd50976f7/header.jpg?t=1778750456"
-      },
-      "taxonomy": {
-        "tags": [],
-        "genres": [
-          "Adventure",
-          "Indie",
-          "Simulation"
-        ],
-        "categories": [
-          "Single-player",
-          "Full controller support",
-          "Family Sharing"
-        ]
-      },
-      "companies": {
-        "developers": [
-          "AIXLAB"
-        ],
-        "publishers": [
-          "Smilegate",
-          "Thermite Games"
-        ]
-      },
-      "commercial": {
-        "price": null,
-        "is_free": null
-      },
-      "availability": {
-        "game_pass": {
-          "coming": false,
-          "label": null,
-          "date_text": null,
-          "normalized_date": null,
-          "precision": 0
-        }
-      },
-      "news": {
-        "latest_news_date": "2026-05-14T03:00:10.000Z",
-        "latest_news_title": "The Alley Demo is now on Steam – Step into the alley. Don't look back.",
-        "latest_news_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1832700592787932"
-      },
-      "history": {
-        "followers": {
-          "current": 1228,
-          "previous_1d": 876,
-          "previous_3d": null,
-          "previous_7d": null,
-          "previous_14d": null,
-          "previous_30d": null
-        },
-        "gains": {
-          "1d": {
-            "absolute": 352,
-            "percent": 0.4018264840182648,
-            "reason": null
-          },
-          "3d": {
-            "absolute": null,
-            "percent": null,
-            "reason": "not_enough_history"
-          },
-          "7d": {
-            "absolute": null,
-            "percent": null,
-            "reason": "not_enough_history"
-          },
-          "14d": {
-            "absolute": null,
-            "percent": null,
-            "reason": "not_enough_history"
-          },
-          "30d": {
-            "absolute": null,
-            "percent": null,
-            "reason": "not_enough_history"
-          }
-        }
-      },
-      "links": {
-        "store": "https://store.steampowered.com/app/4181410/",
-        "steamdb": "https://steamdb.info/app/4181410/",
-        "demo_store": "https://store.steampowered.com/app/4215750/",
-        "demo_steamdb": "https://steamdb.info/app/4215750/"
-      },
-      "raw": {
-        "steam_appdetails_demos": [
-          {
-            "appid": 4215750,
-            "name": "The Alley Demo",
-            "releaseDateRaw": "May 13, 2026",
-            "releaseDate": "2026-05-13T00:00:00.000Z",
-            "releaseSort": "2026-05-13",
-            "releaseDatePrecision": 4,
-            "comingSoon": false,
-            "parentAppid": 4181410,
-            "parentName": "The Alley",
-            "storeUrl": "https://store.steampowered.com/app/4215750/"
-          }
-        ],
-        "collection_warnings": [
-          "players_unavailable"
-        ]
-      }
-    },
-    {
-      "appid": 1473960,
-      "name": "Wreck Runners",
-      "rank_source": {
-        "followers": 1227,
-        "captured_at": "2026-05-19T02:15:15.693Z"
-      },
-      "release": {
-        "text": "2026",
-        "normalized_date": "2026-12-31",
-        "precision": 1,
-        "coming_soon": true
-      },
-      "demo": {
-        "exists": false,
-        "appid": null,
-        "name": null,
-        "release_text": null,
-        "normalized_release_date": null,
-        "release_precision": 0
-      },
-      "media": {
-        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1473960/4114e1a3adf72ebae7b43570460c78aff2cea473/header.jpg?t=1778168422",
-        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1473960/4114e1a3adf72ebae7b43570460c78aff2cea473/header.jpg?t=1778168422"
-      },
-      "taxonomy": {
-        "tags": [],
-        "genres": [
-          "Action",
-          "Adventure",
-          "Indie"
-        ],
-        "categories": [
-          "Single-player",
-          "Multi-player",
-          "Co-op",
-          "Online Co-op",
-          "Full controller support",
-          "Custom Volume Controls",
-          "Keyboard Only Option",
-          "Playable without Timed Input",
-          "Stereo Sound",
-          "Family Sharing"
-        ]
-      },
-      "companies": {
-        "developers": [
-          "Disruptive Games"
-        ],
-        "publishers": [
-          "Disruptive Games"
-        ]
-      },
-      "commercial": {
-        "price": null,
-        "is_free": null
-      },
-      "availability": {
-        "game_pass": {
-          "coming": false,
-          "label": null,
-          "date_text": null,
-          "normalized_date": null,
-          "precision": 0
-        }
-      },
-      "news": {
-        "latest_news_date": "2026-05-18T17:38:13.000Z",
-        "latest_news_title": "Wreck Runners Dives Into Ocean Fest",
-        "latest_news_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1832700592799215"
-      },
-      "history": {
-        "followers": {
-          "current": 1227,
-          "previous_1d": 1205,
-          "previous_3d": 1161,
-          "previous_7d": 999,
-          "previous_14d": null,
-          "previous_30d": null
-        },
-        "gains": {
-          "1d": {
-            "absolute": 22,
-            "percent": 0.018257261410788383,
-            "reason": null
-          },
-          "3d": {
-            "absolute": 66,
-            "percent": 0.056847545219638244,
-            "reason": null
-          },
-          "7d": {
-            "absolute": 228,
-            "percent": 0.22822822822822822,
-            "reason": null
-          },
-          "14d": {
-            "absolute": null,
-            "percent": null,
-            "reason": "not_enough_history"
-          },
-          "30d": {
-            "absolute": null,
-            "percent": null,
-            "reason": "not_enough_history"
-          }
-        }
-      },
-      "links": {
-        "store": "https://store.steampowered.com/app/1473960/",
-        "steamdb": "https://steamdb.info/app/1473960/",
-        "demo_store": null,
-        "demo_steamdb": null
-      },
-      "raw": {
-        "steam_appdetails_demos": [],
-        "collection_warnings": [
-          "players_unavailable"
-        ]
-      }
-    },
-    {
       "appid": 3979330,
       "name": "nophenia",
       "rank_source": {
-        "followers": 1218,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 1219,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "June 2026",
@@ -14104,7 +14188,7 @@
       },
       "history": {
         "followers": {
-          "current": 1218,
+          "current": 1219,
           "previous_1d": 1217,
           "previous_3d": 1216,
           "previous_7d": 1210,
@@ -14113,23 +14197,23 @@
         },
         "gains": {
           "1d": {
-            "absolute": 1,
-            "percent": 0.0008216926869350862,
+            "absolute": 2,
+            "percent": 0.0016433853738701725,
             "reason": null
           },
           "3d": {
-            "absolute": 2,
-            "percent": 0.001644736842105263,
+            "absolute": 3,
+            "percent": 0.0024671052631578946,
             "reason": null
           },
           "7d": {
-            "absolute": 8,
-            "percent": 0.006611570247933884,
+            "absolute": 9,
+            "percent": 0.00743801652892562,
             "reason": null
           },
           "14d": {
-            "absolute": 19,
-            "percent": 0.0158465387823186,
+            "absolute": 20,
+            "percent": 0.016680567139282735,
             "reason": null
           },
           "30d": {
@@ -14170,7 +14254,7 @@
       "name": "DROSS",
       "rank_source": {
         "followers": 1217,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -14291,8 +14375,8 @@
       "appid": 4462580,
       "name": "BLIGHTEN",
       "rank_source": {
-        "followers": 1214,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 1215,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -14352,7 +14436,7 @@
       },
       "history": {
         "followers": {
-          "current": 1214,
+          "current": 1215,
           "previous_1d": 1212,
           "previous_3d": 1208,
           "previous_7d": 1178,
@@ -14361,23 +14445,23 @@
         },
         "gains": {
           "1d": {
-            "absolute": 2,
-            "percent": 0.0016501650165016502,
+            "absolute": 3,
+            "percent": 0.0024752475247524753,
             "reason": null
           },
           "3d": {
-            "absolute": 6,
-            "percent": 0.004966887417218543,
+            "absolute": 7,
+            "percent": 0.005794701986754967,
             "reason": null
           },
           "7d": {
-            "absolute": 36,
-            "percent": 0.030560271646859084,
+            "absolute": 37,
+            "percent": 0.031409168081494056,
             "reason": null
           },
           "14d": {
-            "absolute": 79,
-            "percent": 0.06960352422907488,
+            "absolute": 80,
+            "percent": 0.07048458149779736,
             "reason": null
           },
           "30d": {
@@ -14405,7 +14489,7 @@
       "name": "Undertaker",
       "rank_source": {
         "followers": 1195,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "Q4 2026",
@@ -14539,7 +14623,7 @@
       "name": "Remothered: Red Nun's Legacy",
       "rank_source": {
         "followers": 1195,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -14657,8 +14741,8 @@
       "appid": 4491360,
       "name": "The 7th Guest Remake",
       "rank_source": {
-        "followers": 1148,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 1149,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "Jun 4, 2026",
@@ -14719,7 +14803,7 @@
       },
       "history": {
         "followers": {
-          "current": 1148,
+          "current": 1149,
           "previous_1d": 1142,
           "previous_3d": 1126,
           "previous_7d": 1112,
@@ -14728,23 +14812,23 @@
         },
         "gains": {
           "1d": {
-            "absolute": 6,
-            "percent": 0.005253940455341506,
+            "absolute": 7,
+            "percent": 0.006129597197898424,
             "reason": null
           },
           "3d": {
-            "absolute": 22,
-            "percent": 0.019538188277087035,
+            "absolute": 23,
+            "percent": 0.020426287744227355,
             "reason": null
           },
           "7d": {
-            "absolute": 36,
-            "percent": 0.03237410071942446,
+            "absolute": 37,
+            "percent": 0.03327338129496403,
             "reason": null
           },
           "14d": {
-            "absolute": 74,
-            "percent": 0.06890130353817504,
+            "absolute": 75,
+            "percent": 0.06983240223463687,
             "reason": null
           },
           "30d": {
@@ -14772,7 +14856,7 @@
       "name": "Backrooms Lost Runners",
       "rank_source": {
         "followers": 1143,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "Q2 2026",
@@ -14897,11 +14981,125 @@
       }
     },
     {
+      "appid": 3002550,
+      "name": "Shadow Sacrament: The Roots of Evil",
+      "rank_source": {
+        "followers": 1133,
+        "captured_at": "2026-05-19T08:15:10.521Z"
+      },
+      "release": {
+        "text": "2026",
+        "normalized_date": "2026-12-31",
+        "precision": 1,
+        "coming_soon": true
+      },
+      "demo": {
+        "exists": false,
+        "appid": null,
+        "name": null,
+        "release_text": null,
+        "normalized_release_date": null,
+        "release_precision": 0
+      },
+      "media": {
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3002550/header.jpg?t=1772815138",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3002550/header.jpg?t=1772815138"
+      },
+      "taxonomy": {
+        "tags": [],
+        "genres": [
+          "Action",
+          "Adventure"
+        ],
+        "categories": [
+          "Single-player",
+          "Steam Achievements",
+          "Full controller support",
+          "Family Sharing"
+        ]
+      },
+      "companies": {
+        "developers": [
+          "Eldritch House"
+        ],
+        "publishers": [
+          "Eldritch House"
+        ]
+      },
+      "commercial": {
+        "price": null,
+        "is_free": null
+      },
+      "availability": {
+        "game_pass": {
+          "coming": false,
+          "label": null,
+          "date_text": null,
+          "normalized_date": null,
+          "precision": 0
+        }
+      },
+      "news": {
+        "latest_news_date": null,
+        "latest_news_title": null,
+        "latest_news_url": null
+      },
+      "history": {
+        "followers": {
+          "current": 1133,
+          "previous_1d": 1127,
+          "previous_3d": 1118,
+          "previous_7d": 1098,
+          "previous_14d": 1009,
+          "previous_30d": null
+        },
+        "gains": {
+          "1d": {
+            "absolute": 6,
+            "percent": 0.005323868677905945,
+            "reason": null
+          },
+          "3d": {
+            "absolute": 15,
+            "percent": 0.013416815742397137,
+            "reason": null
+          },
+          "7d": {
+            "absolute": 35,
+            "percent": 0.031876138433515486,
+            "reason": null
+          },
+          "14d": {
+            "absolute": 124,
+            "percent": 0.12289395441030723,
+            "reason": null
+          },
+          "30d": {
+            "absolute": null,
+            "percent": null,
+            "reason": "not_enough_history"
+          }
+        }
+      },
+      "links": {
+        "store": "https://store.steampowered.com/app/3002550/",
+        "steamdb": "https://steamdb.info/app/3002550/",
+        "demo_store": null,
+        "demo_steamdb": null
+      },
+      "raw": {
+        "steam_appdetails_demos": [],
+        "collection_warnings": [
+          "players_unavailable"
+        ]
+      }
+    },
+    {
       "appid": 2506890,
       "name": "S: Lost Chapters",
       "rank_source": {
         "followers": 1118,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -15019,8 +15217,8 @@
       "appid": 3695930,
       "name": "Penguin Colony",
       "rank_source": {
-        "followers": 1113,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 1115,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -15089,7 +15287,7 @@
       },
       "history": {
         "followers": {
-          "current": 1113,
+          "current": 1115,
           "previous_1d": 1110,
           "previous_3d": 1108,
           "previous_7d": 1102,
@@ -15098,23 +15296,23 @@
         },
         "gains": {
           "1d": {
-            "absolute": 3,
-            "percent": 0.002702702702702703,
+            "absolute": 5,
+            "percent": 0.0045045045045045045,
             "reason": null
           },
           "3d": {
-            "absolute": 5,
-            "percent": 0.004512635379061372,
+            "absolute": 7,
+            "percent": 0.00631768953068592,
             "reason": null
           },
           "7d": {
-            "absolute": 11,
-            "percent": 0.009981851179673321,
+            "absolute": 13,
+            "percent": 0.011796733212341199,
             "reason": null
           },
           "14d": {
-            "absolute": 36,
-            "percent": 0.033426183844011144,
+            "absolute": 38,
+            "percent": 0.035283194057567316,
             "reason": null
           },
           "30d": {
@@ -15142,7 +15340,7 @@
       "name": "There's Nothing Down There",
       "rank_source": {
         "followers": 1099,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "Jun 4, 2026",
@@ -15256,7 +15454,7 @@
       "name": "Dicewood",
       "rank_source": {
         "followers": 1087,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -15384,7 +15582,7 @@
       "name": "Dark Succubus",
       "rank_source": {
         "followers": 1081,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -15501,123 +15699,11 @@
       }
     },
     {
-      "appid": 4167200,
-      "name": "UN:Me",
-      "rank_source": {
-        "followers": 1063,
-        "captured_at": "2026-05-19T02:15:15.693Z"
-      },
-      "release": {
-        "text": "2026",
-        "normalized_date": "2026-12-31",
-        "precision": 1,
-        "coming_soon": true
-      },
-      "demo": {
-        "exists": false,
-        "appid": null,
-        "name": null,
-        "release_text": null,
-        "normalized_release_date": null,
-        "release_precision": 0
-      },
-      "media": {
-        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4167200/96506016d3890ffdf812bd97b58d8a525eb04c6f/header.jpg?t=1766039920",
-        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4167200/96506016d3890ffdf812bd97b58d8a525eb04c6f/header.jpg?t=1766039920"
-      },
-      "taxonomy": {
-        "tags": [],
-        "genres": [
-          "Adventure"
-        ],
-        "categories": [
-          "Single-player",
-          "Full controller support",
-          "Family Sharing"
-        ]
-      },
-      "companies": {
-        "developers": [
-          " historia Inc."
-        ],
-        "publishers": [
-          "SHUEISHA GAMES"
-        ]
-      },
-      "commercial": {
-        "price": null,
-        "is_free": null
-      },
-      "availability": {
-        "game_pass": {
-          "coming": false,
-          "label": null,
-          "date_text": null,
-          "normalized_date": null,
-          "precision": 0
-        }
-      },
-      "news": {
-        "latest_news_date": "2026-01-28T22:50:40.000Z",
-        "latest_news_title": "UN:Me at Taipei Game Show in Taiwan!",
-        "latest_news_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1823191198600898"
-      },
-      "history": {
-        "followers": {
-          "current": 1063,
-          "previous_1d": 1054,
-          "previous_3d": 1041,
-          "previous_7d": 1041,
-          "previous_14d": 1035,
-          "previous_30d": null
-        },
-        "gains": {
-          "1d": {
-            "absolute": 9,
-            "percent": 0.008538899430740038,
-            "reason": null
-          },
-          "3d": {
-            "absolute": 22,
-            "percent": 0.021133525456292025,
-            "reason": null
-          },
-          "7d": {
-            "absolute": 22,
-            "percent": 0.021133525456292025,
-            "reason": null
-          },
-          "14d": {
-            "absolute": 28,
-            "percent": 0.02705314009661836,
-            "reason": null
-          },
-          "30d": {
-            "absolute": null,
-            "percent": null,
-            "reason": "not_enough_history"
-          }
-        }
-      },
-      "links": {
-        "store": "https://store.steampowered.com/app/4167200/",
-        "steamdb": "https://steamdb.info/app/4167200/",
-        "demo_store": null,
-        "demo_steamdb": null
-      },
-      "raw": {
-        "steam_appdetails_demos": [],
-        "collection_warnings": [
-          "players_unavailable"
-        ]
-      }
-    },
-    {
       "appid": 3673500,
       "name": "BACKROOMS",
       "rank_source": {
         "followers": 1061,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "August 2026",
@@ -15736,7 +15822,7 @@
       "name": "Whispers Of The Shadow",
       "rank_source": {
         "followers": 1042,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -15848,8 +15934,8 @@
       "appid": 4234320,
       "name": "Dithered",
       "rank_source": {
-        "followers": 1035,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 1036,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "Jul 23, 2026",
@@ -15920,7 +16006,7 @@
       },
       "history": {
         "followers": {
-          "current": 1035,
+          "current": 1036,
           "previous_1d": 1032,
           "previous_3d": 1031,
           "previous_7d": 1033,
@@ -15929,23 +16015,23 @@
         },
         "gains": {
           "1d": {
-            "absolute": 3,
-            "percent": 0.0029069767441860465,
+            "absolute": 4,
+            "percent": 0.003875968992248062,
             "reason": null
           },
           "3d": {
-            "absolute": 4,
-            "percent": 0.0038797284190106693,
+            "absolute": 5,
+            "percent": 0.004849660523763337,
             "reason": null
           },
           "7d": {
-            "absolute": 2,
-            "percent": 0.001936108422071636,
+            "absolute": 3,
+            "percent": 0.002904162633107454,
             "reason": null
           },
           "14d": {
-            "absolute": 8,
-            "percent": 0.007789678675754625,
+            "absolute": 9,
+            "percent": 0.008763388510223954,
             "reason": null
           },
           "30d": {
@@ -15973,7 +16059,7 @@
       "name": "project; VIRAI: DOOMER’s LIFE ESCAPE",
       "rank_source": {
         "followers": 1017,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -16103,8 +16189,8 @@
       "appid": 3970880,
       "name": "Eggspedition",
       "rank_source": {
-        "followers": 1010,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 1011,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -16179,7 +16265,7 @@
       },
       "history": {
         "followers": {
-          "current": 1010,
+          "current": 1011,
           "previous_1d": 1008,
           "previous_3d": 1004,
           "previous_7d": 1000,
@@ -16188,23 +16274,23 @@
         },
         "gains": {
           "1d": {
-            "absolute": 2,
-            "percent": 0.001984126984126984,
+            "absolute": 3,
+            "percent": 0.002976190476190476,
             "reason": null
           },
           "3d": {
-            "absolute": 6,
-            "percent": 0.00597609561752988,
+            "absolute": 7,
+            "percent": 0.0069721115537848604,
             "reason": null
           },
           "7d": {
-            "absolute": 10,
-            "percent": 0.01,
+            "absolute": 11,
+            "percent": 0.011,
             "reason": null
           },
           "14d": {
-            "absolute": 15,
-            "percent": 0.01507537688442211,
+            "absolute": 16,
+            "percent": 0.016080402010050253,
             "reason": null
           },
           "30d": {
@@ -16231,8 +16317,8 @@
       "appid": 4064510,
       "name": "MOLE",
       "rank_source": {
-        "followers": 1003,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 1006,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "Q2 2026",
@@ -16292,7 +16378,7 @@
       },
       "history": {
         "followers": {
-          "current": 1003,
+          "current": 1006,
           "previous_1d": 994,
           "previous_3d": 981,
           "previous_7d": 965,
@@ -16301,23 +16387,23 @@
         },
         "gains": {
           "1d": {
-            "absolute": 9,
-            "percent": 0.009054325955734407,
+            "absolute": 12,
+            "percent": 0.012072434607645875,
             "reason": null
           },
           "3d": {
-            "absolute": 22,
-            "percent": 0.022426095820591234,
+            "absolute": 25,
+            "percent": 0.0254841997961264,
             "reason": null
           },
           "7d": {
-            "absolute": 38,
-            "percent": 0.039378238341968914,
+            "absolute": 41,
+            "percent": 0.04248704663212435,
             "reason": null
           },
           "14d": {
-            "absolute": 62,
-            "percent": 0.06588735387885228,
+            "absolute": 65,
+            "percent": 0.06907545164718384,
             "reason": null
           },
           "30d": {
@@ -16358,7 +16444,7 @@
       "name": "GANGSTALK",
       "rank_source": {
         "followers": 1000,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -16475,7 +16561,7 @@
       "name": "Cognition Method",
       "rank_source": {
         "followers": 991,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -16604,7 +16690,7 @@
       "name": "SOVIET SPOOKY TALES: Green Eyes",
       "rank_source": {
         "followers": 966,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -16729,7 +16815,7 @@
       "name": "Midnight Horde",
       "rank_source": {
         "followers": 954,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "Q3 2026",
@@ -16860,7 +16946,7 @@
       "name": "Karting of Banban",
       "rank_source": {
         "followers": 944,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -16981,8 +17067,8 @@
       "appid": 4246860,
       "name": "Security 51",
       "rank_source": {
-        "followers": 935,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 936,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -17044,7 +17130,7 @@
       },
       "history": {
         "followers": {
-          "current": 935,
+          "current": 936,
           "previous_1d": 933,
           "previous_3d": 925,
           "previous_7d": 904,
@@ -17053,23 +17139,23 @@
         },
         "gains": {
           "1d": {
-            "absolute": 2,
-            "percent": 0.0021436227224008574,
+            "absolute": 3,
+            "percent": 0.003215434083601286,
             "reason": null
           },
           "3d": {
-            "absolute": 10,
-            "percent": 0.010810810810810811,
+            "absolute": 11,
+            "percent": 0.011891891891891892,
             "reason": null
           },
           "7d": {
-            "absolute": 31,
-            "percent": 0.034292035398230086,
+            "absolute": 32,
+            "percent": 0.035398230088495575,
             "reason": null
           },
           "14d": {
-            "absolute": 88,
-            "percent": 0.1038961038961039,
+            "absolute": 89,
+            "percent": 0.1050767414403778,
             "reason": null
           },
           "30d": {
@@ -17097,7 +17183,7 @@
       "name": "Chunky JUMP!",
       "rank_source": {
         "followers": 920,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -17214,7 +17300,7 @@
       "name": "Shadow mate ~小さな竜と適合者~",
       "rank_source": {
         "followers": 908,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "Q4 2026",
@@ -17333,7 +17419,7 @@
       "name": "The Abyss Break",
       "rank_source": {
         "followers": 894,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -17449,7 +17535,7 @@
       "name": "Ghost Sector",
       "rank_source": {
         "followers": 887,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "Q2 2026",
@@ -17565,7 +17651,7 @@
       "name": "TIC-TAC: Twelve o'clock",
       "rank_source": {
         "followers": 882,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "Q4 2026",
@@ -17697,7 +17783,7 @@
       "name": "DO NOT PLAY",
       "rank_source": {
         "followers": 864,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -17807,131 +17893,11 @@
       }
     },
     {
-      "appid": 4554330,
-      "name": "Escape from Vlogger: Runaway",
-      "rank_source": {
-        "followers": 858,
-        "captured_at": "2026-05-19T02:15:15.693Z"
-      },
-      "release": {
-        "text": "2026",
-        "normalized_date": "2026-12-31",
-        "precision": 1,
-        "coming_soon": true
-      },
-      "demo": {
-        "exists": false,
-        "appid": null,
-        "name": null,
-        "release_text": null,
-        "normalized_release_date": null,
-        "release_precision": 0
-      },
-      "media": {
-        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4554330/666e4857778460831b2d063472df9ccd0b12a361/header.jpg?t=1775236572",
-        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4554330/666e4857778460831b2d063472df9ccd0b12a361/header.jpg?t=1775236572"
-      },
-      "taxonomy": {
-        "tags": [],
-        "genres": [
-          "Action",
-          "Adventure",
-          "Indie"
-        ],
-        "categories": [
-          "Single-player",
-          "Steam Achievements",
-          "Full controller support",
-          "Custom Volume Controls",
-          "Adjustable Difficulty",
-          "Save Anytime",
-          "Stereo Sound",
-          "Surround Sound",
-          "Family Sharing"
-        ]
-      },
-      "companies": {
-        "developers": [
-          "D one Games"
-        ],
-        "publishers": [
-          "Andgo Games"
-        ]
-      },
-      "commercial": {
-        "price": null,
-        "is_free": null
-      },
-      "availability": {
-        "game_pass": {
-          "coming": false,
-          "label": null,
-          "date_text": null,
-          "normalized_date": null,
-          "precision": 0
-        }
-      },
-      "news": {
-        "latest_news_date": null,
-        "latest_news_title": null,
-        "latest_news_url": null
-      },
-      "history": {
-        "followers": {
-          "current": 858,
-          "previous_1d": 839,
-          "previous_3d": 818,
-          "previous_7d": null,
-          "previous_14d": null,
-          "previous_30d": null
-        },
-        "gains": {
-          "1d": {
-            "absolute": 19,
-            "percent": 0.02264600715137068,
-            "reason": null
-          },
-          "3d": {
-            "absolute": 40,
-            "percent": 0.0488997555012225,
-            "reason": null
-          },
-          "7d": {
-            "absolute": null,
-            "percent": null,
-            "reason": "not_enough_history"
-          },
-          "14d": {
-            "absolute": null,
-            "percent": null,
-            "reason": "not_enough_history"
-          },
-          "30d": {
-            "absolute": null,
-            "percent": null,
-            "reason": "not_enough_history"
-          }
-        }
-      },
-      "links": {
-        "store": "https://store.steampowered.com/app/4554330/",
-        "steamdb": "https://steamdb.info/app/4554330/",
-        "demo_store": null,
-        "demo_steamdb": null
-      },
-      "raw": {
-        "steam_appdetails_demos": [],
-        "collection_warnings": [
-          "players_unavailable"
-        ]
-      }
-    },
-    {
       "appid": 4001350,
       "name": "Iron Blight",
       "rank_source": {
         "followers": 846,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "Q2 2026",
@@ -18057,7 +18023,7 @@
       "name": "Kanun 1919",
       "rank_source": {
         "followers": 843,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -18184,11 +18150,11 @@
       }
     },
     {
-      "appid": 4210670,
-      "name": "Forgotten Terror",
+      "appid": 2954890,
+      "name": "Lady Death Demonicron",
       "rank_source": {
-        "followers": 809,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "followers": 831,
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
@@ -18197,38 +18163,41 @@
         "coming_soon": true
       },
       "demo": {
-        "exists": true,
-        "appid": 4390750,
-        "name": "Forgotten Terror Demo",
-        "release_text": "Feb 21, 2026",
-        "normalized_release_date": "2026-02-21",
-        "release_precision": 4
+        "exists": false,
+        "appid": null,
+        "name": null,
+        "release_text": null,
+        "normalized_release_date": null,
+        "release_precision": 0
       },
       "media": {
-        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4210670/456a5a02db1c2e3cb5df5f095161a4946d6c3b19/header.jpg?t=1777310398",
-        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4210670/456a5a02db1c2e3cb5df5f095161a4946d6c3b19/header.jpg?t=1777310398"
+        "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2954890/header.jpg?t=1773935761",
+        "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2954890/header.jpg?t=1773935761"
       },
       "taxonomy": {
         "tags": [],
         "genres": [
-          "Adventure",
-          "Indie",
-          "RPG"
+          "Action",
+          "Adventure"
         ],
         "categories": [
           "Single-player",
+          "Multi-player",
+          "Co-op",
+          "Shared/Split Screen Co-op",
+          "Shared/Split Screen",
           "Steam Achievements",
           "Full controller support",
-          "Steam Cloud",
+          "Remote Play Together",
           "Family Sharing"
         ]
       },
       "companies": {
         "developers": [
-          "神经传达室"
+          "Art Of Play Interactive"
         ],
         "publishers": [
-          "Cosmic Train"
+          "Art Of Play Interactive"
         ]
       },
       "commercial": {
@@ -18245,38 +18214,38 @@
         }
       },
       "news": {
-        "latest_news_date": "2026-03-01T02:34:44.000Z",
-        "latest_news_title": "《遗忘凶间》正在和同工作室作品《组长！怨念请查收！》一起参加新品节！欢迎试玩！",
-        "latest_news_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1825727806714364"
+        "latest_news_date": null,
+        "latest_news_title": null,
+        "latest_news_url": null
       },
       "history": {
         "followers": {
-          "current": 809,
-          "previous_1d": 807,
-          "previous_3d": 797,
-          "previous_7d": 788,
-          "previous_14d": 764,
+          "current": 831,
+          "previous_1d": 832,
+          "previous_3d": 832,
+          "previous_7d": 823,
+          "previous_14d": 805,
           "previous_30d": null
         },
         "gains": {
           "1d": {
-            "absolute": 2,
-            "percent": 0.0024783147459727386,
+            "absolute": -1,
+            "percent": -0.001201923076923077,
             "reason": null
           },
           "3d": {
-            "absolute": 12,
-            "percent": 0.015056461731493099,
+            "absolute": -1,
+            "percent": -0.001201923076923077,
             "reason": null
           },
           "7d": {
-            "absolute": 21,
-            "percent": 0.0266497461928934,
+            "absolute": 8,
+            "percent": 0.009720534629404616,
             "reason": null
           },
           "14d": {
-            "absolute": 45,
-            "percent": 0.058900523560209424,
+            "absolute": 26,
+            "percent": 0.03229813664596273,
             "reason": null
           },
           "30d": {
@@ -18287,26 +18256,13 @@
         }
       },
       "links": {
-        "store": "https://store.steampowered.com/app/4210670/",
-        "steamdb": "https://steamdb.info/app/4210670/",
-        "demo_store": "https://store.steampowered.com/app/4390750/",
-        "demo_steamdb": "https://steamdb.info/app/4390750/"
+        "store": "https://store.steampowered.com/app/2954890/",
+        "steamdb": "https://steamdb.info/app/2954890/",
+        "demo_store": null,
+        "demo_steamdb": null
       },
       "raw": {
-        "steam_appdetails_demos": [
-          {
-            "appid": 4390750,
-            "name": "Forgotten Terror Demo",
-            "releaseDateRaw": "Feb 21, 2026",
-            "releaseDate": "2026-02-21T00:00:00.000Z",
-            "releaseSort": "2026-02-21",
-            "releaseDatePrecision": 4,
-            "comingSoon": false,
-            "parentAppid": 4210670,
-            "parentName": "Forgotten Terror",
-            "storeUrl": "https://store.steampowered.com/app/4390750/"
-          }
-        ],
+        "steam_appdetails_demos": [],
         "collection_warnings": [
           "players_unavailable"
         ]
@@ -18317,7 +18273,7 @@
       "name": "Thalassophobia",
       "rank_source": {
         "followers": 809,
-        "captured_at": "2026-05-19T02:15:15.693Z"
+        "captured_at": "2026-05-19T08:15:10.521Z"
       },
       "release": {
         "text": "2026",
